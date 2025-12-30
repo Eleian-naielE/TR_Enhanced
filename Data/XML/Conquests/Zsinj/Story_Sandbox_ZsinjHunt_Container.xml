@@ -1,0 +1,899 @@
+<?xml version="1.0" ?>
+
+
+
+<!--******************************************************-->
+<!--**********	Campaign: The Hunt for Zsinj	**********-->
+<!--******************************************************-->
+
+<Story>
+
+	<Event Name="Universal_Story_Start">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+	</Event>
+	
+	<Event Name="Delayed_Initialize">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>7</Event_Param1>
+	</Event>
+	
+	<Event Name="No_Iblis_for_sure">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>25</Event_Param1>
+	</Event>
+
+	<Event Name="Reveal_All_Planets">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REVEAL_ALL_PLANETS</Reward_Type>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+
+<!--******************************************************-->
+<!--***************	Faction Determiners	******************-->
+<!--******************************************************-->
+
+
+	<Event Name="Faction_Branch_Disabler_NewRep">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>DISABLE_BRANCH</Reward_Type>
+		<Reward_Param1>Faction_Branch_NewRep</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+	</Event>
+
+	<Event Name="Faction_Branch_Disabler_Remnant">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>DISABLE_BRANCH</Reward_Type>
+		<Reward_Param1>Faction_Branch_Remnant</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+	</Event>
+
+	<Event Name="Faction_Branch_Disabler_Eriadu">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>DISABLE_BRANCH</Reward_Type>
+		<Reward_Param1>Faction_Branch_Eriadu</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+	</Event>
+
+	<Event Name="Faction_Branch_Disabler_Zsinj">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>DISABLE_BRANCH</Reward_Type>
+		<Reward_Param1>Faction_Branch_Zsinj</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+	</Event>
+
+	<Event Name="Faction_Branch_Disabler_Teradoc">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>DISABLE_BRANCH</Reward_Type>
+		<Reward_Param1>Faction_Branch_Teradoc</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+	</Event>
+
+	<Event Name="Faction_Branch_Disabler_Pentastar">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>DISABLE_BRANCH</Reward_Type>
+		<Reward_Param1>Faction_Branch_Pentastar</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+	</Event>
+	
+	<Event Name="Faction_Branch_Disabler_Corporate_Sector">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>DISABLE_BRANCH</Reward_Type>
+		<Reward_Param1>Faction_Branch_Corporate_Sector</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+	</Event>
+
+	<Event Name="Determine_Faction_LUA">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+	</Event>
+
+
+	<Event Name="Faction_Branch_Enabler_NewRep">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>ENABLE_BRANCH_NEWREP_FLAG</Event_Param2>
+		<Reward_Type>DISABLE_BRANCH</Reward_Type>
+		<Reward_Param1>Faction_Branch_NewRep</Reward_Param1>
+		<Reward_Param2>0</Reward_Param2>
+	</Event>
+
+	<Event Name="Faction_Branch_Enabler_Remnant">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>ENABLE_BRANCH_EMPIRE_FLAG</Event_Param2>
+		<Reward_Type>DISABLE_BRANCH</Reward_Type>
+		<Reward_Param1>Faction_Branch_Remnant</Reward_Param1>
+		<Reward_Param2>0</Reward_Param2>
+	</Event>
+
+	<Event Name="Faction_Branch_Enabler_EotH">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>ENABLE_BRANCH_EOTH_FLAG</Event_Param2>
+		<Reward_Type>DISABLE_BRANCH</Reward_Type>
+		<Reward_Param1>Faction_Branch_Remnant</Reward_Param1>
+		<Reward_Param2>0</Reward_Param2>
+	</Event>
+
+	<Event Name="Faction_Branch_Enabler_Eriadu">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>ENABLE_BRANCH_ERIADU_FLAG</Event_Param2>
+		<Reward_Type>DISABLE_BRANCH</Reward_Type>
+		<Reward_Param1>Faction_Branch_Eriadu</Reward_Param1>
+		<Reward_Param2>0</Reward_Param2>
+	</Event>
+
+	<Event Name="Faction_Branch_Enabler_Zsinj">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>ENABLE_BRANCH_ZSINJ_FLAG</Event_Param2>
+		<Reward_Type>DISABLE_BRANCH</Reward_Type>
+		<Reward_Param1>Faction_Branch_Zsinj</Reward_Param1>
+		<Reward_Param2>0</Reward_Param2>
+	</Event>
+
+	<Event Name="Faction_Branch_Enabler_Teradoc">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>ENABLE_BRANCH_TERADOC_FLAG</Event_Param2>
+		<Reward_Type>DISABLE_BRANCH</Reward_Type>
+		<Reward_Param1>Faction_Branch_Teradoc</Reward_Param1>
+		<Reward_Param2>0</Reward_Param2>
+	</Event>
+
+	<Event Name="Faction_Branch_Enabler_Pentastar">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>ENABLE_BRANCH_PENTASTAR_FLAG</Event_Param2>
+		<Reward_Type>DISABLE_BRANCH</Reward_Type>
+		<Reward_Param1>Faction_Branch_Pentastar</Reward_Param1>
+		<Reward_Param2>0</Reward_Param2>
+	</Event>
+
+	<Event Name="Faction_Branch_Enabler_Yevetha">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>ENABLE_BRANCH_YEVETHA_FLAG</Event_Param2>
+		<Reward_Type>DISABLE_BRANCH</Reward_Type>
+		<Reward_Param1>Faction_Branch_Pentastar</Reward_Param1>
+		<Reward_Param2>0</Reward_Param2>
+	</Event>
+	
+	<Event Name="Faction_Branch_Enabler_Corporate_Sector">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>ENABLE_BRANCH_CSA_FLAG</Event_Param2>
+		<Reward_Type>DISABLE_BRANCH</Reward_Type>
+		<Reward_Param1>Faction_Branch_Corporate_Sector</Reward_Param1>
+		<Reward_Param2>0</Reward_Param2>
+	</Event>
+	
+  <!-- ==================== BEGIN SAVE CRASH RE-ENABLE EVENTS ==================== -->
+
+	<Event Name="Filter_AI_Challenge_Clicked">
+		<Event_Type>STORY_CLICK_GUI</Event_Type>
+		<Event_Param1>b_save_fixer</Event_Param1>
+		<Perpetual>true</Perpetual>
+	</Event>	
+		
+	<Event Name="Faction_Branch_Playing_NewRep">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+
+		<Reward_Type>DISABLE_BRANCH</Reward_Type>
+		<Reward_Param1>Faction_Branch_NewRep_Save</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Faction_Branch_Enabler_NewRep</Prereq>
+	</Event>
+	
+	<Event Name="Change_AI_NewRep">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SWITCH_CONTROL</Reward_Type>
+		<Reward_Param1>Rebel</Reward_Param1>
+		<Reward_Param2>SkynetAI</Reward_Param2>
+		<Prereq>Filter_AI_Challenge_Clicked</Prereq>
+		<Branch>Faction_Branch_NewRep_Save</Branch>
+	</Event>
+	
+	<Event Name="Faction_Branch_Playing_Remnant">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+
+		<Reward_Type>DISABLE_BRANCH</Reward_Type>
+		<Reward_Param1>Faction_Branch_Empire_Save</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Faction_Branch_Enabler_Remnant</Prereq>
+	</Event>
+	
+	<Event Name="Change_AI_Empire">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SWITCH_CONTROL</Reward_Type>
+		<Reward_Param1>Empire</Reward_Param1>
+		<Reward_Param2>SkynetAI</Reward_Param2>
+		<Prereq>Filter_AI_Challenge_Clicked</Prereq>
+		<Branch>Faction_Branch_Empire_Save</Branch>
+	</Event>
+		
+	<Event Name="Faction_Branch_Playing_EotH">
+			<Event_Type>STORY_TRIGGER</Event_Type>
+
+		<Reward_Type>DISABLE_BRANCH</Reward_Type>
+		<Reward_Param1>Faction_Branch_EotH_Save</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Faction_Branch_Enabler_EotH</Prereq>
+	</Event>
+	
+	<Event Name="Change_AI_EotH">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SWITCH_CONTROL</Reward_Type>
+		<Reward_Param1>EmpireoftheHand</Reward_Param1>
+		<Reward_Param2>SkynetAI</Reward_Param2>
+		<Prereq>Filter_AI_Challenge_Clicked</Prereq>
+		<Branch>Faction_Branch_EotH_Save</Branch>
+	</Event>
+	
+	<Event Name="Faction_Branch_Playing_Pentastar">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+
+		<Reward_Type>DISABLE_BRANCH</Reward_Type>
+		<Reward_Param1>Faction_Branch_Pentastar_Save</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Faction_Branch_Enabler_Pentastar</Prereq>
+	</Event>
+		
+	<Event Name="Change_AI_Pentastar">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SWITCH_CONTROL</Reward_Type>
+		<Reward_Param1>Pentastar</Reward_Param1>
+		<Reward_Param2>SkynetAI</Reward_Param2>
+		<Prereq>Filter_AI_Challenge_Clicked</Prereq>
+		<Branch>Faction_Branch_Pentastar_Save</Branch>
+	</Event>
+	
+	<Event Name="Faction_Branch_Playing_Teradoc">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+
+		<Reward_Type>DISABLE_BRANCH</Reward_Type>
+		<Reward_Param1>Faction_Branch_Teradoc_Save</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Faction_Branch_Enabler_Teradoc</Prereq>
+	</Event>
+			
+	<Event Name="Change_AI_Teradoc">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SWITCH_CONTROL</Reward_Type>
+		<Reward_Param1>Teradoc</Reward_Param1>
+		<Reward_Param2>SkynetAI</Reward_Param2>
+		<Prereq>Filter_AI_Challenge_Clicked</Prereq>
+		<Branch>Faction_Branch_Teradoc_Save</Branch>
+	</Event>
+	
+	
+	<Event Name="Faction_Branch_Playing_Zsinj">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+
+		<Reward_Type>DISABLE_BRANCH</Reward_Type>
+		<Reward_Param1>Faction_Branch_Zsinj_Save</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Faction_Branch_Enabler_Zsinj</Prereq>
+	</Event>
+					
+	<Event Name="Change_AI_Zsinj">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SWITCH_CONTROL</Reward_Type>
+		<Reward_Param1>Pirates</Reward_Param1>
+		<Reward_Param2>SkynetAI</Reward_Param2>
+		<Prereq>Filter_AI_Challenge_Clicked</Prereq>
+		<Branch>Faction_Branch_Zsinj_Save</Branch>
+	</Event>
+	
+	<Event Name="Faction_Branch_Playing_Eriadu">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+
+		<Reward_Type>DISABLE_BRANCH</Reward_Type>
+		<Reward_Param1>Faction_Branch_Eriadu_Save</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Faction_Branch_Enabler_Eriadu</Prereq>
+	</Event>
+		
+	<Event Name="Change_AI_Eriadu">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SWITCH_CONTROL</Reward_Type>
+		<Reward_Param1>Hutts</Reward_Param1>
+		<Reward_Param2>SkynetAI</Reward_Param2>
+		<Prereq>Filter_AI_Challenge_Clicked</Prereq>
+		<Branch>Faction_Branch_Eriadu_Save</Branch>
+	</Event>
+	
+	<Event Name="Faction_Branch_Playing_Corporate_Sector">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+
+		<Reward_Type>DISABLE_BRANCH</Reward_Type>
+		<Reward_Param1>Faction_Branch_Corporate_Sector_Save</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Faction_Branch_Enabler_Corporate_Sector</Prereq>
+	</Event>
+	
+	<Event Name="Change_AI_CSA">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SWITCH_CONTROL</Reward_Type>
+		<Reward_Param1>Corporate_Sector</Reward_Param1>
+		<Reward_Param2>SkynetAI</Reward_Param2>
+		<Prereq>Filter_AI_Challenge_Clicked</Prereq>
+		<Branch>Faction_Branch_Corporate_Sector_Save</Branch>
+	</Event>
+	
+	<!--***********************************************************-->
+	<!--***********************************************************-->
+	<!--******************** UNIVERSAL EVENTS *********************-->
+	<!--***********************************************************-->
+	<!--***********************************************************-->
+	
+	<Event Name="Maldrood_Antem">
+  		<Event_Type>STORY_CONQUER</Event_Type>
+  		<Event_Param1>Antem</Event_Param1>
+		<Event_Param3>FILTER_FRIENDLY_AND_ENEMY</Event_Param3>
+		<!--<Perpetual>true</Perpetual> Gonna make them have to be first -->
+	</Event>
+	 
+    <Event Name="Maldrood_Commenor">
+  		<Event_Type>STORY_CONQUER</Event_Type>
+  		<Event_Param1>Commenor</Event_Param1>
+		<Event_Param3>Teradoc</Event_Param3>
+	 </Event>
+	 
+	 <Event Name="Zsinj_Centares">
+  		<Event_Type>STORY_CONQUER</Event_Type>
+  		<Event_Param1>Centares</Event_Param1>
+		<Event_Param3>Pirates</Event_Param3>
+		<!--<Perpetual>true</Perpetual> Gonna make them have to be first -->
+	</Event>
+	
+	<Event Name="Selit_Joins">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>SELIT_JOINS_SPEECH</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_CONQUER_CENTARES_FINISHED</Reward_Param1>
+		<Reward_Param2>15</Reward_Param2>
+		<Reward_Param3 />
+		<Reward_Param4 />
+		<Reward_Param5 />
+		<Reward_Param6 />
+		<Reward_Param7 />
+		<Reward_Param8></Reward_Param8>
+		<Reward_Param9>Zsinj_Loop</Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+	</Event>
+	
+	<Event Name="Zsinj_Death">
+  		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+  		<Event_Param1>Iron_Fist</Event_Param1>
+		<Event_Param2></Event_Param2>
+		<Event_Param3>1</Event_Param3>
+		<Event_Param4>Pentastar, Rebel, Pirates, EmpireoftheHand, Hapes_Consortium, Hutts, Teradoc</Event_Param4>
+	</Event>
+	
+	<!-- Remove Garm as a commander option -->
+	<Event Name="No_Garm">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>1</Event_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	
+	<!--***********************************************************-->
+	<!--***********************************************************-->
+	<!--***************** New Republic Storyline ******************-->
+	<!--***********************************************************-->
+	<!--***********************************************************-->
+
+	<Event Name="Intro_Welcome_NewRep">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_CONQUEST_ZSINJ_NR_INTRO_ONE</Reward_Param1>
+		<Reward_Param2>15</Reward_Param2>
+		<Reward_Param3 />
+		<Reward_Param4 />
+		<Reward_Param5 />
+		<Reward_Param6 />
+		<Reward_Param7 />
+		<Reward_Param8 />
+		<Reward_Param9>Han_Loop</Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>Faction_Branch_Enabler_NewRep</Prereq>
+		<Branch>Faction_Branch_NewRep</Branch>
+	</Event>
+
+	<Event Name="Intro_Welcome_NewRep_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>15</Event_Param1>
+		<Story_Dialog>Dialog_NewRep_HFZ</Story_Dialog>
+		<Story_Chapter>0</Story_Chapter>
+		<Story_Tag>Intro_Tag</Story_Tag>
+		<Prereq>Intro_Welcome_NewRep</Prereq>
+		<Branch>Faction_Branch_NewRep</Branch>
+	</Event>
+	
+	<Event Name="Carida_Bouncer">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>SET_PLANET_RESTRICTED</Reward_Type>
+		<Reward_Param1>Carida</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Faction_Branch_Enabler_NewRep</Prereq>
+		<Branch>Faction_Branch_NewRep</Branch>
+	</Event>
+		
+	<Event Name="Carida_UnBouncer">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SET_PLANET_RESTRICTED</Reward_Type>
+		<Reward_Param1>Carida</Reward_Param1>
+		<Reward_Param2>0</Reward_Param2>
+		<Prereq>Zsinj_Death</Prereq>
+		<Branch>Faction_Branch_NewRep</Branch>
+	</Event>
+	
+	<Event Name="Tsoss_Bouncer">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>SET_PLANET_RESTRICTED</Reward_Type>
+		<Reward_Param1>Tsoss</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Faction_Branch_Enabler_NewRep</Prereq>
+		<Branch>Faction_Branch_NewRep</Branch>
+	</Event>
+		
+	<Event Name="Tsoss_UnBouncer">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SET_PLANET_RESTRICTED</Reward_Type>
+		<Reward_Param1>Tsoss</Reward_Param1>
+		<Reward_Param2>0</Reward_Param2>
+		<Prereq>Zsinj_Death</Prereq>
+		<Branch>Faction_Branch_NewRep</Branch>
+	</Event>
+	
+	<Event Name="Kuat_Bouncer">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>SET_PLANET_RESTRICTED</Reward_Type>
+		<Reward_Param1>Kuat</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Faction_Branch_Enabler_NewRep</Prereq>
+		<Branch>Faction_Branch_NewRep</Branch>
+	</Event>
+	
+	<Event Name="Kuat_Unbouncer">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SET_PLANET_RESTRICTED</Reward_Type>
+		<Reward_Param1>Kuat</Reward_Param1>
+		<Reward_Param2>0</Reward_Param2>
+		<Prereq>Zsinj_Death</Prereq>
+		<Branch>Faction_Branch_NewRep</Branch>
+	</Event>
+	
+	<Event Name="SWITCH_CONTROL_EVENT">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SWITCH_CONTROL</Reward_Type>
+		<Reward_Param1>Empire</Reward_Param1>
+		<Reward_Param2>GenericAI</Reward_Param2>
+		<Prereq>Zsinj_Death</Prereq>
+		<Branch>Faction_Branch_NewRep</Branch>
+	</Event>
+	
+	<!--******************************************************-->
+	<!--                       Hapes Plot                     -->
+	<!--******************************************************-->
+
+	<Event Name="MistOne_Bouncer">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>SET_PLANET_RESTRICTED</Reward_Type>
+		<Reward_Param1>MistOne</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Faction_Branch_Enabler_NewRep</Prereq>
+		<Branch>Dont_Invade_Hapes</Branch>
+	</Event>
+	
+	<Event Name="MistTwo_Bouncer">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>SET_PLANET_RESTRICTED</Reward_Type>
+		<Reward_Param1>MistTwo</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Faction_Branch_Enabler_NewRep</Prereq>
+		<Branch>Dont_Invade_Hapes</Branch>
+	</Event>
+	
+	<Event Name="MistThree_Bouncer">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>SET_PLANET_RESTRICTED</Reward_Type>
+		<Reward_Param1>MistThree</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Faction_Branch_Enabler_NewRep</Prereq>
+		<Branch>Dont_Invade_Hapes</Branch>
+	</Event>
+	
+	<Event Name="Bounce_Branch_Disabler_NR">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>DISABLE_BRANCH</Reward_Type>
+		<Reward_Param1>Dont_Invade_Hapes</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Leia_Negotiation_Finished</Prereq>
+		<Branch>Faction_Branch_NewRep</Branch>
+	</Event>
+ 
+ 	<Event Name="Spawn_Leia">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>200</Event_Param1>
+		<Prereq>Faction_Branch_Enabler_NewRep</Prereq>
+		<Branch>Faction_Branch_NewRep</Branch>
+	</Event>
+	
+	<Event Name="Leia_Mission_Start">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_CONQUEST_ZSINJ_NR_HAPES_ONE</Reward_Param1>
+		<Reward_Param2>15</Reward_Param2>
+		<Reward_Param3 />
+		<Reward_Param4 />
+		<Reward_Param5 />
+		<Reward_Param6 />
+		<Reward_Param7 />
+		<Reward_Param8 />
+		<Reward_Param9>Leia_Loop</Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Story_Dialog>Dialog_NewRep_HFZ</Story_Dialog>
+		<Story_Chapter>3</Story_Chapter>
+		<Story_Tag>Hapes_Tag</Story_Tag>
+		<Prereq>Spawn_Leia</Prereq>
+		<Branch>Dont_Invade_Hapes</Branch>
+	</Event>
+  
+	<Event Name="Leia_Mission_Travel_Trigger_01">
+		<Event_Type>STORY_MOVE</Event_Type>
+		<Event_Param1>Princess_Leia</Event_Param1>
+		<Event_Param2>MistOne</Event_Param2>
+		<Prereq>Faction_Branch_Enabler_NewRep</Prereq>
+		<Branch>Dont_Invade_Hapes</Branch>
+	</Event>
+  
+    <Event Name="Leia_Mission_Travel_Trigger_02">
+		<Event_Type>STORY_MOVE</Event_Type>
+		<Event_Param1>Princess_Leia</Event_Param1>
+		<Event_Param2>MistTwo</Event_Param2>
+		<Prereq>Faction_Branch_Enabler_NewRep</Prereq>
+		<Branch>Dont_Invade_Hapes</Branch>
+	</Event>
+  
+    <Event Name="Leia_Mission_Travel_Trigger_03">
+		<Event_Type>STORY_MOVE</Event_Type>
+		<Event_Param1>Princess_Leia</Event_Param1>
+		<Event_Param2>MistThree</Event_Param2>
+		<Prereq>Faction_Branch_Enabler_NewRep</Prereq>
+		<Branch>Dont_Invade_Hapes</Branch>
+	</Event>
+  
+	<Event Name="Leia_Mission_Travel">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_CONQUEST_ZSINJ_NR_HAPES_TWO</Reward_Param1>
+		<Reward_Param2>15</Reward_Param2>
+		<Reward_Param3 />
+		<Reward_Param4 />
+		<Reward_Param5 />
+		<Reward_Param6 />
+		<Reward_Param7 />
+		<Reward_Param8 />
+		<Reward_Param9>Leia_Loop</Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Story_Dialog>Dialog_NewRep_HFZ</Story_Dialog>
+		<Story_Chapter>4</Story_Chapter>
+		<Story_Tag>Hapes_Tag</Story_Tag>
+		<Prereq>Leia_Mission_Travel_Trigger_01</Prereq>
+		<Prereq>Leia_Mission_Travel_Trigger_02</Prereq>
+		<Prereq>Leia_Mission_Travel_Trigger_03</Prereq>
+		<Branch>Dont_Invade_Hapes</Branch>
+	</Event>
+  
+   
+  	<Event Name="Leia_Begin_Negotiations">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Princess_Leia_Team</Reward_Param1>
+		<Branch>Faction_Branch_NewRep</Branch>
+		<Prereq>Leia_Mission_Travel</Prereq>
+	</Event>
+	
+	
+	 <Event Name="Spawn_Leia_Again">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>160</Event_Param1>
+		<Branch>Faction_Branch_NewRep</Branch>
+		<Prereq>Leia_Begin_Negotiations</Prereq>
+	</Event>
+	
+
+	<Event Name="Leia_Mission_Complete">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_CONQUEST_ZSINJ_NR_HAPES_THREE</Reward_Param1>
+		<Reward_Param2>15</Reward_Param2>
+		<Reward_Param3 />
+		<Reward_Param4 />
+		<Reward_Param5 />
+		<Reward_Param6 />
+		<Reward_Param7 />
+		<Reward_Param8 />
+		<Reward_Param9>Leia_Loop</Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Story_Dialog>Dialog_NewRep_HFZ</Story_Dialog>
+		<Story_Chapter>5</Story_Chapter>
+		<Story_Tag>Hapes_Tag</Story_Tag>
+		<Prereq>Spawn_Leia_Again</Prereq>
+		<Branch>Dont_Invade_Hapes</Branch>
+	</Event>
+  
+	<Event Name="MistOne_UnBouncer">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SET_PLANET_RESTRICTED</Reward_Type>
+		<Reward_Param1>MistOne</Reward_Param1>
+		<Reward_Param2>0</Reward_Param2>
+		<Prereq>Leia_Mission_Complete</Prereq>
+		<Branch>Dont_Invade_Hapes</Branch>
+	</Event>
+	
+	<Event Name="MistTwo_UnBouncer">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SET_PLANET_RESTRICTED</Reward_Type>
+		<Reward_Param1>MistTwo</Reward_Param1>
+		<Reward_Param2>0</Reward_Param2>
+		<Prereq>Leia_Mission_Complete</Prereq>
+		<Branch>Dont_Invade_Hapes</Branch>
+	</Event>
+	
+	<Event Name="MistThree_UnBouncer">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SET_PLANET_RESTRICTED</Reward_Type>
+		<Reward_Param1>MistThree</Reward_Param1>
+		<Reward_Param2>0</Reward_Param2>
+		<Prereq>Leia_Mission_Complete</Prereq>
+		<Branch>Dont_Invade_Hapes</Branch>
+	</Event>
+	
+	
+	<Event Name="Alliance_MistOne">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>PLANET_FACTION</Reward_Type>
+		<Reward_Param1>MistOne</Reward_Param1>
+		<Reward_Param2>Rebel</Reward_Param2>
+		<Prereq>Leia_Mission_Complete</Prereq>
+		<Branch>Faction_Branch_NewRep</Branch>
+	</Event>
+	
+	<Event Name="Alliance_MistTwo">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>PLANET_FACTION</Reward_Type>
+		<Reward_Param1>MistTwo</Reward_Param1>
+		<Reward_Param2>Rebel</Reward_Param2>
+		<Prereq>Leia_Mission_Complete</Prereq>
+		<Branch>Faction_Branch_NewRep</Branch>
+	</Event>
+	
+	<Event Name="Alliance_MistThree">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>PLANET_FACTION</Reward_Type>
+		<Reward_Param1>MistThree</Reward_Param1>
+		<Reward_Param2>Rebel</Reward_Param2>
+		<Prereq>Leia_Mission_Complete</Prereq>
+		<Branch>Faction_Branch_NewRep</Branch>
+	</Event> 
+	
+	<Event Name="Alliance_Terephon">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>PLANET_FACTION</Reward_Type>
+		<Reward_Param1>Terephon</Reward_Param1>
+		<Reward_Param2>Rebel</Reward_Param2>
+		<Prereq>Leia_Mission_Complete</Prereq>
+		<Branch>Faction_Branch_NewRep</Branch>
+	</Event> 
+	
+	<Event Name="Alliance_Charubah">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>PLANET_FACTION</Reward_Type>
+		<Reward_Param1>Charubah</Reward_Param1>
+		<Reward_Param2>Rebel</Reward_Param2>
+		<Prereq>Leia_Mission_Complete</Prereq>
+		<Branch>Faction_Branch_NewRep</Branch>
+	</Event> 
+	
+	<Event Name="Alliance_Hapes">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>PLANET_FACTION</Reward_Type>
+		<Reward_Param1>Hapes</Reward_Param1>
+		<Reward_Param2>Rebel</Reward_Param2>
+		<Prereq>Leia_Mission_Complete</Prereq>
+		<Branch>Faction_Branch_NewRep</Branch>
+	</Event>
+	  
+	<Event Name="Spawn_Hapans">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>2</Event_Param1>
+		<Branch>Faction_Branch_NewRep</Branch>
+		<Prereq>Alliance_Hapes</Prereq>
+	</Event>
+
+	<Event Name="Zsinj_Death_Speech">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_CONQUEST_ZSINJ_HFZ_BREAKUP_NR</Reward_Param1>
+		<Reward_Param2>15</Reward_Param2>
+		<Reward_Param3 />
+		<Reward_Param4 />
+		<Reward_Param5 />
+		<Reward_Param6 />
+		<Reward_Param7 />
+		<Reward_Param8></Reward_Param8>
+		<Reward_Param9>Han_Loop</Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Branch>Faction_Branch_NewRep</Branch>
+		<Prereq>Zsinj_Death</Prereq>
+	</Event>
+	<!--***********************************************************-->
+	<!--***********************************************************-->
+	<!--******************* ZSINJ STORYLINE ********************-->
+	<!--***********************************************************-->
+	<!--***********************************************************-->
+
+	<Event Name="Intro_Welcome_ZE">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_CONQUEST_ZSINJ_HFZ_INTRO</Reward_Param1>
+		<Reward_Param2>15</Reward_Param2>
+		<Reward_Param3 />
+		<Reward_Param4 />
+		<Reward_Param5 />
+		<Reward_Param6 />
+		<Reward_Param7 />
+		<Reward_Param8 />
+		<Reward_Param9>Zsinj_Loop</Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>Faction_Branch_Enabler_Zsinj</Prereq>
+		<Branch>Faction_Branch_Zsinj</Branch>
+	</Event>
+
+	<Event Name="Intro_Welcome_Zsinj_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>15</Event_Param1>
+		<Story_Dialog>Dialog_Zsinj_Sandbox</Story_Dialog>
+		<Story_Chapter>0</Story_Chapter>
+		<Story_Tag>Main_Tag_Zsinj</Story_Tag>
+		<Prereq>Faction_Branch_Enabler_Zsinj</Prereq>
+		<Branch>Faction_Branch_Zsinj</Branch>
+	</Event>
+	
+	<Event Name="Zsinj_Death_Speech_ZE">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_CONQUEST_ZSINJ_HFZ_DEATH</Reward_Param1>
+		<Reward_Param2>15</Reward_Param2>
+		<Reward_Param3 />
+		<Reward_Param4 />
+		<Reward_Param5 />
+		<Reward_Param6 />
+		<Reward_Param7 />
+		<Reward_Param8></Reward_Param8>
+		<Reward_Param9>Moff_Loop</Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>Zsinj_Death</Prereq>
+		<Branch>Faction_Branch_Zsinj</Branch>
+	</Event>
+	
+	<Event Name="Zsinj_Death_Dialogue_ZE">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>15</Event_Param1>
+		<Story_Dialog>Dialog_Zsinj_Sandbox</Story_Dialog>
+		<Story_Chapter>1</Story_Chapter>
+		<Story_Tag>Empire_Spawns</Story_Tag>
+		<Prereq>Zsinj_Death</Prereq>
+		<Branch>Faction_Branch_Zsinj</Branch>
+	</Event>
+	
+	<!--***********************************************************-->
+	<!--***********************************************************-->
+	<!--******************* MALDROOD STORYLINE ********************-->
+	<!--***********************************************************-->
+	<!--***********************************************************-->
+
+	<Event Name="Intro_Welcome_GM">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_CONQUEST_TERADOC_HFZ_INTRO</Reward_Param1>
+		<Reward_Param2>15</Reward_Param2>
+		<Reward_Param3 />
+		<Reward_Param4 />
+		<Reward_Param5 />
+		<Reward_Param6 />
+		<Reward_Param7 />
+		<Reward_Param8 />
+		<Reward_Param9>Teradoc_Loop</Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>Faction_Branch_Enabler_Teradoc</Prereq>
+		<Branch>Faction_Branch_Teradoc</Branch>
+	</Event>
+
+	<Event Name="Intro_Welcome_Teradoc_Dialog">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>15</Event_Param1>
+		<Story_Dialog>Dialog_Maldrood_sandbox</Story_Dialog>
+		<Story_Chapter>0</Story_Chapter>
+		<Story_Tag>Main_Tag_Teradoc</Story_Tag>
+		<Prereq>Faction_Branch_Enabler_Teradoc</Prereq>
+		<Branch>Faction_Branch_Teradoc</Branch>
+	</Event>
+	
+	 <Event Name="Getelles_Joins">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>GETELLES_JOINS_SPEECH</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_CONQUER_ANTEM_FINISHED</Reward_Param1>
+		<Reward_Param2>15</Reward_Param2>
+		<Reward_Param3 />
+		<Reward_Param4 />
+		<Reward_Param5 />
+		<Reward_Param6 />
+		<Reward_Param7 />
+		<Reward_Param8></Reward_Param8>
+		<Reward_Param9>Teradoc_Loop</Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>Maldrood_Antem</Prereq>
+		<Branch>Faction_Branch_Teradoc</Branch>
+	</Event>
+	
+	<Event Name="Gendarr_Joins">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+		<Event_Param2>GENDARR_JOINS_SPEECH</Event_Param2>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_SPEECH_CONQUER_COMMENOR_FINISHED</Reward_Param1>
+		<Reward_Param2>15</Reward_Param2>
+		<Reward_Param3 />
+		<Reward_Param4 />
+		<Reward_Param5 />
+		<Reward_Param6 />
+		<Reward_Param7 />
+		<Reward_Param8></Reward_Param8>
+		<Reward_Param9>Teradoc_Loop</Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>Maldrood_Commenor</Prereq>
+		<Branch>Faction_Branch_Teradoc</Branch>
+    </Event>
+	
+	<Event Name="Zsinj_Death_Speech_GM">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>MULTIMEDIA</Reward_Type>
+		<Reward_Param1>TEXT_CONQUEST_TERADOC_HFZ_BREAKUP</Reward_Param1>
+		<Reward_Param2>15</Reward_Param2>
+		<Reward_Param3 />
+		<Reward_Param4 />
+		<Reward_Param5 />
+		<Reward_Param6 />
+		<Reward_Param7 />
+		<Reward_Param8></Reward_Param8>
+		<Reward_Param9>Teradoc_Loop</Reward_Param9>
+		<Reward_Param10>0</Reward_Param10>
+		<Prereq>Zsinj_Death</Prereq>
+		<Branch>Faction_Branch_Teradoc</Branch>
+  </Event>
+
+   <Event Name="Zsinj_Death_Dialogue_GM">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>15</Event_Param1>
+		<Story_Dialog>Dialog_Maldrood_Sandbox</Story_Dialog>
+		<Story_Chapter>1</Story_Chapter>
+		<Story_Tag>Empire_Spawns</Story_Tag>	
+		<Prereq>Zsinj_Death</Prereq>
+		<Branch>Faction_Branch_Teradoc</Branch>
+ </Event>
+ 
+</Story>
