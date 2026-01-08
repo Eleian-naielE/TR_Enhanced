@@ -1935,6 +1935,8 @@
 	<GroundVehicle Name="Light_Rakatan_Annihilator_Captured">
 		<Variant_Of_Existing_Type>Light_Rakatan_Annihilator</Variant_Of_Existing_Type>
 
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
+
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>EJECT_VEHICLE_THIEF</Type>
@@ -2185,6 +2187,8 @@
 	</GroundVehicle>
 	<GroundVehicle Name="Heavy_Rakatan_Annihilator_Captured">
 		<Variant_Of_Existing_Type>Heavy_Rakatan_Annihilator</Variant_Of_Existing_Type>
+
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>

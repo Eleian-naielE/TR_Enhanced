@@ -4857,6 +4857,12 @@
 		
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
+				<Type>SPREAD_OUT</Type>
+				<Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
+				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.75f</Mod_Multiplier>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Take_Cover_Militia</SFXEvent_GUI_Unit_Ability_Activated>
+			</Unit_Ability>
+			<Unit_Ability>
 				<Type>STIM_PACK</Type>
 				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_FORCE_RAGE_NAME</Alternate_Name_Text>
 				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_FORCE_RAGE_DESCRIPTION</Alternate_Description_Text>
@@ -5063,7 +5069,7 @@
 		<Is_Escort>yes</Is_Escort>
 
 		<GUI_Row> 1 </GUI_Row>
-		<Build_Cost_Credits>180</Build_Cost_Credits>
+		<Build_Cost_Credits>220</Build_Cost_Credits>
 		<Build_Time_Seconds>14</Build_Time_Seconds>
 		<Slice_Cost_Credits/>
 		<Required_Special_Structures>I_Ground_Barracks</Required_Special_Structures>
@@ -5208,6 +5214,12 @@
 		<Space_FOW_Reveal_Range>800.0</Space_FOW_Reveal_Range>
 		
 		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>SPREAD_OUT</Type>
+				<Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
+				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.75f</Mod_Multiplier>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Take_Cover_Militia</SFXEvent_GUI_Unit_Ability_Activated>
+			</Unit_Ability>
 			<Unit_Ability>
 				<Type>STIM_PACK</Type>
 				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_FORCE_RAGE_NAME</Alternate_Name_Text>
@@ -5937,6 +5949,8 @@
 	<GroundVehicle Name="Hailfire_Riot_Control_Captured">
 		<Variant_Of_Existing_Type>Hailfire_Riot_Control</Variant_Of_Existing_Type>
 
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
+
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>EJECT_VEHICLE_THIEF</Type>
@@ -5989,6 +6003,8 @@
 
 	<GroundVehicle Name="Persuader_Riot_Control_Captured">
 		<Variant_Of_Existing_Type>Persuader_Riot_Control</Variant_Of_Existing_Type>
+
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -6204,6 +6220,8 @@
 
 	<GroundVehicle Name="Espo_Walker_91_Captured">
 		<Variant_Of_Existing_Type>Espo_Walker_91</Variant_Of_Existing_Type>
+
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -6431,6 +6449,8 @@
 
 	<GroundVehicle Name="MZ8_Tank_Captured">
 		<Variant_Of_Existing_Type>MZ8_Tank</Variant_Of_Existing_Type>
+
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
 
 		<!-- Not allowing self destruct with thief inside -->
 		<Unit_Abilities_Data SubObjectList="Yes">
@@ -6763,6 +6783,7 @@
 		<Tactical_Bribe_Cost>100</Tactical_Bribe_Cost>
 		<Score_Cost_Credits>50</Score_Cost_Credits>
 
+		<Behavior>SELECTABLE, POWERED</Behavior>
 		<LandBehavior>ABILITY_COUNTDOWN, FLYING_LOCOMOTOR,REVEAL,HIDE_WHEN_FOGGED,HUNT, AMBIENT_SFX,UNIT_AI, SURFACE_FX,TARGETING,WEAPON,STUNNABLE, WIND_DISTURBANCE,DAMAGE_TRACKING</LandBehavior>
 
 		<HardPoints>HP_CloudCar</HardPoints>
@@ -6800,6 +6821,13 @@
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Assault_Speeder</SFXEvent_Fleet_Move>
 		<SFXEvent_Attack>Unit_Attack_Assault_Speeder</SFXEvent_Attack>
 		<SFXEvent_Guard>Unit_Guard_Assault_Speeder</SFXEvent_Guard>
+		<SFXEvent_Assist_Move> Unit_Assist_Move_Assault_Speeder </SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Assault_Speeder </SFXEvent_Assist_Attack>
+		
+		<SFXEvent_Ambient_Moving> Unit_Cloud_Car_Fly_By </SFXEvent_Ambient_Moving>
+		<SFXEvent_Ambient_Moving_Min_Delay_Seconds> 5 </SFXEvent_Ambient_Moving_Min_Delay_Seconds>
+		<SFXEvent_Ambient_Moving_Max_Delay_Seconds> 7 </SFXEvent_Ambient_Moving_Max_Delay_Seconds>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Cloud_Car_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
 
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, null </SFXEvent_Hardpoint_Destroyed>
 
@@ -6868,9 +6896,7 @@
 		<Prepare_Strafe_Height>150.0</Prepare_Strafe_Height>
 		<MaxFacingLookAheadFrames>5.0</MaxFacingLookAheadFrames>
 		<Should_Cause_Limited_Turrets_To_Turn> false </Should_Cause_Limited_Turrets_To_Turn>
-		<Behavior>SELECTABLE, POWERED</Behavior>
-		<Shield_Points>0</Shield_Points>
-		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		
 		<Turret_Rotate_Extent_Degrees>20.0</Turret_Rotate_Extent_Degrees>
 		<Turret_Elevate_Extent_Degrees>50.0</Turret_Elevate_Extent_Degrees>
 		<Damaged_Smoke_Asset_Name>P_Smoke_Small02.alo</Damaged_Smoke_Asset_Name>
@@ -6879,14 +6905,6 @@
 		<Spin_Away_On_Death_Time>2.0f</Spin_Away_On_Death_Time>
 		<Spin_Away_On_Death_Explosion>Medium_Explosion_Land</Spin_Away_On_Death_Explosion>
 		<Spin_Away_On_Death_SFXEvent_Start_Die>Unit_A_Wing_Spinning_By</Spin_Away_On_Death_SFXEvent_Start_Die>
-
-		<SFXEvent_Fire>Unit_T47_Airspeeder_Fire</SFXEvent_Fire>
-		<SFXEvent_Assist_Move> Unit_Assist_Move_Assault_Speeder </SFXEvent_Assist_Move>
-		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Assault_Speeder </SFXEvent_Assist_Attack>
-		<SFXEvent_Ambient_Moving> Unit_Cloud_Car_Fly_By </SFXEvent_Ambient_Moving>
-		<SFXEvent_Ambient_Moving_Min_Delay_Seconds> 5 </SFXEvent_Ambient_Moving_Min_Delay_Seconds>
-		<SFXEvent_Ambient_Moving_Max_Delay_Seconds> 7 </SFXEvent_Ambient_Moving_Max_Delay_Seconds>
-		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Cloud_Car_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
 
 		<Air_Vehicle_Turret_Target> Yes </Air_Vehicle_Turret_Target>
 		<Unit_Abilities_Data SubObjectList="Yes">

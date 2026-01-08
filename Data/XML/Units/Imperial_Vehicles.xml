@@ -195,6 +195,8 @@
 	<GroundVehicle Name="PX10_Captured">
 		<Variant_Of_Existing_Type>PX10</Variant_Of_Existing_Type>
 
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
+
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>SPRINT</Type>
@@ -450,6 +452,8 @@
 
 	<GroundVehicle Name="AT_MP_Walker_Captured">
 		<Variant_Of_Existing_Type>AT_MP_Walker</Variant_Of_Existing_Type>
+
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -724,6 +728,8 @@
 	<GroundVehicle Name="AT_ST_Walker_Captured">
 		<Variant_Of_Existing_Type>AT_ST_Walker</Variant_Of_Existing_Type>
 
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
+
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>ROCKET_ATTACK</Type>
@@ -956,6 +962,8 @@
 	<GroundVehicle Name="1L_Tank_Captured">
 		<Variant_Of_Existing_Type>1L_Tank</Variant_Of_Existing_Type>
 
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
+
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>STIM_PACK</Type>
@@ -1023,6 +1031,8 @@
 
 	<GroundVehicle Name="Imperial_ULAV_Captured">
 		<Variant_Of_Existing_Type>Imperial_ULAV</Variant_Of_Existing_Type>
+
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -1132,6 +1142,8 @@
 	<GroundVehicle Name="AT_ST_A_Walker_Captured">
 		<Variant_Of_Existing_Type>AT_ST_A_Walker</Variant_Of_Existing_Type>
 
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
+
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>ROCKET_ATTACK</Type>
@@ -1167,6 +1179,8 @@
 
 	<GroundVehicle Name="Imperial_Infantry_Support_Platform_Captured">
 		<Variant_Of_Existing_Type>Imperial_Infantry_Support_Platform</Variant_Of_Existing_Type>
+
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -1373,6 +1387,8 @@
 
 	<GroundVehicle Name="Repulsor_Scout_Captured">
 		<Variant_Of_Existing_Type>Repulsor_Scout</Variant_Of_Existing_Type>
+
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -1603,6 +1619,8 @@
 
 	<GroundVehicle Name="Reconnaissance_Troop_Transporter_Captured">
 		<Variant_Of_Existing_Type>Reconnaissance_Troop_Transporter</Variant_Of_Existing_Type>
+
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
 
 		<LandBehavior>ABILITY_COUNTDOWN, AFFECTED_BY_SHIELD,SURFACE_FX, WALK_LOCOMOTOR, IDLE, TARGETING, WEAPON, TURRET, POWERED, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, TELEKINESIS_TARGET,STUNNABLE, WIND_DISTURBANCE,DAMAGE_TRACKING</LandBehavior>
 		<Num_Garrison_Slots>0</Num_Garrison_Slots>
@@ -2106,6 +2124,8 @@
 	<GroundVehicle Name="Chariot_LAV_Combat_Captured">
 		<Variant_Of_Existing_Type>Chariot_LAV_Combat</Variant_Of_Existing_Type>
 
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
+
 		<LandBehavior>ABILITY_COUNTDOWN, AFFECTED_BY_SHIELD, HUNT, SELECTABLE, WALK_LOCOMOTOR, IDLE,TARGETING, WEAPON, POWERED, REVEAL,HIDE_WHEN_FOGGED, UNIT_AI, SURFACE_FX, TELEKINESIS_TARGET,STUNNABLE, WIND_DISTURBANCE,DAMAGE_TRACKING</LandBehavior>
 		<Num_Garrison_Slots>0</Num_Garrison_Slots>
 
@@ -2317,6 +2337,8 @@
 	<GroundVehicle Name="PX7_Captured">
 		<Variant_Of_Existing_Type>PX7</Variant_Of_Existing_Type>
 
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
+
 		<LandBehavior>AFFECTED_BY_SHIELD, WALK_LOCOMOTOR, TREAD_SCROLL, IDLE, TARGETING, WEAPON, TURRET, POWERED, REVEAL, HIDE_WHEN_FOGGED, SQUASH, SURFACE_FX, UNIT_AI, TELEKINESIS_TARGET,STUNNABLE,DAMAGE_TRACKING, ABILITY_COUNTDOWN</LandBehavior>
 		<Num_Garrison_Slots>0</Num_Garrison_Slots>
 
@@ -2523,6 +2545,8 @@
 
 	<GroundVehicle Name="TIE_Mauler_Captured">
 		<Variant_Of_Existing_Type>TIE_Mauler</Variant_Of_Existing_Type>
+
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -2954,6 +2978,8 @@
 	<GroundVehicle Name="AT_AA_Walker_Captured">
 		<Variant_Of_Existing_Type>AT_AA_Walker</Variant_Of_Existing_Type>
 
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
+
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>SENSOR_JAMMING</Type>
@@ -3185,6 +3211,8 @@
 
 	<GroundVehicle Name="AT_AA_Missile_Walker_Captured">
 		<Variant_Of_Existing_Type>AT_AA_Missile_Walker</Variant_Of_Existing_Type>
+
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -3422,6 +3450,8 @@
 	<GroundVehicle Name="AT_AA_Flak_Walker_Captured">
 		<Variant_Of_Existing_Type>AT_AA_Flak_Walker</Variant_Of_Existing_Type>
 
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
+
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>SENSOR_JAMMING</Type>
@@ -3649,6 +3679,8 @@
 
 	<GroundVehicle Name="AT_AI_Walker_Captured">
 		<Variant_Of_Existing_Type>AT_AI_Walker</Variant_Of_Existing_Type>
+
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -4258,6 +4290,8 @@
 	<GroundVehicle Name="Imperial_APC_Captured">
 		<Variant_Of_Existing_Type>Imperial_APC</Variant_Of_Existing_Type>
 
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
+
 		<LandBehavior>ABILITY_COUNTDOWN, AFFECTED_BY_SHIELD,SURFACE_FX, WALK_LOCOMOTOR, IDLE, TARGETING, WEAPON, TURRET, POWERED, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, TELEKINESIS_TARGET,STUNNABLE, WIND_DISTURBANCE,DAMAGE_TRACKING</LandBehavior>
 		<Num_Garrison_Slots>0</Num_Garrison_Slots>
 
@@ -4503,6 +4537,8 @@
 	<GroundVehicle Name="1M_Tank_Captured">
 		<Variant_Of_Existing_Type>1M_Tank</Variant_Of_Existing_Type>
 
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
+
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>POWER_TO_WEAPONS</Type>
@@ -4707,6 +4743,8 @@
 	<GroundVehicle Name="TIE_Crawler_Captured">
 		<Variant_Of_Existing_Type>TIE_Crawler</Variant_Of_Existing_Type>
 
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
+
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>EJECT_VEHICLE_THIEF</Type>
@@ -4755,6 +4793,8 @@
 		<Shield_Armor_Type>ShieldG_LightVehicle</Shield_Armor_Type>
 		<Shield_Points>100</Shield_Points>
 		<Shield_Refresh_Rate>15</Shield_Refresh_Rate>
+
+		<GUI_Bracket_Size>1</GUI_Bracket_Size>
 
 		<Energy_Capacity>999</Energy_Capacity>
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
@@ -4914,6 +4954,8 @@
 	<GroundVehicle Name="2M_Repulsor_Tank_Captured">
 		<Variant_Of_Existing_Type>2M_Repulsor_Tank</Variant_Of_Existing_Type>
 
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
+
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>TURBO</Type>
@@ -4985,6 +5027,8 @@
 		<Armor_Type>ArmourG_MediumVehicle</Armor_Type>
 		<Tactical_Health>300</Tactical_Health>
 
+		<GUI_Bracket_Size>1</GUI_Bracket_Size>
+
 		<Energy_Capacity>1000</Energy_Capacity>
 		<Energy_Refresh_Rate>100</Energy_Refresh_Rate>
 		<Damage>9</Damage>
@@ -4999,7 +5043,6 @@
 		<Weather_Category>Hover</Weather_Category>
 		<Deploys>no</Deploys>
 		<Victory_Relevant>yes</Victory_Relevant>
-
 
 		<Influences_Capture_Point>false</Influences_Capture_Point>
 
@@ -5176,6 +5219,8 @@
 	<GroundVehicle Name="S_1_Firehawke_Captured">
 		<Variant_Of_Existing_Type>S_1_Firehawke</Variant_Of_Existing_Type>
 
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
+
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>POWER_TO_WEAPONS</Type>
@@ -5210,6 +5255,8 @@
 
 	<GroundVehicle Name="S_1_Firehawke_Hells_Hammers_Captured">
 		<Variant_Of_Existing_Type>S_1_Firehawke_Hells_Hammers</Variant_Of_Existing_Type>
+
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -5413,6 +5460,8 @@
 
 	<GroundVehicle Name="Swift_Assault_5_Captured">
 		<Variant_Of_Existing_Type>Swift_Assault_5</Variant_Of_Existing_Type>
+
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -6072,6 +6121,8 @@
 	<GroundVehicle Name="1H_Tank_Captured">
 		<Variant_Of_Existing_Type>1H_Tank</Variant_Of_Existing_Type>
 
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
+
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>POWER_TO_WEAPONS</Type>
@@ -6108,6 +6159,8 @@
 
 	<GroundVehicle Name="1H_Tank_Green_Captured">
 		<Variant_Of_Existing_Type>1H_Tank_Green</Variant_Of_Existing_Type>
+
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -6279,6 +6332,8 @@
 
 	<GroundVehicle Name="Repulsor_Tank_Mark_II_Captured">
 		<Variant_Of_Existing_Type>Repulsor_Tank_Mark_II</Variant_Of_Existing_Type>
+
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -7569,6 +7624,8 @@
 	<GroundVehicle Name="PX4_Captured">
 		<Variant_Of_Existing_Type>PX4</Variant_Of_Existing_Type>
 
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
+
 		<LandBehavior>AFFECTED_BY_SHIELD, WALK_LOCOMOTOR, TREAD_SCROLL, IDLE, TARGETING, WEAPON, TURRET, POWERED, REVEAL, HIDE_WHEN_FOGGED, SQUASH, SURFACE_FX, UNIT_AI, TELEKINESIS_TARGET,STUNNABLE,DAMAGE_TRACKING, ABILITY_COUNTDOWN</LandBehavior>
 		<Num_Garrison_Slots>0</Num_Garrison_Slots>
 
@@ -8024,6 +8081,8 @@
 
 	<GroundVehicle Name="Tracked_Shield_Disabler_Captured">
 		<Variant_Of_Existing_Type>Tracked_Shield_Disabler</Variant_Of_Existing_Type>
+
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -9128,6 +9187,8 @@
 	<GroundVehicle Name="Heavy_Recovery_Vehicle_Captured">
 		<Variant_Of_Existing_Type>Heavy_Recovery_Vehicle</Variant_Of_Existing_Type>
 
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
+
 		<LandBehavior>AFFECTED_BY_SHIELD, WALK_LOCOMOTOR, TREAD_SCROLL, IDLE, TARGETING, WEAPON, TURRET, POWERED, REVEAL, HIDE_WHEN_FOGGED, SQUASH, SURFACE_FX, UNIT_AI, TELEKINESIS_TARGET,STUNNABLE,DAMAGE_TRACKING, ABILITY_COUNTDOWN</LandBehavior>
 		<Num_Garrison_Slots>0</Num_Garrison_Slots>
 
@@ -10029,6 +10090,8 @@
 	<GroundVehicle Name="X1_Viper_Captured">
 		<Variant_Of_Existing_Type>X1_Viper</Variant_Of_Existing_Type>
 
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
+
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>STIM_PACK</Type>
@@ -10066,6 +10129,8 @@
 
 	<GroundVehicle Name="Imperial_Bantha_II_Skiff_Captured">
 		<Variant_Of_Existing_Type>Imperial_Bantha_II_Skiff</Variant_Of_Existing_Type>
+
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>

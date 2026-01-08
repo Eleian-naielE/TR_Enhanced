@@ -1933,6 +1933,7 @@
 
 		<Text_ID>TEXT_UNIT_PARTISAN_SSI_RUUVI</Text_ID>
 		<Land_Model_Name>ssi-ruu.alo</Land_Model_Name>
+		<Land_Model_Anim_Override_Name>ssi-ruu.alo</Land_Model_Anim_Override_Name>
 
 	</Indigenous_Unit>
 

@@ -626,7 +626,7 @@
 		<SFXEvent_Select>Null</SFXEvent_Select>
 
 		<Garrison_Category> Infantry </Garrison_Category>
-		<Garrison_Value>2</Garrison_Value>
+		<Garrison_Value>1</Garrison_Value>
 
 		<Is_Squashable> true </Is_Squashable>
 
@@ -702,7 +702,7 @@
 		<SFXEvent_Select>Null</SFXEvent_Select>
 
 		<Garrison_Category> Infantry </Garrison_Category>
-		<Garrison_Value>2</Garrison_Value>
+		<Garrison_Value>1</Garrison_Value>
 
 		<Is_Squashable> true </Is_Squashable>
 
@@ -1755,6 +1755,8 @@
 	<GroundVehicle Name="EMPAA_Captured">
 		<Variant_Of_Existing_Type>EMPAA</Variant_Of_Existing_Type>
 
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
+
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>EJECT_VEHICLE_THIEF</Type>
@@ -1847,6 +1849,8 @@
 
 	<GroundVehicle Name="Chiss_OMPAI_Captured">
 		<Variant_Of_Existing_Type>Chiss_OMPAI</Variant_Of_Existing_Type>
+
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>

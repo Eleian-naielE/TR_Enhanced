@@ -1267,6 +1267,8 @@
 	<GroundVehicle Name="Paataatus_Skiff_Captured">
 		<Variant_Of_Existing_Type>Paataatus_Skiff</Variant_Of_Existing_Type>
 
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
+
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>UNTARGETED_STICKY_BOMB</Type>
@@ -1545,6 +1547,8 @@
 
 	<GroundVehicle Name="EotH_Sonic_Walker_Captured">
 		<Variant_Of_Existing_Type>EotH_Sonic_Walker</Variant_Of_Existing_Type>
+
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -1828,6 +1832,8 @@
 	<GroundVehicle Name="ARack_Captured">
 		<Variant_Of_Existing_Type>ARack</Variant_Of_Existing_Type>
 
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
+
 		<LandBehavior>AFFECTED_BY_SHIELD, WALK_LOCOMOTOR, IDLE, TARGETING, WEAPON, TURRET, POWERED, REVEAL, HIDE_WHEN_FOGGED, SQUASH, SURFACE_FX, UNIT_AI, TELEKINESIS_TARGET,STUNNABLE,DAMAGE_TRACKING, ABILITY_COUNTDOWN</LandBehavior>
 		<Num_Garrison_Slots>0</Num_Garrison_Slots>
 		
@@ -1849,6 +1855,8 @@
 	
 	<GroundVehicle Name="ARack_Local_Captured">
 		<Variant_Of_Existing_Type>ARack_Local</Variant_Of_Existing_Type>
+
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
 
 		<LandBehavior>AFFECTED_BY_SHIELD, WALK_LOCOMOTOR, IDLE, TARGETING, WEAPON, TURRET, POWERED, REVEAL, HIDE_WHEN_FOGGED, SQUASH, SURFACE_FX, UNIT_AI, TELEKINESIS_TARGET,STUNNABLE,DAMAGE_TRACKING, ABILITY_COUNTDOWN</LandBehavior>
 		<Num_Garrison_Slots>0</Num_Garrison_Slots>
@@ -2476,6 +2484,8 @@
 	<GroundVehicle Name="EotH_OMPAI_Captured">
 		<Variant_Of_Existing_Type>EotH_OMPAI</Variant_Of_Existing_Type>
 
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
+
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>EJECT_VEHICLE_THIEF</Type>
@@ -2721,6 +2731,8 @@
 
 	<GroundVehicle Name="EPOAA_Captured">
 		<Variant_Of_Existing_Type>EPOAA</Variant_Of_Existing_Type>
+
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -2988,6 +3000,8 @@
 
 	<GroundVehicle Name="2M_Cheri_Repulsortank_Captured">
 		<Variant_Of_Existing_Type>2M_Cheri_Repulsortank</Variant_Of_Existing_Type>
+
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -3324,6 +3338,8 @@
 	<GroundVehicle Name="Entoli_LAV_Captured">
 		<Variant_Of_Existing_Type>Entoli_LAV</Variant_Of_Existing_Type>
 
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
+
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>DEPLOY</Type>
@@ -3598,6 +3614,8 @@
 	<GroundVehicle Name="VPOAV_Captured">
 		<Variant_Of_Existing_Type>VPOAV</Variant_Of_Existing_Type>
 
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
+
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>POWER_TO_WEAPONS</Type>
@@ -3854,6 +3872,8 @@
 
 	<GroundVehicle Name="Paccian_Missile_Tank_Captured">
 		<Variant_Of_Existing_Type>Paccian_Missile_Tank</Variant_Of_Existing_Type>
+
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -4377,6 +4397,8 @@
 
 	<GroundVehicle Name="KPO_Captured">
 		<Variant_Of_Existing_Type>KPO</Variant_Of_Existing_Type>
+
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>

@@ -2920,6 +2920,8 @@
 	<GroundVehicle Name="Water_Dragon_Captured">
 		<Variant_Of_Existing_Type>Water_Dragon</Variant_Of_Existing_Type>
 
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
+
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>EJECT_VEHICLE_THIEF</Type>
@@ -3460,6 +3462,8 @@
 
 	<GroundVehicle Name="Rana_APC_Captured">
 		<Variant_Of_Existing_Type>Rana_APC</Variant_Of_Existing_Type>
+
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
 
 		<LandBehavior>
 			ABILITY_COUNTDOWN,
@@ -4031,6 +4035,8 @@
 
 	<GroundVehicle Name="Fire_Dragon_Captured">
 		<Variant_Of_Existing_Type>Fire_Dragon</Variant_Of_Existing_Type>
+
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>

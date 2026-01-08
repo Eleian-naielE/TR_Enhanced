@@ -3595,6 +3595,8 @@
 		TEXT_TOOLTIP_CLASS_I_DROID_MOVE
 		TEXT_TOOLTIP_CLASS_I_DROID_WEAP1
 		TEXT_TOOLTIP_CLASS_I_DROID_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_SMALL_WALKER
 		</Encyclopedia_Text>
 		<Icon_Name>I_BUTTON_CLASS_I_DROID.TGA</Icon_Name>
 
@@ -4166,6 +4168,8 @@
 	<GroundVehicle Name="AT_PT_Walker_Captured">
 		<Variant_Of_Existing_Type>AT_PT_Walker</Variant_Of_Existing_Type>
 
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
+
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>FULL_SALVO</Type>
@@ -4225,7 +4229,7 @@
 		<Damage>6</Damage>
 		<AI_Combat_Power>16</AI_Combat_Power>
 
-		<Affiliation>Empire, Pentastar, Greater_Maldrood, Zsinj_Empire, Eriadu_Authority, Imperial_Proteus</Affiliation>
+		<Affiliation>Independent_Forces</Affiliation>
 
 		<Type>Walk</Type>
 		<CategoryMask> Vehicle | AntiInfantry</CategoryMask>
@@ -4631,6 +4635,8 @@
 
 	<GroundVehicle Name="AT_DP_Walker_Captured">
 		<Variant_Of_Existing_Type>AT_DP_Walker</Variant_Of_Existing_Type>
+
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -5282,6 +5288,8 @@
 	<GroundVehicle Name="Infantry_Support_Platform_Captured">
 		<Variant_Of_Existing_Type>Infantry_Support_Platform</Variant_Of_Existing_Type>
 
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
+
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>UNTARGETED_STICKY_BOMB</Type>
@@ -5488,6 +5496,8 @@
 
 	<GroundVehicle Name="ULAV_Early_Captured">
 		<Variant_Of_Existing_Type>ULAV_Early</Variant_Of_Existing_Type>
+
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -5972,6 +5982,8 @@
 	<GroundVehicle Name="Bantha_II_Skiff_Captured">
 		<Variant_Of_Existing_Type>Bantha_II_Skiff</Variant_Of_Existing_Type>
 
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
+
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>PROXIMITY_MINES</Type>
@@ -6021,8 +6033,11 @@
 		
 		<Vehicle_Thief_Inside_Clone>Hutt_Bantha_II_Skiff_Captured</Vehicle_Thief_Inside_Clone>
 	</GroundVehicle>
+
 	<GroundVehicle Name="Hutt_Bantha_II_Skiff_Captured">
 		<Variant_Of_Existing_Type>Hutt_Bantha_II_Skiff</Variant_Of_Existing_Type>
+
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -6213,6 +6228,8 @@
 	<GroundVehicle Name="SuperHaul_II_Skiff_Captured">
 		<Variant_Of_Existing_Type>SuperHaul_II_Skiff</Variant_Of_Existing_Type>
 
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
+
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>EJECT_VEHICLE_THIEF</Type>
@@ -6392,6 +6409,8 @@
 
 	<GroundVehicle Name="Hutt_AA_Skiff_Captured">
 		<Variant_Of_Existing_Type>Hutt_AA_Skiff</Variant_Of_Existing_Type>
+
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -6615,6 +6634,8 @@
 	<GroundVehicle Name="Hutt_Personnel_Skiff_IV_Captured">
 		<Variant_Of_Existing_Type>Hutt_Personnel_Skiff_IV</Variant_Of_Existing_Type>
 
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
+
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>SENSOR_JAMMING</Type>
@@ -6820,6 +6841,8 @@
 
 	<GroundVehicle Name="WLO5_Tank_Captured">
 		<Variant_Of_Existing_Type>WLO5_Tank</Variant_Of_Existing_Type>
+
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
 
 		<!-- Remove garrison behavior -->
 		<LandBehavior>ABILITY_COUNTDOWN,AFFECTED_BY_SHIELD, HUNT, WALK_LOCOMOTOR, IDLE, TARGETING, WEAPON, TURRET, POWERED, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, TELEKINESIS_TARGET,STUNNABLE, WIND_DISTURBANCE, SURFACE_FX,DAMAGE_TRACKING</LandBehavior>
@@ -7216,6 +7239,8 @@
 	<GroundVehicle Name="Arrow_23_Captured">
 		<Variant_Of_Existing_Type>Arrow_23</Variant_Of_Existing_Type>
 
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
+
 		<!-- Remove garrison behavior -->
 		<LandBehavior>ABILITY_COUNTDOWN, AFFECTED_BY_SHIELD, HUNT,WALK_LOCOMOTOR, IDLE,TARGETING, WEAPON, TURRET, POWERED, REVEAL,HIDE_WHEN_FOGGED, UNIT_AI, SURFACE_FX, TELEKINESIS_TARGET,STUNNABLE, WIND_DISTURBANCE,DAMAGE_TRACKING</LandBehavior>
 		<Num_Garrison_Slots>0</Num_Garrison_Slots>
@@ -7273,7 +7298,7 @@
 		<Damage>13</Damage>
 		<AI_Combat_Power>38</AI_Combat_Power>
 
-		<Affiliation>Empire, Pentastar, Greater_Maldrood, Zsinj_Empire, Eriadu_Authority, Imperial_Proteus</Affiliation>
+		<Affiliation>Independent_Forces</Affiliation>
 
 		<Type>Hover</Type>
 		<CategoryMask> Vehicle | AntiVehicle </CategoryMask>
@@ -7423,6 +7448,8 @@
 	<GroundVehicle Name="Gian_Speeder_Captured">
 		<Variant_Of_Existing_Type>Gian_Speeder</Variant_Of_Existing_Type>
 
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
+
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>STIM_PACK</Type>
@@ -7502,6 +7529,8 @@
 	<GroundVehicle Name="Gian_PDF_Captured">
 		<Variant_Of_Existing_Type>Gian_PDF</Variant_Of_Existing_Type>
 
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
+
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>TURBO</Type>
@@ -7573,6 +7602,8 @@
 
 	<GroundVehicle Name="Gian_Rebel_Captured">
 		<Variant_Of_Existing_Type>Gian_Rebel</Variant_Of_Existing_Type>
+
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -7780,6 +7811,8 @@
 	<GroundVehicle Name="TX130S_Captured">
 		<Variant_Of_Existing_Type>TX130S</Variant_Of_Existing_Type>
 
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
+
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>TURBO</Type>
@@ -7901,6 +7934,8 @@
 	
 	<GroundVehicle Name="TX130T_Captured">
 		<Variant_Of_Existing_Type>TX130T</Variant_Of_Existing_Type>
+		
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
 		
 		<LandBehavior>ABILITY_COUNTDOWN,AFFECTED_BY_SHIELD, HUNT, WALK_LOCOMOTOR, IDLE, TARGETING, WEAPON, POWERED, SHIELDED, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, TELEKINESIS_TARGET,STUNNABLE, WIND_DISTURBANCE, SURFACE_FX, DAMAGE_TRACKING</LandBehavior>
 
@@ -8095,6 +8130,8 @@
 
 	<GroundVehicle Name="Treaded_Neutron_Torch_Captured">
 		<Variant_Of_Existing_Type>Treaded_Neutron_Torch</Variant_Of_Existing_Type>
+
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -8474,6 +8511,8 @@
 
 	<GroundVehicle Name="UTAA_Captured">
 		<Variant_Of_Existing_Type>UTAA</Variant_Of_Existing_Type>
+
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -10252,6 +10291,8 @@
 	<GroundVehicle Name="A5RX_Captured">
 		<Variant_Of_Existing_Type>A5RX</Variant_Of_Existing_Type>
 
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
+
 		<LandBehavior> SURFACE_FX, TREAD_SCROLL, WALK_LOCOMOTOR, IDLE, TARGETING, TURRET, WEAPON, POWERED, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, TELEKINESIS_TARGET, STUNNABLE, WIND_DISTURBANCE, SURFACE_FX, ABILITY_COUNTDOWN, AFFECTED_BY_SHIELD, DAMAGE_TRACKING, SQUASH</LandBehavior>
 		<Num_Garrison_Slots>0</Num_Garrison_Slots>
 
@@ -11628,8 +11669,11 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 	</GroundVehicle>
+
 	<GroundVehicle Name="Scorpenek_Captured">
 		<Variant_Of_Existing_Type>Scorpenek</Variant_Of_Existing_Type>
+
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -11685,8 +11729,11 @@
 		
 		<Vehicle_Thief_Inside_Clone>Scorpenek_Sentry_Captured</Vehicle_Thief_Inside_Clone>
 	</GroundVehicle>
+
 	<GroundVehicle Name="Scorpenek_Sentry_Captured">
 		<Variant_Of_Existing_Type>Scorpenek_Sentry</Variant_Of_Existing_Type>
+
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -11779,6 +11826,8 @@
 	</GroundVehicle>
 	<GroundVehicle Name="Scorpenek_Utility_Captured">
 		<Variant_Of_Existing_Type>Scorpenek_Utility</Variant_Of_Existing_Type>
+
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -11982,6 +12031,8 @@
 	<GroundVehicle Name="AAT_Captured">
 		<Variant_Of_Existing_Type>AAT</Variant_Of_Existing_Type>
 
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
+
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>ROCKET_ATTACK</Type>
@@ -12184,6 +12235,8 @@
 	<GroundVehicle Name="Persuader_Captured">
 		<Variant_Of_Existing_Type>Persuader</Variant_Of_Existing_Type>
 
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
+
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>SPRINT</Type>
@@ -12382,6 +12435,8 @@
 
 	<GroundVehicle Name="Hailfire_Captured">
 		<Variant_Of_Existing_Type>Hailfire</Variant_Of_Existing_Type>
+
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -12780,6 +12835,8 @@
 
 	<GroundVehicle Name="Umbaran_Hover_Tank_Captured">
 		<Variant_Of_Existing_Type>Umbaran_Hover_Tank</Variant_Of_Existing_Type>
+
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>

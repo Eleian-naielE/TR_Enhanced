@@ -184,6 +184,8 @@
 	<GroundVehicle Name="AAC_1_Captured">
 		<Variant_Of_Existing_Type>AAC_1</Variant_Of_Existing_Type>
 
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
+
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>HUNT</Type>
@@ -253,6 +255,8 @@
 
 	<GroundVehicle Name="AAC_2_Captured">
 		<Variant_Of_Existing_Type>AAC_2</Variant_Of_Existing_Type>
+
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -454,6 +458,8 @@
 	<GroundVehicle Name="T1B_Tank_Captured">
 		<Variant_Of_Existing_Type>T1B_Tank</Variant_Of_Existing_Type>
 
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
+
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>EJECT_VEHICLE_THIEF</Type>
@@ -628,6 +634,8 @@
 	<GroundVehicle Name="AA5_Truck_Captured">
 		<Variant_Of_Existing_Type>AA5_Truck</Variant_Of_Existing_Type>
 
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
+
 		<LandBehavior>
 			ABILITY_COUNTDOWN,
 			WALK_LOCOMOTOR,
@@ -667,7 +675,7 @@
 		TEXT_TOOLTIP_SRV1_MOVE
 		TEXT_TOOLTIP_SRV1_WEAP1
 		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
-		TEXT_TOOLTIP_SRV1_VEHICLE_REPAIR
+		TEXT_TOOLTIP_SRV1_INFANTRY_HEAL
 		</Encyclopedia_Text>
 		<Icon_Name>i_button_SRV1.tga</Icon_Name>
 
@@ -880,6 +888,8 @@
 
 	<GroundVehicle Name="SRV1_Captured">
 		<Variant_Of_Existing_Type>SRV1</Variant_Of_Existing_Type>
+
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -1321,6 +1331,8 @@
 
 	<GroundVehicle Name="T2B_Tank_Captured">
 		<Variant_Of_Existing_Type>T2B_Tank</Variant_Of_Existing_Type>
+
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -2325,6 +2337,8 @@
 	<GroundVehicle Name="AAC_3_Captured">
 		<Variant_Of_Existing_Type>AAC_3</Variant_Of_Existing_Type>
 
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
+
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>POWER_TO_WEAPONS</Type>
@@ -2543,6 +2557,8 @@
 	<GroundVehicle Name="T3B_Tank_Captured">
 		<Variant_Of_Existing_Type>T3B_Tank</Variant_Of_Existing_Type>
 
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
+
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>EJECT_VEHICLE_THIEF</Type>
@@ -2737,6 +2753,8 @@
 
 	<GroundVehicle Name="Freerunner_Captured">
 		<Variant_Of_Existing_Type>Freerunner</Variant_Of_Existing_Type>
+
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -2943,6 +2961,8 @@
 
 	<GroundVehicle Name="T4B_Tank_Captured">
 		<Variant_Of_Existing_Type>T4B_Tank</Variant_Of_Existing_Type>
+
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>

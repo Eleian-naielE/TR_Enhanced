@@ -1742,6 +1742,8 @@
 	<GroundVehicle Name="X10_Groundcruiser_Captured">
 		<Variant_Of_Existing_Type>X10_Groundcruiser</Variant_Of_Existing_Type>
 
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
+
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>PROXIMITY_MINES</Type>
@@ -1838,6 +1840,8 @@
 		TEXT_TOOLTIP_CLASS_I_DROID_MOVE
 		TEXT_TOOLTIP_CLASS_I_DROID_WEAP1
 		TEXT_TOOLTIP_CLASS_I_DROID_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_SMALL_WALKER
 		</Encyclopedia_Text>
 		<Icon_Name>I_BUTTON_CLASS_I_DROID.tga</Icon_Name>
 
@@ -1928,6 +1932,8 @@
 
 	<GroundVehicle Name="Espo_Walker_101_Captured">
 		<Variant_Of_Existing_Type>Espo_Walker_101</Variant_Of_Existing_Type>
+
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -2215,6 +2221,8 @@
 	<GroundVehicle Name="GX12_Hovervan_Captured">
 		<Variant_Of_Existing_Type>GX12_Hovervan</Variant_Of_Existing_Type>
 
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
+
 		<LandBehavior>
 			ABILITY_COUNTDOWN,
 			WALK_LOCOMOTOR,
@@ -2303,8 +2311,6 @@
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Planets/>
 		<Company_Units>GX12_Hovervan, GX12_Hovervan, GX12_Hovervan</Company_Units>
-		<Tactical_Build_Prerequisites/>
-		<Tactical_Build_Prerequisites>Ground_Level_Two_Tech_Upgrade</Tactical_Build_Prerequisites>
 		<Maintenance_Cost>0.0</Maintenance_Cost>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
@@ -3291,6 +3297,8 @@
 
 	<GroundVehicle Name="Strikebreaker_Captured">
 		<Variant_Of_Existing_Type>Strikebreaker</Variant_Of_Existing_Type>
+
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
 
 		<LandBehavior>IDLE, ABILITY_COUNTDOWN, WALK_LOCOMOTOR,REVEAL,HIDE_WHEN_FOGGED, WEAPON, AMBIENT_SFX,UNIT_AI,TARGETING,STUNNABLE, WIND_DISTURBANCE,DAMAGE_TRACKING, SURFACE_FX</LandBehavior>
 		<Num_Garrison_Slots>0</Num_Garrison_Slots>
