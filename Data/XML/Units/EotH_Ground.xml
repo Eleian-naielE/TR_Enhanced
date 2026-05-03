@@ -1146,8 +1146,6 @@
 			HP_Paataatus_Skiff_AI
 		</HardPoints>
 
-		<Lua_Script>GenericGameObject</Lua_Script>
-
 		<Garrison_Category>Vehicle</Garrison_Category>
 		<Num_Garrison_Slots>0</Num_Garrison_Slots>
 		<Garrison_Bone_Names/>
@@ -2072,8 +2070,6 @@
 		<HardPoints>
 				HP_Airstraeker,
 		</HardPoints>
-
-		<Lua_Script>GenericGameObject</Lua_Script>
 
 		<Garrison_Category/>
 		<Num_Garrison_Slots>0</Num_Garrison_Slots>
@@ -4020,8 +4016,6 @@
 			HP_V2PO_Rocket_Left, 
 			HP_V2PO_Rocket_Right
 		</HardPoints>
-
-		<Lua_Script>GenericGameObject</Lua_Script>
 
 		<Garrison_Category> Infantry, InfantryHero, Vehicle, VehicleHero </Garrison_Category>
 		<Num_Garrison_Slots>4</Num_Garrison_Slots>

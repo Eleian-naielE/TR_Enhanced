@@ -3632,8 +3632,6 @@
 
 		<HardPoints>HP_Silanus_Laser, HP_Silanus_Grenade</HardPoints>
 
-		<Lua_Script>GenericGameObject</Lua_Script>
-
 		<Garrison_Category/>
 		<Num_Garrison_Slots>0</Num_Garrison_Slots>
 		<Garrison_Bone_Names/>

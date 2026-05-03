@@ -698,8 +698,6 @@
 			HP_Teklos_Turret, HP_Teklos_Conc_01, HP_Teklos_Conc_02
 		</HardPoints>
 
-		<Lua_Script>GenericGameObject</Lua_Script>
-
 		<Garrison_Category> Infantry, InfantryHero </Garrison_Category>
 		<Num_Garrison_Slots>4</Num_Garrison_Slots>
 		<Garrison_Bone_Names>ROOT</Garrison_Bone_Names>

@@ -972,8 +972,6 @@
 
 		<HardPoints>HP_T47_Airspeeder, HP_T47_Airspeeder_Rear</HardPoints>
 
-		<Lua_Script>GenericGameObject</Lua_Script>
-
 		<Garrison_Category/>
 		<Num_Garrison_Slots>0</Num_Garrison_Slots>
 		<Garrison_Bone_Names/>
@@ -1403,8 +1401,6 @@
 		<LandBehavior>SELECTABLE, ABILITY_COUNTDOWN, WALK_LOCOMOTOR, IDLE, HUNT, TARGETING, POWERED, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, SURFACE_FX, AFFECTED_BY_SHIELD, STUNNABLE, WIND_DISTURBANCE, DAMAGE_TRACKING</LandBehavior>
 
 		<HardPoints>HP_Heavy_Tracker</HardPoints>
-
-		<Lua_Script>GenericGameObject</Lua_Script>
 
 		<Garrison_Category/>
 		<Num_Garrison_Slots>0</Num_Garrison_Slots>
@@ -1984,8 +1980,6 @@
 		<LandBehavior>ABILITY_COUNTDOWN,FLYING_LOCOMOTOR,REVEAL,HIDE_WHEN_FOGGED,HUNT,WEAPON,POWERED,AMBIENT_SFX,UNIT_AI, SURFACE_FX,TARGETING,WEAPON,STUNNABLE,WIND_DISTURBANCE,DAMAGE_TRACKING</LandBehavior>
 
 		<HardPoints>HP_Vwing_Airspeeder,HP_Vwing_Airspeeder_Missiles</HardPoints>
-
-		<Lua_Script>GenericGameObject</Lua_Script>
 
 		<Garrison_Category/>
 		<Num_Garrison_Slots>0</Num_Garrison_Slots>

@@ -459,7 +459,7 @@
 		
 		<Land_Model_Name>GM_Dengar.alo</Land_Model_Name>
 
-		<Tactical_Health>170</Tactical_Health>
+		<Tactical_Health>200</Tactical_Health>
 		
 		<Ranking_In_Category>5</Ranking_In_Category>
 
@@ -492,7 +492,7 @@
 
         <Highlight_Blob_Material_Name>Highlight_Empire_Hero</Highlight_Blob_Material_Name>
 
-		<AI_Combat_Power>55</AI_Combat_Power>
+		<AI_Combat_Power>60</AI_Combat_Power>
 
 		<CategoryMask> Organic | InfantryHero | AntiInfantry </CategoryMask>
 		

@@ -1465,6 +1465,8 @@
 	<GroundVehicle Name="EMPAV_Captured">
 		<Variant_Of_Existing_Type>EMPAV</Variant_Of_Existing_Type>
 
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
+
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>DEPLOY</Type>

@@ -1257,8 +1257,6 @@
 			HP_Repulsor_Scout
 		</HardPoints>
 
-		<Lua_Script>GenericGameObject</Lua_Script>
-
 		<Garrison_Category/>
 		<Num_Garrison_Slots>0</Num_Garrison_Slots>
 		<Garrison_Bone_Names/>
@@ -1466,8 +1464,6 @@
 		
 		<Behavior> SELECTABLE </Behavior>
 		<LandBehavior>ABILITY_COUNTDOWN, GARRISON_VEHICLE, AFFECTED_BY_SHIELD,SURFACE_FX, WALK_LOCOMOTOR, IDLE, TARGETING, WEAPON, TURRET, POWERED, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, TELEKINESIS_TARGET,STUNNABLE, WIND_DISTURBANCE, DAMAGE_TRACKING</LandBehavior>
-		<Lua_Script>GenericGameObject</Lua_Script>
-
 		<HardPoints>
 			HP_RTT_01,
 			HP_RTT_02,
@@ -1701,8 +1697,6 @@
 		<LandBehavior>ABILITY_COUNTDOWN, FLYING_LOCOMOTOR,REVEAL,HIDE_WHEN_FOGGED, HUNT,AMBIENT_SFX,UNIT_AI, SURFACE_FX,TARGETING,WEAPON,STUNNABLE, WIND_DISTURBANCE,DAMAGE_TRACKING</LandBehavior>
 
 		<HardPoints>HP_INT4_Laser</HardPoints>
-
-		<Lua_Script>GenericGameObject</Lua_Script>
 
 		<Garrison_Category/>
 		<Num_Garrison_Slots>0</Num_Garrison_Slots>
@@ -3560,13 +3554,13 @@
 		<SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
 		<SFXEvent_Unit_Lost> EHD_Unit_Destroyed </SFXEvent_Unit_Lost>
 
-		<SFXEvent_Select>Unit_Select_AT_AA</SFXEvent_Select>
-		<SFXEvent_Move>Unit_Move_AT_AA</SFXEvent_Move>
-		<SFXEvent_Fleet_Move>Unit_Fleet_Move_AT_AA</SFXEvent_Fleet_Move>
-		<SFXEvent_Attack>Unit_Attack_AT_AA</SFXEvent_Attack>
-		<SFXEvent_Guard>Unit_Guard_AT_AA</SFXEvent_Guard>
-		<SFXEvent_Assist_Move> Unit_Assist_Move_AT_AA </SFXEvent_Assist_Move>
-		<SFXEvent_Assist_Attack> Unit_Assist_Attack_AT_AA </SFXEvent_Assist_Attack>
+		<SFXEvent_Select>Unit_Select_GB_AT_AA</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_GB_AT_AA</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_GB_AT_AA</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_GB_AT_AA</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_GB_AT_AA</SFXEvent_Guard>
+		<SFXEvent_Assist_Move> Unit_Assist_Move_GB_AT_AA </SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack> Unit_Assist_Attack_GB_AT_AA </SFXEvent_Assist_Attack>
 
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, null </SFXEvent_Hardpoint_Destroyed>
 
@@ -3648,13 +3642,16 @@
 		<Turret_Targets_Ground_Vehicles> 2 </Turret_Targets_Ground_Vehicles>
 		<Turret_Targets_Air_Vehicles> 1 </Turret_Targets_Air_Vehicles>
 		<Turret_Targets_Anything_Else> 4 </Turret_Targets_Anything_Else>
+		
 		<Vehicle_Thief_Inside_Clone>AT_AI_Walker_Captured</Vehicle_Thief_Inside_Clone>
+		
 		<Death_Fade_Time>0.25</Death_Fade_Time>
 		<Death_Persistence_Duration>20.0</Death_Persistence_Duration>
 		<Death_Explosions_End>Large_Explosion_Land</Death_Explosions_End>
 		<Death_SFXEvent_End_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_End_Die>
 		<Death_Clone>Damage_Force_Telekinesis, Large_Explosion_Land</Death_Clone>
 		<Death_Clone>Damage_Crush, Large_Explosion_Land</Death_Clone>
+		
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- IMPORTANT! If you modify the ability below, please make same adjustments to unit's "Captured" clone. -->
 			<!-- I know this is awkward, hopefully we'll get a chance to re-write the code to fix it.   -Oksana -->
@@ -5526,8 +5523,6 @@
 		<LandBehavior>ABILITY_COUNTDOWN, FLYING_LOCOMOTOR,REVEAL,HIDE_WHEN_FOGGED, HUNT,AMBIENT_SFX,UNIT_AI,TARGETING, SURFACE_FX,WEAPON,STUNNABLE, WIND_DISTURBANCE,DAMAGE_TRACKING</LandBehavior>
 
 		<HardPoints>HP_Deathhawk</HardPoints>
-
-		<Lua_Script>GenericGameObject</Lua_Script>
 
 		<Garrison_Category/>
 		<Num_Garrison_Slots>0</Num_Garrison_Slots>
@@ -7474,8 +7469,6 @@
 
 		<HardPoints> HP_PX4_Turret </HardPoints>
 
-		<Lua_Script>GenericGameObject</Lua_Script>
-
 		<Garrison_Category> Infantry, InfantryHero, Vehicle, VehicleHero </Garrison_Category>
 		<Num_Garrison_Slots>4</Num_Garrison_Slots>
 		<Garrison_Bone_Names>WHEELS_07</Garrison_Bone_Names>
@@ -7710,8 +7703,6 @@
 		<Minimum_Time_Before_Pad_Can_Build_Again> 5.0 </Minimum_Time_Before_Pad_Can_Build_Again>
 
 		<HardPoints> HP_TRMB_Turret_Front, HP_TRMB_Turret_Back </HardPoints>
-
-		<Lua_Script>GenericGameObject</Lua_Script>
 
 		<Target_Bones> Head, Tail, FrontTreads, BackTreads, Body, Turret_Attach_Back, Turret_Attach_Front </Target_Bones>
 		<Ranged_Target_Z_Adjust>30.0</Ranged_Target_Z_Adjust>
@@ -8157,8 +8148,6 @@
 			HP_A9_Fortress_Turret, HP_A9_Fortress_Turret_Back,
 		</HardPoints>
 
-		<Lua_Script>GenericGameObject</Lua_Script>
-
 		<Garrison_Category> Infantry, InfantryHero, Vehicle, VehicleHero </Garrison_Category>
 		<Num_Garrison_Slots>4</Num_Garrison_Slots>
 		<Garrison_Bone_Names>ROOT</Garrison_Bone_Names>
@@ -8379,8 +8368,6 @@
 				HP_ATAT_Side,
 		</HardPoints>
 		
-		<Lua_Script>GenericGameObject</Lua_Script>
-
 		<Garrison_Category/>
 		<Num_Garrison_Slots>0</Num_Garrison_Slots>
 		<Garrison_Bone_Names/>

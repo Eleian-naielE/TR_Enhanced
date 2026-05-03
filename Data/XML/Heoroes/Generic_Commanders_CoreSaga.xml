@@ -684,6 +684,7 @@
 		
 		<Land_Model_Name>Hutt_Armored_Hutt.ALO</Land_Model_Name>
 		<Land_Model_Anim_Override_Name> Hutt_Armored_Hutt.alo </Land_Model_Anim_Override_Name>
+		<Scale_Factor>1.40</Scale_Factor> <!-- Base unit is 1.32 rather than 1.2. Bump up for some implied extra age and experience -->
 
 		<Tactical_Health>150</Tactical_Health>
 		
@@ -1010,8 +1011,6 @@
 		<Is_Sellable>Sellable_Never</Is_Sellable>
 		<Is_Squashable>False</Is_Squashable>
 		
-		<Lua_Script>GenericGameObject</Lua_Script>
-		
 		<Starting_Spawned_Units_Tech_0>Hutt_Guard_Company, 1</Starting_Spawned_Units_Tech_0>
         <Spawned_Squadron_Delay_Seconds>0.0</Spawned_Squadron_Delay_Seconds>
 
@@ -1132,8 +1131,6 @@
 		<Is_Sellable>Sellable_Never</Is_Sellable>
 		<Is_Squashable>False</Is_Squashable>
 
-		<Lua_Script>GenericGameObject</Lua_Script>
-
 		<Starting_Spawned_Units_Tech_0>Hutt_Guard_Company, 1</Starting_Spawned_Units_Tech_0>
         <Spawned_Squadron_Delay_Seconds>0.0</Spawned_Squadron_Delay_Seconds>
 
@@ -1231,8 +1228,6 @@
 		<Is_Sellable>Sellable_Never</Is_Sellable>
 		<Is_Squashable>False</Is_Squashable>
 		
-		<Lua_Script>GenericGameObject</Lua_Script>
-
 		<Starting_Spawned_Units_Tech_0>Hutt_Guard_Company, 1</Starting_Spawned_Units_Tech_0>
         <Spawned_Squadron_Delay_Seconds>0.0</Spawned_Squadron_Delay_Seconds>
 
@@ -1339,8 +1334,6 @@
 		<Is_Generic_Hero>Yes</Is_Generic_Hero>
 		<Is_Sellable>Sellable_Never</Is_Sellable>
 		<Is_Squashable>False</Is_Squashable>
-
-		<Lua_Script>GenericGameObject</Lua_Script>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>

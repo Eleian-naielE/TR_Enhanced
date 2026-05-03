@@ -54,7 +54,7 @@
 
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_Attack_Lasers_Sander_Delvardus </SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_Attack_Missiles_Sander_Delvardus </SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_Attack_Missiles_Sander_Delvardus </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_Attack_Sander_Delvardus </SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_Attack_Ion_Cannons_Sander_Delvardus </SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, null </SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_Attack_Engines_Sander_Delvardus </SFXEvent_Attack_Hardpoint>
@@ -144,11 +144,10 @@
 		<SFXEvent_Guard>Unit_Move_Sander_Delvardus</SFXEvent_Guard>
 		<SFXEvent_Move_Into_Nebula> Unit_Move_Sander_Delvardus </SFXEvent_Move_Into_Nebula>
 		<SFXEvent_Move_Into_Asteroid_Field> Unit_Move_Sander_Delvardus </SFXEvent_Move_Into_Asteroid_Field>
-		<SFXEvent_Health_Low_Warning/>
 
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_Attack_Lasers_Sander_Delvardus </SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_Attack_Missiles_Sander_Delvardus </SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_Attack_Missiles_Sander_Delvardus </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_Attack_Sander_Delvardus </SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_Attack_Ion_Cannons_Sander_Delvardus </SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, null </SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_Attack_Engines_Sander_Delvardus </SFXEvent_Attack_Hardpoint>
@@ -216,7 +215,7 @@
 		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
 		</Encyclopedia_Text>
 
-		<Lua_Script>GenericGameObject</Lua_Script>
+		<Lua_Script></Lua_Script>
 
 		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy, Eriadu_Shipyard_Level_Four</Required_Special_Structures>
 
@@ -292,7 +291,7 @@
 
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_Attack_Lasers_Sander_Delvardus </SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_Attack_Missiles_Sander_Delvardus </SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_Attack_Missiles_Sander_Delvardus </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_Attack_Sander_Delvardus </SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_Attack_Ion_Cannons_Sander_Delvardus </SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, null </SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_Attack_Engines_Sander_Delvardus </SFXEvent_Attack_Hardpoint>
@@ -360,7 +359,7 @@
 		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
 		</Encyclopedia_Text>
 
-		<Lua_Script>GenericGameObject</Lua_Script>
+		<Lua_Script></Lua_Script>
 
 		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy, Eriadu_Shipyard_Level_Four</Required_Special_Structures>
 
@@ -423,7 +422,7 @@
 		TEXT_TOOLTIP_UPGRADE_FLAG_NIGHT_HAMMER_REUNIFICATION
 		</Encyclopedia_Text>
 
-		<Lua_Script>GenericGameObject</Lua_Script>
+		<Lua_Script></Lua_Script>
 
 		<Required_Special_Structures>Story_Category_Dummy, Eriadu_Shipyard_Level_Three</Required_Special_Structures>
 		<Required_Planets>Kampe</Required_Planets>

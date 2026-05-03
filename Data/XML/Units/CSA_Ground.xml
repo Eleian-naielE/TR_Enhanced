@@ -1463,7 +1463,7 @@
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
-				<Type>UNTARGETED_STICKY_BOMB</Type>
+				<Type>AREA_EFFECT_STUN</Type>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 	</GroundVehicle>
@@ -2381,8 +2381,6 @@
 			HP_SX20
 		</HardPoints>
 
-		<Lua_Script>GenericGameObject</Lua_Script>
-
 		<Garrison_Category/>
 		<Num_Garrison_Slots>0</Num_Garrison_Slots>
 		<Garrison_Bone_Names/>
@@ -3131,7 +3129,6 @@
 		
 		<Behavior>SELECTABLE, POWERED</Behavior>
 		<LandBehavior>IDLE, GARRISON_VEHICLE, ABILITY_COUNTDOWN, WALK_LOCOMOTOR,REVEAL,HIDE_WHEN_FOGGED, WEAPON, AMBIENT_SFX,UNIT_AI,TARGETING,STUNNABLE, TELEKINESIS_TARGET, WIND_DISTURBANCE,DAMAGE_TRACKING, SURFACE_FX</LandBehavior>
-		<Lua_Script>GenericGameObject</Lua_Script>
 
 		<HardPoints>
 			HP_Strikebreaker_FGL_01,
@@ -3449,8 +3446,6 @@
 		<LandBehavior>FLYING_LOCOMOTOR,REVEAL,HIDE_WHEN_FOGGED, HUNT,AMBIENT_SFX,UNIT_AI, SURFACE_FX,TARGETING,WEAPON,STUNNABLE, WIND_DISTURBANCE,DAMAGE_TRACKING</LandBehavior>
 
 		<HardPoints>HP_K222_Lasers, HP_K222_Missiles</HardPoints>
-
-		<Lua_Script>GenericGameObject</Lua_Script>
 
 		<Garrison_Category/>
 		<Num_Garrison_Slots>0</Num_Garrison_Slots>

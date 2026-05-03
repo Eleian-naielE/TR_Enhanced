@@ -9331,6 +9331,8 @@
 			<Unit_Ability>
 				<Type>STIM_PACK</Type>
 				<Alternate_Icon_Name>I_SA_FANATICISM_EMPIRE.tga</Alternate_Icon_Name>
+				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_FANATICISM_NAME</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_FANATICISM_DESCRIPTION</Alternate_Description_Text>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 		
@@ -9418,6 +9420,8 @@
 			<Unit_Ability>
 				<Type>STIM_PACK</Type>
 				<Alternate_Icon_Name>I_SA_FANATICISM_EMPIRE.tga</Alternate_Icon_Name>
+				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_FANATICISM_NAME</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_FANATICISM_DESCRIPTION</Alternate_Description_Text>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 	</Container>
@@ -9556,7 +9560,7 @@
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
-				<Type>UNTARGETED_STICKY_BOMB</Type>
+				<Type>AREA_EFFECT_STUN</Type>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 	</GroundVehicle>

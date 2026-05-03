@@ -6521,8 +6521,6 @@
 			HP_Skyhopper
 		</HardPoints>
 
-		<Lua_Script>GenericGameObject</Lua_Script>
-
 		<Garrison_Category/>
 		<Num_Garrison_Slots>0</Num_Garrison_Slots>
 		<Garrison_Bone_Names/>
@@ -6787,8 +6785,6 @@
 		<LandBehavior>ABILITY_COUNTDOWN, FLYING_LOCOMOTOR,REVEAL,HIDE_WHEN_FOGGED,HUNT, AMBIENT_SFX,UNIT_AI, SURFACE_FX,TARGETING,WEAPON,STUNNABLE, WIND_DISTURBANCE,DAMAGE_TRACKING</LandBehavior>
 
 		<HardPoints>HP_CloudCar</HardPoints>
-
-		<Lua_Script>GenericGameObject</Lua_Script>
 
 		<Garrison_Category/>
 		<Num_Garrison_Slots>0</Num_Garrison_Slots>

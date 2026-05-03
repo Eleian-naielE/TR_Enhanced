@@ -429,6 +429,8 @@
 		<Land_Model_Anim_Override_Name>MilitiaInfantry.alo</Land_Model_Anim_Override_Name>
 		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
 
+		<HardPoints>HP_Partisan_Rifle_Unskilled</HardPoints>
+
 		<Death_Explosions>Organic_Infantry_Blood_Black, Organic_Infantry_Blood_Black_Alt, Tiny_Dud</Death_Explosions>
 		<Death_Clone>DamageL_AntiVehicleBlaster, Organic_Infantry_Blood_Black_Explosion</Death_Clone>
 	</Indigenous_Unit>

@@ -1235,6 +1235,11 @@
 				<Price_Reduction_Percentage>0.15</Price_Reduction_Percentage>
 				<Stacking_Category>50</Stacking_Category>
 			</Reduce_Production_Price_Ability>
+			
+			<Sensor_Jamming_Ability Name="Sensor_Jamming_450">
+				<Activation_Style> User_Input </Activation_Style>
+				<Owner_Particle_Effect>Sensor_Jamming_Effect_450</Owner_Particle_Effect>
+			</Sensor_Jamming_Ability>
 		</Abilities>
 	</UniqueUnit>
 
@@ -4668,9 +4673,8 @@
 
 				<Expiration_Seconds>20</Expiration_Seconds>
 				<Recharge_Seconds>60</Recharge_Seconds>
-				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.5.0f</Mod_Multiplier>
-				<Mod_Multiplier>CAUSE_DAMAGE_MULTIPLIER, 1.0f</Mod_Multiplier>
-				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	0.75f</Mod_Multiplier>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	3.0f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	0.0f</Mod_Multiplier>
 				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
 				<Mod_Multiplier>SPEED_MULTIPLIER,		2.0f</Mod_Multiplier>
 
@@ -5988,8 +5992,6 @@
 		<LandBehavior>SPAWN_SQUADRON, ABILITY_COUNTDOWN, SELECTABLE, AFFECTED_BY_SHIELD, WALK_LOCOMOTOR, IDLE, TARGETING, WEAPON, TURRET, POWERED, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, SURFACE_FX, TELEKINESIS_TARGET, STUNNABLE, WIND_DISTURBANCE, DAMAGE_TRACKING</LandBehavior>
 		<Property_Flags>DoKite | GTSImmune </Property_Flags>
 
-		<Lua_Script>GenericGameObject</Lua_Script>
-
         <Highlight_Blob_Material_Name>Highlight_Empire_Hero</Highlight_Blob_Material_Name>
 		
 		<Starting_Spawned_Units_Tech_0>S_1_Firehawke_Hells_Hammers, 3</Starting_Spawned_Units_Tech_0>
@@ -6106,8 +6108,6 @@
 		
         <Highlight_Blob_Material_Name>Highlight_Empire_Hero</Highlight_Blob_Material_Name>
 
-		<Lua_Script>GenericGameObject</Lua_Script>
-		
 		<Starting_Spawned_Units_Tech_0>S_1_Firehawke_Hells_Hammers, 3</Starting_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds>0.0</Spawned_Squadron_Delay_Seconds>
 
@@ -6944,7 +6944,9 @@
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_EXOV
 		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
-		TEXT_TOOLTIP_ESCORT_EXOV
+		TEXT_TOOLTIP_ESCORT_EXOV1
+		TEXT_TOOLTIP_ESCORT_EXOV2
+		TEXT_TOOLTIP_ESCORT_EXOV3
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
 		TEXT_TOOLTIP_EXOV_HEALTH
 		TEXT_TOOLTIP_EXOV_MOVE
@@ -6985,7 +6987,9 @@
 
 		<AI_Combat_Power>34</AI_Combat_Power>
 
-		<Starting_Spawned_Units_Tech_0>Imperial_Stormtrooper_Company, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Imperial_Stormtrooper_Assault_Squad, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Imperial_Stormtrooper_Heavy_Squad, 2</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Imperial_Stormtrooper_HWT_Squad, 1</Starting_Spawned_Units_Tech_0>
 
 		<CategoryMask> Organic | InfantryHero | AntiInfantry </CategoryMask>
 
@@ -7056,7 +7060,9 @@
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_EXOV
 		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
-		TEXT_TOOLTIP_ESCORT_EXOV
+		TEXT_TOOLTIP_ESCORT_EXOV1
+		TEXT_TOOLTIP_ESCORT_EXOV2
+		TEXT_TOOLTIP_ESCORT_EXOV3
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
 		TEXT_TOOLTIP_EXOV_HEALTH
 		TEXT_TOOLTIP_EXOV_MOVE
@@ -7078,7 +7084,7 @@
 		<SFXEvent_Fleet_Move></SFXEvent_Fleet_Move>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->  
-		<Tactical_Build_Cost_Multiplayer>2620</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>2630</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>6</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>Ground_Level_Two_Tech_Upgrade</Tactical_Build_Prerequisites>
 	</HeroCompany>
@@ -7119,7 +7125,7 @@
 		
 		<Highlight_Blob_Material_Name>Highlight_Empire_Hero</Highlight_Blob_Material_Name>
 
-		<Starting_Spawned_Units_Tech_0>Imperial_Army_Commando_Squad, 2</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Dark_Trooper_Phase_II_Company, 1</Starting_Spawned_Units_Tech_0>
 		
 		<AI_Combat_Power>60</AI_Combat_Power>
 		
@@ -7233,7 +7239,7 @@
 		<SFXEvent_Fleet_Move></SFXEvent_Fleet_Move>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->  
-		<Tactical_Build_Cost_Multiplayer>2555</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>2535</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>6</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>Ground_Level_Two_Tech_Upgrade</Tactical_Build_Prerequisites>
 	</HeroCompany>
@@ -8145,8 +8151,6 @@
 
 		<Highlight_Blob_Material_Name>Highlight_Empire_Hero</Highlight_Blob_Material_Name>
 
-		<Lua_Script>GenericGameObject</Lua_Script>
-		
 		<Starting_Spawned_Units_Tech_0>IntSec_Operator_Company, 1</Starting_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds>0.0</Spawned_Squadron_Delay_Seconds>
 
@@ -9105,7 +9109,7 @@
 		
 		<Play_SFXEvent_On_Sighting>True</Play_SFXEvent_On_Sighting>
 		
-		<Movement_Animation_Speed> 0.8 </Movement_Animation_Speed>
+		<Movement_Animation_Speed> 1.5 </Movement_Animation_Speed>
 		
 		<Max_Speed>1.3</Max_Speed>
 		<OverrideAcceleration> 1.3 </OverrideAcceleration>
@@ -9979,9 +9983,8 @@
 
 				<Expiration_Seconds>20</Expiration_Seconds>
 				<Recharge_Seconds>60</Recharge_Seconds>
-				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.5.0f</Mod_Multiplier>
-				<Mod_Multiplier>CAUSE_DAMAGE_MULTIPLIER, 1.0f</Mod_Multiplier>
-				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	0.75f</Mod_Multiplier>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	3.0f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	0.0f</Mod_Multiplier>
 				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
 				<Mod_Multiplier>SPEED_MULTIPLIER,		2.0f</Mod_Multiplier>
 
@@ -10960,19 +10963,6 @@
 				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.05f</Mod_Multiplier>
 				<Damage_Percent_When_Activated>.25</Damage_Percent_When_Activated>
 			</Unit_Ability>
-			
-			<Unit_Ability>
-				<Type>LUCKY_SHOT</Type>
-				<Recharge_Seconds>120.0</Recharge_Seconds>
-				<Mod_Multiplier>CAUSE_DAMAGE_MULTIPLIER, 15</Mod_Multiplier>
-				<Projectile_Types_Override />
-				<GUI_Activated_Ability_Name> Assassinate </GUI_Activated_Ability_Name>
-				<SFXEvent_Target_Ability>  </SFXEvent_Target_Ability>
-				<Supports_Autofire>True</Supports_Autofire>
-				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_ASSASSIN_NAME</Alternate_Name_Text>
-				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_ASSASSIN_DESCRIPTION</Alternate_Description_Text>
-				<Alternate_Icon_Name>I_SA_ASSASSIN.tga</Alternate_Icon_Name>
-			</Unit_Ability>
         </Unit_Abilities_Data>
 
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_06 + Force Sensitive -->
@@ -10993,12 +10983,6 @@
 				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
 				<Stacking_Category>0</Stacking_Category>
 			</Battlefield_Modifier_Ability>
-
-			<Lucky_Shot_Attack_Ability Name="Assassinate">
-				<Activation_Style> User_Input </Activation_Style>
-				<!-- We only consider the following unit types "valid targets" : -->
-				<Applicable_Unit_Categories>InfantryHero</Applicable_Unit_Categories>
-			</Lucky_Shot_Attack_Ability>
 
      		<Redirect_Blaster_Ability Name="Shadowspawn_Redirect_Blaster">
 				<Activation_Style>Take_Damage</Activation_Style>
@@ -11488,8 +11472,6 @@
 		<Ranking_In_Category>6</Ranking_In_Category>
 
         <Highlight_Blob_Material_Name>Highlight_Empire_Hero</Highlight_Blob_Material_Name>
-
-		<Lua_Script>GenericGameObject</Lua_Script>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -14528,7 +14510,7 @@
 		<Build_Cost_Credits>19250</Build_Cost_Credits>
 		<Build_Time_Seconds>60</Build_Time_Seconds>
 
-		<Population_Value>181</Population_Value>
+		<Population_Value>177</Population_Value>
 
 		<CategoryMask>Upgrade</CategoryMask>
 
@@ -14613,7 +14595,7 @@
 		<Build_Cost_Credits>20000</Build_Cost_Credits>
 		<Build_Time_Seconds>60</Build_Time_Seconds>
 
-		<Population_Value>194</Population_Value>
+		<Population_Value>183</Population_Value>
 
 		<CategoryMask>Upgrade</CategoryMask>
 

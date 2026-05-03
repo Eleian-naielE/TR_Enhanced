@@ -5411,8 +5411,6 @@
 		<Is_Sellable>Sellable_Never</Is_Sellable>
 		<Is_Squashable>False</Is_Squashable>
 		
-		<Lua_Script>GenericGameObject</Lua_Script>
-
 		<Starting_Spawned_Units_Tech_0>Imperial_Army_Trooper_Medium_Squad, 5</Starting_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds>0</Spawned_Squadron_Delay_Seconds>
 
@@ -5555,7 +5553,6 @@
 		<Is_Sellable>Sellable_Never</Is_Sellable>
 		<Is_Squashable>False</Is_Squashable>
 		
-		<Lua_Script>GenericGameObject</Lua_Script>
 
 		<Starting_Spawned_Units_Tech_0>Raptor_Trooper_Heavy_Squad, 4</Starting_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds>0</Spawned_Squadron_Delay_Seconds>
@@ -5696,7 +5693,7 @@
 		<Is_Sellable>Sellable_Never</Is_Sellable>
 		<Is_Squashable>False</Is_Squashable>
 		
-		<Lua_Script>GenericGameObject</Lua_Script>
+
 
 		<Starting_Spawned_Units_Tech_0>EVO_Trooper_Squad, 3</Starting_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds>0</Spawned_Squadron_Delay_Seconds>
@@ -5808,7 +5805,7 @@
 		<Is_Sellable>Sellable_Never</Is_Sellable>
 		<Is_Squashable>False</Is_Squashable>
 		
-		<Lua_Script>GenericGameObject</Lua_Script>
+
 
 		<Starting_Spawned_Units_Tech_0>Imperial_Army_Trooper_Medium_Squad, 5</Starting_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds>0</Spawned_Squadron_Delay_Seconds>
@@ -5922,7 +5919,7 @@
 		<Is_Sellable>Sellable_Never</Is_Sellable>
 		<Is_Squashable>False</Is_Squashable>
 		
-		<Lua_Script>GenericGameObject</Lua_Script>
+		
 		
 		<Starting_Spawned_Units_Tech_0>ISB_Infiltrator_Assault_Squad, 2</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>ISB_Infiltrator_Sniper_Squad, 1</Starting_Spawned_Units_Tech_0>
@@ -6063,7 +6060,7 @@
 		<Is_Sellable>Sellable_Never</Is_Sellable>
 		<Is_Squashable>False</Is_Squashable>
 		
-		<Lua_Script>GenericGameObject</Lua_Script>
+		
 		
 		<Starting_Spawned_Units_Tech_0>Navy_Commando_Squad, 4</Starting_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds>0</Spawned_Squadron_Delay_Seconds>
@@ -6188,7 +6185,7 @@
 		<Is_Sellable>Sellable_Never</Is_Sellable>
 		<Is_Squashable>False</Is_Squashable>
 		
-		<Lua_Script>GenericGameObject</Lua_Script>
+
 
 		<Starting_Spawned_Units_Tech_0>Imperial_Stormtrooper_Medium_Squad, 4</Starting_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds>0</Spawned_Squadron_Delay_Seconds>
@@ -6309,7 +6306,7 @@
 		<Is_Sellable>Sellable_Never</Is_Sellable>
 		<Is_Squashable>False</Is_Squashable>
 		
-		<Lua_Script>GenericGameObject</Lua_Script>
+
 
 		<Starting_Spawned_Units_Tech_0>Imperial_Stormtrooper_Medium_Squad, 4</Starting_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds>0</Spawned_Squadron_Delay_Seconds>
@@ -6426,7 +6423,7 @@
 		<Is_Sellable>Sellable_Never</Is_Sellable>
 		<Is_Squashable>False</Is_Squashable>
 		
-		<Lua_Script>GenericGameObject</Lua_Script>
+
 
 		<Starting_Spawned_Units_Tech_0>Imperial_Army_Trooper_Medium_Squad, 5</Starting_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds>0</Spawned_Squadron_Delay_Seconds>
@@ -6587,7 +6584,7 @@
 		<Is_Sellable>Sellable_Never</Is_Sellable>
 		<Is_Squashable>False</Is_Squashable>
 		
-		<Lua_Script>GenericGameObject</Lua_Script>
+
 
 		<Starting_Spawned_Units_Tech_0>Shadow_EVO_Trooper_Squad, 3</Starting_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds>0</Spawned_Squadron_Delay_Seconds>
@@ -6701,7 +6698,7 @@
 		<Is_Sellable>Sellable_Never</Is_Sellable>
 		<Is_Squashable>False</Is_Squashable>
 		
-		<Lua_Script>GenericGameObject</Lua_Script>
+
 
 		<Starting_Spawned_Units_Tech_0>Imperial_Army_Trooper_Medium_Squad, 5</Starting_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds>0</Spawned_Squadron_Delay_Seconds>
@@ -6832,7 +6829,7 @@
 		<Is_Sellable>Sellable_Never</Is_Sellable>
 		<Is_Squashable>False</Is_Squashable>
 		
-		<Lua_Script>GenericGameObject</Lua_Script>
+
 
 		<Starting_Spawned_Units_Tech_0>ISB_Infiltrator_Assault_Squad, 2</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>ISB_Infiltrator_Sniper_Squad, 1</Starting_Spawned_Units_Tech_0>
@@ -6949,7 +6946,7 @@
 		<Is_Sellable>Sellable_Never</Is_Sellable>
 		<Is_Squashable>False</Is_Squashable>
 		
-		<Lua_Script>GenericGameObject</Lua_Script>
+
 
 		<Starting_Spawned_Units_Tech_0>Army_Special_Missions_Heavy_Squad, 2</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>Army_Special_Missions_Weapons_Squad, 2</Starting_Spawned_Units_Tech_0>
@@ -7080,7 +7077,7 @@
 		<Is_Sellable>Sellable_Never</Is_Sellable>
 		<Is_Squashable>False</Is_Squashable>
 		
-		<Lua_Script>GenericGameObject</Lua_Script>
+
 
 		<Starting_Spawned_Units_Tech_0>Enforcer_Trooper_Squad, 6</Starting_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds>0</Spawned_Squadron_Delay_Seconds>
@@ -7181,7 +7178,7 @@
 		<Is_Sellable>Sellable_Never</Is_Sellable>
 		<Is_Squashable>False</Is_Squashable>
 		
-		<Lua_Script>GenericGameObject</Lua_Script>
+
 
 		<Starting_Spawned_Units_Tech_0>Pentastar_Army_Guard_Squad, 5</Starting_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds>0</Spawned_Squadron_Delay_Seconds>
@@ -7301,7 +7298,7 @@
 		<Is_Sellable>Sellable_Never</Is_Sellable>
 		<Is_Squashable>False</Is_Squashable>
 		
-		<Lua_Script>GenericGameObject</Lua_Script>
+		
 		
 		<HardPoints>HP_TIE_Crawler_Command_Laser, HP_TIE_Crawler_Laser</HardPoints>
 
@@ -7409,7 +7406,7 @@
 		<Is_Sellable>Sellable_Never</Is_Sellable>
 		<Is_Squashable>False</Is_Squashable>
 		
-		<Lua_Script>GenericGameObject</Lua_Script>
+		
 		
 		<Starting_Spawned_Units_Tech_0>Raptor_Commando_Squad, 2</Starting_Spawned_Units_Tech_0>
 		
@@ -7513,7 +7510,7 @@
 		<Is_Sellable>Sellable_Never</Is_Sellable>
 		<Is_Squashable>False</Is_Squashable>
 		
-		<Lua_Script>GenericGameObject</Lua_Script>
+		
 		
 		<Starting_Spawned_Units_Tech_0>Imperial_Fleet_Commando_Squad, 2</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>Imperial_Fleet_Commando_Sniper_Squad, 2</Starting_Spawned_Units_Tech_0>
@@ -7621,7 +7618,7 @@
 		<Is_Sellable>Sellable_Never</Is_Sellable>
 		<Is_Squashable>False</Is_Squashable>
 		
-		<Lua_Script>GenericGameObject</Lua_Script>
+		
 		
 		<Starting_Spawned_Units_Tech_0>Imperial_Galactic_Marine_Assault_Squad, 2</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>Imperial_Galactic_Marine_Heavy_Squad, 2</Starting_Spawned_Units_Tech_0>
@@ -7757,7 +7754,7 @@
 		<Is_Sellable>Sellable_Never</Is_Sellable>
 		<Is_Squashable>False</Is_Squashable>
 		
-		<Lua_Script>GenericGameObject</Lua_Script>
+		
 		
 		<Starting_Spawned_Units_Tech_0>Imperial_Army_Guard_Squad, 5</Starting_Spawned_Units_Tech_0>
         <Spawned_Squadron_Delay_Seconds>0.0</Spawned_Squadron_Delay_Seconds>
@@ -7868,7 +7865,7 @@
 		<Is_Sellable>Sellable_Never</Is_Sellable>
 		<Is_Squashable>False</Is_Squashable>
 		
-		<Lua_Script>GenericGameObject</Lua_Script>
+
 		
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_04 -->
 			<Combat_Bonus_Ability Name="Command_Tier_04_Combat_Bonus">
@@ -7985,7 +7982,7 @@
 		<Is_Sellable>Sellable_Never</Is_Sellable>
 		<Is_Squashable>False</Is_Squashable>
 		
-		<Lua_Script>GenericGameObject</Lua_Script>
+
 		
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -8085,7 +8082,7 @@
 		<Is_Sellable>Sellable_Never</Is_Sellable>
 		<Is_Squashable>False</Is_Squashable>
 		
-		<Lua_Script>GenericGameObject</Lua_Script>
+
 		
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_04 -->
 			<Combat_Bonus_Ability Name="Command_Tier_04_Combat_Bonus">
@@ -8176,7 +8173,7 @@
 		<Is_Sellable>Sellable_Never</Is_Sellable>
 		<Is_Squashable>False</Is_Squashable>
 		
-		<Lua_Script>GenericGameObject</Lua_Script>
+
 		
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -8292,7 +8289,7 @@
 		<Is_Sellable>Sellable_Never</Is_Sellable>
 		<Is_Squashable>False</Is_Squashable>
 		
-		<Lua_Script>GenericGameObject</Lua_Script>
+
 		
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -8391,7 +8388,7 @@
 		<Is_Sellable>Sellable_Never</Is_Sellable>
 		<Is_Squashable>False</Is_Squashable>
 		
-		<Lua_Script>GenericGameObject</Lua_Script>
+
 		
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -8501,7 +8498,7 @@
 		<Is_Sellable>Sellable_Never</Is_Sellable>
 		<Is_Squashable>False</Is_Squashable>
 		
-		<Lua_Script>GenericGameObject</Lua_Script>
+
 		
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -9325,7 +9322,7 @@
 		<Is_Sellable>Sellable_Never</Is_Sellable>
 		<Is_Squashable>False</Is_Squashable>
 
-		<Lua_Script>GenericGameObject</Lua_Script>
+
 
 		<Starting_Spawned_Units_Tech_0>Espo_Medium_Squad, 4</Starting_Spawned_Units_Tech_0>
         <Spawned_Squadron_Delay_Seconds>0.0</Spawned_Squadron_Delay_Seconds>
@@ -9435,7 +9432,7 @@
 		<Is_Sellable>Sellable_Never</Is_Sellable>
 		<Is_Squashable>False</Is_Squashable>
 		
-		<Lua_Script>GenericGameObject</Lua_Script>
+
 
 		<Starting_Spawned_Units_Tech_0>Heavy_Espo_Squad, 4</Starting_Spawned_Units_Tech_0>
         <Spawned_Squadron_Delay_Seconds>0.0</Spawned_Squadron_Delay_Seconds>
@@ -9561,7 +9558,7 @@
 		<Is_Sellable>Sellable_Never</Is_Sellable>
 		<Is_Squashable>False</Is_Squashable>
 		
-		<Lua_Script>GenericGameObject</Lua_Script>
+
 
 		<Starting_Spawned_Units_Tech_0>Espo_Medium_Squad, 4</Starting_Spawned_Units_Tech_0>
         <Spawned_Squadron_Delay_Seconds>0.0</Spawned_Squadron_Delay_Seconds>
@@ -9676,7 +9673,7 @@
 		<Is_Sellable>Sellable_Never</Is_Sellable>
 		<Is_Squashable>False</Is_Squashable>
 		
-		<Lua_Script>GenericGameObject</Lua_Script>
+
 
 		<Starting_Spawned_Units_Tech_0>Heavy_Espo_Squad, 4</Starting_Spawned_Units_Tech_0>
         <Spawned_Squadron_Delay_Seconds>0.0</Spawned_Squadron_Delay_Seconds>
@@ -9808,7 +9805,7 @@
 		<Is_Sellable>Sellable_Never</Is_Sellable>
 		<Is_Squashable>False</Is_Squashable>
 		
-		<Lua_Script>GenericGameObject</Lua_Script>
+
 
 		<HardPoints>HP_Persuader_Lasers_01,	HP_Persuader_Lasers_02,	HP_Persuader_Missile</HardPoints>
 		
@@ -9925,7 +9922,7 @@
 		<Is_Sellable>Sellable_Never</Is_Sellable>
 		<Is_Squashable>False</Is_Squashable>
 		
-		<Lua_Script>GenericGameObject</Lua_Script>
+
 		
 		<Starting_Spawned_Units_Tech_0>Espo_Medium_Squad, 4</Starting_Spawned_Units_Tech_0>
         <Spawned_Squadron_Delay_Seconds>0.0</Spawned_Squadron_Delay_Seconds>
@@ -10035,7 +10032,7 @@
 		<Is_Sellable>Sellable_Never</Is_Sellable>
 		<Is_Squashable>False</Is_Squashable>
 		
-		<Lua_Script>GenericGameObject</Lua_Script>
+		
 		
 		<Starting_Spawned_Units_Tech_0>Heavy_Espo_Squad, 4</Starting_Spawned_Units_Tech_0>
         <Spawned_Squadron_Delay_Seconds>0.0</Spawned_Squadron_Delay_Seconds>
@@ -10168,7 +10165,7 @@
 		<Is_Sellable>Sellable_Never</Is_Sellable>
 		<Is_Squashable>False</Is_Squashable>
 		
-		<Lua_Script>GenericGameObject</Lua_Script>
+
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -11661,7 +11658,7 @@
 		<Is_Sellable>Sellable_Never</Is_Sellable>
 		<Is_Squashable>False</Is_Squashable>
 		
-		<Lua_Script>GenericGameObject</Lua_Script>
+
 
 		<Starting_Spawned_Units_Tech_0>New_Republic_Army_Trooper_Assault_Squad, 2</Starting_Spawned_Units_Tech_0>
         <Starting_Spawned_Units_Tech_0>New_Republic_Army_Trooper_Heavy_Squad, 2</Starting_Spawned_Units_Tech_0>
@@ -11781,7 +11778,7 @@
 		<Is_Sellable>Sellable_Never</Is_Sellable>
 		<Is_Squashable>False</Is_Squashable>
 		
-		<Lua_Script>GenericGameObject</Lua_Script>
+
 
 		<Starting_Spawned_Units_Tech_0>New_Republic_Marine_Squad, 4</Starting_Spawned_Units_Tech_0>
         <Spawned_Squadron_Delay_Seconds>0.0</Spawned_Squadron_Delay_Seconds>
@@ -11885,7 +11882,7 @@
 		<Is_Sellable>Sellable_Never</Is_Sellable>
 		<Is_Squashable>False</Is_Squashable>
 
-		<Lua_Script>GenericGameObject</Lua_Script>
+
 
 		<Starting_Spawned_Units_Tech_0>New_Republic_Army_Trooper_Assault_Squad, 2</Starting_Spawned_Units_Tech_0>
         <Starting_Spawned_Units_Tech_0>New_Republic_Army_Trooper_Heavy_Squad, 2</Starting_Spawned_Units_Tech_0>
@@ -11988,7 +11985,7 @@
 		<Is_Sellable>Sellable_Never</Is_Sellable>
 		<Is_Squashable>False</Is_Squashable>
 
-		<Lua_Script>GenericGameObject</Lua_Script>
+
 
 		<Starting_Spawned_Units_Tech_0>New_Republic_Infiltrator_Assault_Squad, 2</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>New_Republic_Infiltrator_Sniper_Medium_Squad, 2</Starting_Spawned_Units_Tech_0>
@@ -12140,7 +12137,7 @@
 		<Is_Sellable>Sellable_Never</Is_Sellable>
 		<Is_Squashable>False</Is_Squashable>
 
-		<Lua_Script>GenericGameObject</Lua_Script>
+
 
 		<Starting_Spawned_Units_Tech_0>New_Republic_Defense_Trooper_Squad, 4</Starting_Spawned_Units_Tech_0>
         <Spawned_Squadron_Delay_Seconds>0.0</Spawned_Squadron_Delay_Seconds>
@@ -12268,7 +12265,7 @@
 		<Is_Sellable>Sellable_Never</Is_Sellable>
 		<Is_Squashable>False</Is_Squashable>
 
-		<Lua_Script>GenericGameObject</Lua_Script>
+		
 		
 		<HardPoints>HP_RAF_AI_One, HP_RAF_AV</HardPoints>
 
@@ -12382,7 +12379,7 @@
 		<Is_Sellable>Sellable_Never</Is_Sellable>
 		<Is_Squashable>False</Is_Squashable>
 
-		<Lua_Script>GenericGameObject</Lua_Script>
+		
 		
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_04 -->
 			<Combat_Bonus_Ability Name="Command_Tier_04_Combat_Bonus">
@@ -12474,7 +12471,7 @@
 		<Is_Sellable>Sellable_Never</Is_Sellable>
 		<Is_Squashable>False</Is_Squashable>
 
-		<Lua_Script>GenericGameObject</Lua_Script>
+
 
 		<Starting_Spawned_Units_Tech_0>New_Republic_Army_Trooper_Assault_Squad, 2</Starting_Spawned_Units_Tech_0>
         <Starting_Spawned_Units_Tech_0>New_Republic_Army_Trooper_Heavy_Squad, 2</Starting_Spawned_Units_Tech_0>
@@ -12587,7 +12584,7 @@
 		<Is_Sellable>Sellable_Never</Is_Sellable>
 		<Is_Squashable>False</Is_Squashable>
 
-		<Lua_Script>GenericGameObject</Lua_Script>
+
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -12642,6 +12639,8 @@
 		
 		<Company_Transport_Unit>Imperial_Titan_Barge_Commander</Company_Transport_Unit>
 		<Company_Units> Commander_IV_MAS_2xB </Company_Units>
+		
+		<Population_Value>2</Population_Value>
 		
 		<Affiliation>Rebel</Affiliation>
 		<Is_Named_Hero>No</Is_Named_Hero>
@@ -13101,7 +13100,7 @@
 		<Is_Sellable>Sellable_Never</Is_Sellable>
 		<Is_Squashable>False</Is_Squashable>
 		
-		<Lua_Script>GenericGameObject</Lua_Script>
+		
 		
 		<Starting_Spawned_Units_Tech_0>Hutt_Guard_Company, 1</Starting_Spawned_Units_Tech_0>
         <Spawned_Squadron_Delay_Seconds>0.0</Spawned_Squadron_Delay_Seconds>
@@ -13352,7 +13351,7 @@
 		<Is_Sellable>Sellable_Never</Is_Sellable>
 		<Is_Squashable>False</Is_Squashable>
 		
-		<Lua_Script>GenericGameObject</Lua_Script>
+
 		
 		<Starting_Spawned_Units_Tech_0>Hutt_Guard_Company, 1</Starting_Spawned_Units_Tech_0>
         <Spawned_Squadron_Delay_Seconds>0.0</Spawned_Squadron_Delay_Seconds>
@@ -13491,7 +13490,7 @@
 		<Is_Sellable>Sellable_Never</Is_Sellable>
 		<Is_Squashable>False</Is_Squashable>
 		
-		<Lua_Script>GenericGameObject</Lua_Script>
+		
 		
 		<Starting_Spawned_Units_Tech_0>Hutt_Guard_Company, 1</Starting_Spawned_Units_Tech_0>
         <Spawned_Squadron_Delay_Seconds>0.0</Spawned_Squadron_Delay_Seconds>
@@ -13632,7 +13631,7 @@
 		<Is_Sellable>Sellable_Never</Is_Sellable>
 		<Is_Squashable>False</Is_Squashable>
 		
-		<Lua_Script>GenericGameObject</Lua_Script>
+		
 		
 		<Starting_Spawned_Units_Tech_0>Hutt_Guard_Company, 1</Starting_Spawned_Units_Tech_0>
         <Spawned_Squadron_Delay_Seconds>0.0</Spawned_Squadron_Delay_Seconds>
@@ -14378,7 +14377,7 @@
 		<Is_Sellable>Sellable_Never</Is_Sellable>
 		<Is_Squashable>False</Is_Squashable>
 		
-		<Lua_Script>GenericGameObject</Lua_Script>
+		
 		
 		<Starting_Spawned_Units_Tech_0>Maluri_House_Guard_Escort_Squad, 4</Starting_Spawned_Units_Tech_0>
         <Spawned_Squadron_Delay_Seconds>0.0</Spawned_Squadron_Delay_Seconds>
@@ -14527,7 +14526,7 @@
 		<Is_Sellable>Sellable_Never</Is_Sellable>
 		<Is_Squashable>False</Is_Squashable>
 		
-		<Lua_Script>GenericGameObject</Lua_Script>
+
 		
 		<Starting_Spawned_Units_Tech_0>Requud_House_Guard_Squad, 4</Starting_Spawned_Units_Tech_0>
         <Spawned_Squadron_Delay_Seconds>0.0</Spawned_Squadron_Delay_Seconds>
@@ -15577,7 +15576,7 @@
 		<Is_Sellable>Sellable_Never</Is_Sellable>
 		<Is_Squashable>False</Is_Squashable>
 		
-		<Lua_Script>GenericGameObject</Lua_Script>
+
 
 		<Starting_Spawned_Units_Tech_0>EotH_Phalanx_Trooper_Squad, 6</Starting_Spawned_Units_Tech_0>
         <Spawned_Squadron_Delay_Seconds>0.0</Spawned_Squadron_Delay_Seconds>
@@ -15677,7 +15676,7 @@
 		<Is_Sellable>Sellable_Never</Is_Sellable>
 		<Is_Squashable>False</Is_Squashable>
 		
-		<Lua_Script>GenericGameObject</Lua_Script>
+
 
 		<Starting_Spawned_Units_Tech_0>EotH_Stormtrooper_Squad, 4</Starting_Spawned_Units_Tech_0>
         <Spawned_Squadron_Delay_Seconds>0.0</Spawned_Squadron_Delay_Seconds>
@@ -15779,7 +15778,7 @@
 		<Is_Sellable>Sellable_Never</Is_Sellable>
 		<Is_Squashable>False</Is_Squashable>
 		
-		<Lua_Script>GenericGameObject</Lua_Script>
+
 
 		<Starting_Spawned_Units_Tech_0>CEDF_Honor_Guard_Squad, 3</Starting_Spawned_Units_Tech_0>
         <Spawned_Squadron_Delay_Seconds>0.0</Spawned_Squadron_Delay_Seconds>
@@ -15880,7 +15879,7 @@
 		<Is_Sellable>Sellable_Never</Is_Sellable>
 		<Is_Squashable>False</Is_Squashable>
 		
-		<Lua_Script>GenericGameObject</Lua_Script>
+
 
 		<Starting_Spawned_Units_Tech_0>EotH_Stormtrooper_Squad, 4</Starting_Spawned_Units_Tech_0>
         <Spawned_Squadron_Delay_Seconds>0.0</Spawned_Squadron_Delay_Seconds>
@@ -15998,7 +15997,7 @@
 		<Is_Sellable>Sellable_Never</Is_Sellable>
 		<Is_Squashable>False</Is_Squashable>
 		
-		<Lua_Script>GenericGameObject</Lua_Script>
+
 
 		<Starting_Spawned_Units_Tech_0>EotH_Stormtrooper_Squad, 4</Starting_Spawned_Units_Tech_0>
         <Spawned_Squadron_Delay_Seconds>0.0</Spawned_Squadron_Delay_Seconds>
@@ -16127,7 +16126,7 @@
 		<Is_Sellable>Sellable_Never</Is_Sellable>
 		<Is_Squashable>False</Is_Squashable>
 		
-		<Lua_Script>GenericGameObject</Lua_Script>
+
 
 		<Starting_Spawned_Units_Tech_0>EotH_Phalanx_Trooper_Squad, 6</Starting_Spawned_Units_Tech_0>
         <Spawned_Squadron_Delay_Seconds>0.0</Spawned_Squadron_Delay_Seconds>
@@ -16231,7 +16230,7 @@
 		<Is_Sellable>Sellable_Never</Is_Sellable>
 		<Is_Squashable>False</Is_Squashable>
 		
-		<Lua_Script>GenericGameObject</Lua_Script>
+
 
 		<Starting_Spawned_Units_Tech_0>EotH_Stormtrooper_Squad, 4</Starting_Spawned_Units_Tech_0>
         <Spawned_Squadron_Delay_Seconds>0.0</Spawned_Squadron_Delay_Seconds>
@@ -16344,7 +16343,7 @@
 		<Is_Sellable>Sellable_Never</Is_Sellable>
 		<Is_Squashable>False</Is_Squashable>
 		
-		<Lua_Script>GenericGameObject</Lua_Script>
+
 
 		<Starting_Spawned_Units_Tech_0>EotH_Phalanx_Trooper_Squad, 6</Starting_Spawned_Units_Tech_0>
         <Spawned_Squadron_Delay_Seconds>0.0</Spawned_Squadron_Delay_Seconds>
@@ -16462,7 +16461,7 @@
 		<Is_Sellable>Sellable_Never</Is_Sellable>
 		<Is_Squashable>False</Is_Squashable>
 		
-		<Lua_Script>GenericGameObject</Lua_Script>
+
 
 		<Starting_Spawned_Units_Tech_0>EotH_Stormtrooper_Squad, 4</Starting_Spawned_Units_Tech_0>
         <Spawned_Squadron_Delay_Seconds>0.0</Spawned_Squadron_Delay_Seconds>

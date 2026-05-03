@@ -96,8 +96,6 @@
 		<!-- Enhanced sensors capability -->
 		<Target_Stealth_Units>Yes</Target_Stealth_Units>
 
-		<Lua_Script>GenericGameObject</Lua_Script>
-
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>FOW_REVEAL_PING</Type>

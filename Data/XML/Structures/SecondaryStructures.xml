@@ -362,7 +362,7 @@
 		<Scale_Factor>1.0</Scale_Factor>
 
 		<Property_Flags>NotOpportunityTarget</Property_Flags>
-		<Lua_Script>GenericGameObject</Lua_Script>
+		<Lua_Script></Lua_Script>
 
         <Ownership_Sticks>Yes</Ownership_Sticks>
 		<Affiliation>Neutral, Rebel, Empire, Zsinj_Empire, EmpireoftheHand, Pentastar, Hapes_Consortium, Greater_Maldrood, Eriadu_Authority, Hutt_Cartels, Corporate_Sector, Warlords, Chiss, Yevetha, SsiRuuvi_Imperium, Imperial_Proteus</Affiliation>

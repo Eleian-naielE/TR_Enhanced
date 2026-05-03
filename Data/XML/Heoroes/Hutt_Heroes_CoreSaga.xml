@@ -774,7 +774,7 @@
 		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
 
 		<Is_Visible_On_Radar>yes</Is_Visible_On_Radar>
-		<Radar_Icon_Name>i_radar_Vontor</Radar_Icon_Name>
+		<Radar_Icon_Name>i_radar_Vontor.TGA</Radar_Icon_Name>
 		<Radar_Icon_Size>0.05  0.05</Radar_Icon_Size>
 
 		<Space_FOW_Reveal_Range>25000.0</Space_FOW_Reveal_Range>

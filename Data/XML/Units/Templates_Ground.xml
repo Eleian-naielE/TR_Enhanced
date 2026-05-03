@@ -2910,7 +2910,6 @@
 		<No_Refraction_Below_Detail_Level>3</No_Refraction_Below_Detail_Level>
 
 		<LOD_Bias>5</LOD_Bias>
-		<Lua_Script>GenericGameObject</Lua_Script>
 		<Behavior> SELECTABLE </Behavior>
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, null </SFXEvent_Hardpoint_Destroyed>
 		<Is_Affected_By_Gravity_Control_Field> Yes </Is_Affected_By_Gravity_Control_Field>
@@ -3410,7 +3409,6 @@
 		<No_Refraction_Below_Detail_Level>3</No_Refraction_Below_Detail_Level>
 
 		<LOD_Bias>5</LOD_Bias>
-		<Lua_Script>GenericGameObject</Lua_Script>
 		<Behavior> SELECTABLE </Behavior>
 		<Is_Affected_By_Gravity_Control_Field> Yes </Is_Affected_By_Gravity_Control_Field>
 		<Base_Shield_Penetration_Particle>Shield_Penetration_Effect_Particle</Base_Shield_Penetration_Particle>
@@ -5169,8 +5167,6 @@
 			HP_Swamp_Speeder_2
 		</HardPoints>
 
-		<Lua_Script>GenericGameObject</Lua_Script>
-
 		<Garrison_Category> Vehicle </Garrison_Category>
 		<Num_Garrison_Slots>0</Num_Garrison_Slots>
 		<Garrison_Bone_Names/>
@@ -5657,7 +5653,6 @@
 		<No_Refraction_Below_Detail_Level>3</No_Refraction_Below_Detail_Level>
 
 		<LOD_Bias>5</LOD_Bias>
-		<Lua_Script>GenericGameObject</Lua_Script>
 		<Behavior> SELECTABLE </Behavior>
 		<Is_Affected_By_Gravity_Control_Field> Yes </Is_Affected_By_Gravity_Control_Field>
 		<Base_Shield_Penetration_Particle>Shield_Penetration_Effect_Particle</Base_Shield_Penetration_Particle>
@@ -9148,7 +9143,6 @@
 
 		<HardPoints>HP_Gaba_18</HardPoints>
 
-		<Lua_Script>GenericGameObject</Lua_Script>
 
 		<Garrison_Category/>
 		<Num_Garrison_Slots>0</Num_Garrison_Slots>
@@ -9344,8 +9338,6 @@
 		<LandBehavior>ABILITY_COUNTDOWN, FLYING_LOCOMOTOR, REVEAL, HIDE_WHEN_FOGGED, HUNT,  WEAPON, TURRET, POWERED, AMBIENT_SFX,UNIT_AI, SURFACE_FX,TARGETING,STUNNABLE, WIND_DISTURBANCE,DAMAGE_TRACKING</LandBehavior>
 
 		<HardPoints> HP_Flashblind_Laser_Main, HP_Flashblind_Laser_Left, HP_Flashblind_Laser_Right </HardPoints>
-
-		<Lua_Script>GenericGameObject</Lua_Script>
 
 		<Garrison_Category/>
 		<Num_Garrison_Slots>0</Num_Garrison_Slots>

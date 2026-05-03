@@ -10903,6 +10903,7 @@
 		<Land_Model_Anim_Override_Name>CloakedSith.alo</Land_Model_Anim_Override_Name>
 		
 		<Scale_Factor>1.0</Scale_Factor>
+		<Movement_Animation_Speed> 1.5 </Movement_Animation_Speed>
 	</GroundInfantry>
 
 	<!-- Rancors --> <!-- Needs reworks -->
@@ -10952,7 +10953,7 @@
 		<Visible_To_Enemies_When_Empty>true</Visible_To_Enemies_When_Empty>
 		<Victory_Relevant>Yes</Victory_Relevant>
 		
-		<Influences_Capture_Point> True </Influences_Capture_Point>
+		<Influences_Capture_Point> False </Influences_Capture_Point>
 
 		<Tactical_Bribe_Cost>1</Tactical_Bribe_Cost>
 		<Score_Cost_Credits>1000</Score_Cost_Credits>

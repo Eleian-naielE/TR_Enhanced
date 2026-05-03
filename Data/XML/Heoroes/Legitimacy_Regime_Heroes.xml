@@ -810,8 +810,6 @@
 		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_Veers </SFXEvent_Health_Critical_Warning>
 		<Death_SFXEvent_Start_Die> Unit_Defeat_Veers </Death_SFXEvent_Start_Die>
 
-		<Lua_Script>GenericGameObject</Lua_Script>
-
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>FOW_REVEAL_PING</Type>
@@ -2738,7 +2736,7 @@
 		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
 		</Encyclopedia_Text>
 
-		<Lua_Script>GenericGameObject</Lua_Script>
+		<Lua_Script></Lua_Script>
 
 		<Required_Special_Structures>
 		Empire_Shipyard_Level_Four |
@@ -2783,7 +2781,7 @@
 		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
 		</Encyclopedia_Text>
 
-		<Lua_Script>GenericGameObject</Lua_Script>
+		<Lua_Script></Lua_Script>
 
 		<Required_Special_Structures>Story_Category_Dummy, Empire_Shipyard_Level_Three</Required_Special_Structures>
 		<Required_Planets>Kampe</Required_Planets>
@@ -3732,7 +3730,7 @@
 		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
 		</Encyclopedia_Text>
 
-		<Lua_Script>GenericGameObject</Lua_Script>
+		<Lua_Script></Lua_Script>
 
 		<Required_Special_Structures>
 		Empire_Shipyard_Level_Four |
@@ -3879,7 +3877,7 @@
 		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
 		</Encyclopedia_Text>
 
-		<Lua_Script>GenericGameObject</Lua_Script>
+		<Lua_Script></Lua_Script>
 
 		<Required_Special_Structures>
 		Empire_Shipyard_Level_Four |
@@ -3892,7 +3890,7 @@
 
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		
-		<Population_Value>181</Population_Value>
+		<Population_Value>177</Population_Value>
 
 		<Required_Orbiting_Units>Pellaeon_Chimaera_Grand</Required_Orbiting_Units>
 	</DummyStructure>
@@ -4063,7 +4061,7 @@
 		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
 		</Encyclopedia_Text>
 
-		<Lua_Script>GenericGameObject</Lua_Script>
+		<Lua_Script></Lua_Script>
 
 		<Required_Special_Structures>
 		Empire_Shipyard_Level_Four |
@@ -4574,6 +4572,8 @@
 		<Encyclopedia_Text> 
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
 		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_07_LAND
+		TEXT_TOOLTIP_TRAIT_COMMAND_INTEL_FOCUS
+		TEXT_TOOLTIP_TRAIT_SPECIALIZATION_FORTIFICATION
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_HESTIV
 		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
@@ -4606,24 +4606,41 @@
 
 		<Starting_Spawned_Units_Tech_0>Imperial_Army_Guard_Squad, 3</Starting_Spawned_Units_Tech_0>
 
-		<Abilities SubObjectList="Yes">
+		<Abilities SubObjectList="Yes"> <!-- Command_Tier_07 + Intel Focus + Fortification Specialist -->
 			<Combat_Bonus_Ability Name="Command_Tier_07_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
 				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
 				<Applicable_Unit_Types />
 				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
-				<Damage_Bonus_Percentage>0.21</Damage_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.18</Damage_Bonus_Percentage>
 				<Defense_Bonus_Percentage>0.21</Defense_Bonus_Percentage>
-				<Movement_Speed_Bonus_Percentage>0.21</Movement_Speed_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.27</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
 			</Combat_Bonus_Ability>
 
 			<Battlefield_Modifier_Ability Name="Command_Tier_07_FOW_Increase">
 				<Initially_Enabled>Yes</Initially_Enabled>
 				<Activation_Style>Ground_Automatic</Activation_Style>
-				<FOW_Reveal_Range_Multiplier>1.21</FOW_Reveal_Range_Multiplier>
+				<FOW_Reveal_Range_Multiplier>1.39</FOW_Reveal_Range_Multiplier>
 				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
 				<Stacking_Category>0</Stacking_Category>
+			</Battlefield_Modifier_Ability>
+
+			<Combat_Bonus_Ability Name="Fortification_Specialist_Combat_Bonus">
+				<Activation_Style>Combat_Automatic</Activation_Style>
+				<Applicable_Unit_Categories>Structure | SpaceStructure</Applicable_Unit_Categories>
+				<Damage_Bonus_Percentage>0.06</Damage_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.06</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.06</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>1</Stacking_Category>
+			</Combat_Bonus_Ability>
+			<Battlefield_Modifier_Ability Name="Fortification_Specialist_FOW_Increase">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Combat_Automatic</Activation_Style>
+				<Applicable_Unit_Categories>Structure | SpaceStructure</Applicable_Unit_Categories>
+				<FOW_Reveal_Range_Multiplier>1.06</FOW_Reveal_Range_Multiplier>
+				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
+				<Stacking_Category>1</Stacking_Category>
 			</Battlefield_Modifier_Ability>
 
 			<!-- Redirect Blaster must appear in the special ability list before Absorb Blaster -->
@@ -4649,6 +4666,8 @@
 		<Encyclopedia_Text> 
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
 		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_07_LAND
+		TEXT_TOOLTIP_TRAIT_COMMAND_INTEL_FOCUS
+		TEXT_TOOLTIP_TRAIT_SPECIALIZATION_FORTIFICATION
 		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
 		TEXT_TOOLTIP_HESTIV
 		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
@@ -4680,7 +4699,7 @@
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Hero_Stormtrooper</SFXEvent_Fleet_Move>
 		
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>5425</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>6485</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>14</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>Ground_Level_Three_Tech_Upgrade</Tactical_Build_Prerequisites>
 	</HeroCompany>
