@@ -2611,7 +2611,7 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_COMMANDER </Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_balkin.tga</Icon_Name>
 		
-		<Property_Flags>CanContainGarrison | DoKite | HealsInfantry | GTSImmune </Property_Flags>
+		<Property_Flags>CanContainGarrison | DoKite | HealsOrganics | GTSImmune </Property_Flags>
 		<CategoryMask> VehicleHero | AntiInfantry </CategoryMask>
 		
 		<Ranking_In_Category>8</Ranking_In_Category>
