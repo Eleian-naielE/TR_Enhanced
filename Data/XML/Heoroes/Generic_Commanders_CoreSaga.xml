@@ -1,0 +1,1398 @@
+<?xml version="1.0"?>
+<Generic_Commander_CoreSaga>
+<!-- TR_Enhanced ; Infantry CM Reworked -->
+	
+	<!-- Hutts -->
+	
+	<!-- Space -->
+	
+	<UniqueUnit Name="Commander_I_Kaloth_Battlecruiser">
+		<Variant_Of_Existing_Type>Kaloth_Battlecruiser</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_COMMANDER_FLEET</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK 
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_01_SPACE
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_COMMANDER_FLEET
+		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
+		TEXT_UNIT_KALOTH_BATTLECRUISER
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK 
+		TEXT_TOOLTIP_KALOTH_BATTLECRUISER_HULL 
+		TEXT_TOOLTIP_KALOTH_BATTLECRUISER_SHIELD 
+		TEXT_TOOLTIP_KALOTH_BATTLECRUISER_MOVE
+		TEXT_TOOLTIP_KALOTH_BATTLECRUISER_SQUADRON
+		TEXT_TOOLTIP_KALOTH_BATTLECRUISER_WEAP1 
+		TEXT_TOOLTIP_KALOTH_BATTLECRUISER_WEAP2
+		TEXT_TOOLTIP_KALOTH_BATTLECRUISER_WEAP3
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_FLEET_OFFICER</Encyclopedia_Unit_Class>
+		<Icon_Name>I_BUTTON_KALOTH_BATTLECRUISER_COMMANDER.tga</Icon_Name>
+		
+		<Show_Hero_Head>Yes</Show_Hero_Head>
+		<Is_Generic_Hero>Yes</Is_Generic_Hero>
+		<Is_Sellable>Sellable_Never</Is_Sellable>
+
+		<Tech_Level>99</Tech_Level>
+		<Build_Cost_Credits>1</Build_Cost_Credits>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
+		<Property_Flags>GTSImmune</Property_Flags>
+	
+		<Abilities SubObjectList="Yes"> <!-- Command_Tier_01 -->
+			<Combat_Bonus_Ability Name="Command_Tier_01_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
+				<Damage_Bonus_Percentage>0.03</Damage_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.03</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.03</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+			<Battlefield_Modifier_Ability Name="Command_Tier_01_FOW_Increase">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<FOW_Reveal_Range_Multiplier>1.03</FOW_Reveal_Range_Multiplier>
+				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
+				<Stacking_Category>0</Stacking_Category>
+			</Battlefield_Modifier_Ability>
+		</Abilities>
+	</UniqueUnit>
+	
+	<UniqueUnit Name="Commander_I_Barabbula_Frigate">
+		<Variant_Of_Existing_Type>Barabbula_Frigate</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_COMMANDER_FLEET</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK 
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_01_SPACE
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_COMMANDER_FLEET
+		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
+		TEXT_UNIT_BARABBULA_FRIGATE
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK 
+		TEXT_TOOLTIP_BARABBULA_FRIGATE_HULL 
+		TEXT_TOOLTIP_BARABBULA_FRIGATE_SHIELD 
+		TEXT_TOOLTIP_BARABBULA_FRIGATE_MOVE
+		TEXT_TOOLTIP_BARABBULA_FRIGATE_WEAP1 
+		TEXT_TOOLTIP_BARABBULA_FRIGATE_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_FLEET_OFFICER</Encyclopedia_Unit_Class>
+		<Icon_Name>I_BUTTON_BARABBULA_FRIGATE_COMMANDER.tga</Icon_Name>
+		
+		<Show_Hero_Head>Yes</Show_Hero_Head>
+		<Is_Generic_Hero>Yes</Is_Generic_Hero>
+		<Is_Sellable>Sellable_Never</Is_Sellable>
+
+		<Tech_Level>99</Tech_Level>
+		<Build_Cost_Credits>1</Build_Cost_Credits>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
+		<Property_Flags>GTSImmune</Property_Flags>
+	
+		<Abilities SubObjectList="Yes"> <!-- Command_Tier_01 -->
+			<Combat_Bonus_Ability Name="Command_Tier_01_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
+				<Damage_Bonus_Percentage>0.03</Damage_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.03</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.03</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+			<Battlefield_Modifier_Ability Name="Command_Tier_01_FOW_Increase">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<FOW_Reveal_Range_Multiplier>1.03</FOW_Reveal_Range_Multiplier>
+				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
+				<Stacking_Category>0</Stacking_Category>
+			</Battlefield_Modifier_Ability>
+		</Abilities>
+	</UniqueUnit>
+	
+	<UniqueUnit Name="Commander_II_Tempest_Cruiser">
+		<Variant_Of_Existing_Type>Tempest_Cruiser</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_COMMANDER_FLEET</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK 
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_02_SPACE
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_COMMANDER_FLEET
+		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
+		TEXT_UNIT_TEMPEST_CRUISER
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK 
+		TEXT_TOOLTIP_TEMPEST_CRUISER_HULL
+		TEXT_TOOLTIP_TEMPEST_CRUISER_SHIELD
+		TEXT_TOOLTIP_TEMPEST_CRUISER_MOVE
+		TEXT_TOOLTIP_TEMPEST_CRUISER_SQUADRON
+		TEXT_TOOLTIP_TEMPEST_CRUISER_WEAP1
+		TEXT_TOOLTIP_TEMPEST_CRUISER_WEAP2
+		TEXT_TOOLTIP_TEMPEST_CRUISER_WEAP3
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
+		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_FLEET_OFFICER</Encyclopedia_Unit_Class>
+		<Icon_Name>I_BUTTON_TEMPEST_CRUISER_COMMANDER.tga</Icon_Name>
+		
+		<Show_Hero_Head>Yes</Show_Hero_Head>
+		<Is_Generic_Hero>Yes</Is_Generic_Hero>
+		<Is_Sellable>Sellable_Never</Is_Sellable>
+
+		<Tech_Level>99</Tech_Level>
+		<Build_Cost_Credits>1</Build_Cost_Credits>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
+		<Property_Flags>GTSImmune</Property_Flags>
+	
+		<Abilities SubObjectList="Yes"> <!-- Command_Tier_02 -->
+			<Combat_Bonus_Ability Name="Command_Tier_02_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
+				<Damage_Bonus_Percentage>0.06</Damage_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.06</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.06</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+			<Battlefield_Modifier_Ability Name="Command_Tier_02_FOW_Increase">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<FOW_Reveal_Range_Multiplier>1.06</FOW_Reveal_Range_Multiplier>
+				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
+				<Stacking_Category>0</Stacking_Category>
+			</Battlefield_Modifier_Ability>
+		</Abilities>
+	</UniqueUnit>
+
+	<UniqueUnit Name="Commander_III_Karagga_Destroyer">
+		<Variant_Of_Existing_Type>Karagga_Destroyer</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_COMMANDER_FLEET</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_03_SPACE
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_COMMANDER_FLEET
+		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
+		TEXT_UNIT_KARAGGA
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_KARAGGA_HULL
+		TEXT_TOOLTIP_KARAGGA_SHIELD
+		TEXT_TOOLTIP_KARAGGA_MOVE
+		TEXT_TOOLTIP_KARAGGA_SQUADRON
+		TEXT_TOOLTIP_KARAGGA_WEAP1
+		TEXT_TOOLTIP_KARAGGA_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_FLEET_OFFICER</Encyclopedia_Unit_Class>
+		<Icon_Name>I_BUTTON_KARAGGA_DESTROYER_COMMANDER.tga</Icon_Name>
+		
+		<Show_Hero_Head>Yes</Show_Hero_Head>
+		<Is_Generic_Hero>Yes</Is_Generic_Hero>
+		<Is_Sellable>Sellable_Never</Is_Sellable>
+
+		<Tech_Level>99</Tech_Level>
+		<Build_Cost_Credits>1</Build_Cost_Credits>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
+		<Property_Flags>GTSImmune</Property_Flags>
+	
+		<Abilities SubObjectList="Yes"> <!-- Command_Tier_03 -->
+			<Combat_Bonus_Ability Name="Command_Tier_03_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
+				<Damage_Bonus_Percentage>0.09</Damage_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.09</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.09</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+			<Battlefield_Modifier_Ability Name="Command_Tier_03_FOW_Increase">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<FOW_Reveal_Range_Multiplier>1.09</FOW_Reveal_Range_Multiplier>
+				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
+				<Stacking_Category>0</Stacking_Category>
+			</Battlefield_Modifier_Ability>
+		</Abilities>
+	</UniqueUnit>
+	
+	<UniqueUnit Name="Commander_III_Refit_Venator_Star_Destroyer">
+		<Variant_Of_Existing_Type>Refit_Venator_Star_Destroyer</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_COMMANDER_FLEET</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_03_SPACE
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_COMMANDER_FLEET
+		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
+		TEXT_UNIT_VENATOR_REFIT
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_VENATOR_HULL
+		TEXT_TOOLTIP_VENATOR_REFIT_SHIELD
+		TEXT_TOOLTIP_VENATOR_MOVE
+		TEXT_TOOLTIP_VENATOR_REFIT_SQUADRON
+		TEXT_TOOLTIP_VENATOR_WEAP2 
+		TEXT_TOOLTIP_VENATOR_WEAP3
+		TEXT_TOOLTIP_VENATOR_REFIT_WEAP1
+		TEXT_TOOLTIP_VENATOR_WEAP4
+		TEXT_TOOLTIP_VENATOR_REFIT_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT 
+		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_FLEET_OFFICER</Encyclopedia_Unit_Class>
+		<Icon_Name>I_BUTTON_VENATOR_REFIT_COMMANDER.tga</Icon_Name>
+		
+		<Show_Hero_Head>Yes</Show_Hero_Head>
+		<Is_Generic_Hero>Yes</Is_Generic_Hero>
+		<Is_Sellable>Sellable_Never</Is_Sellable>
+
+		<Tech_Level>99</Tech_Level>
+		<Build_Cost_Credits>1</Build_Cost_Credits>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
+		<Property_Flags>GTSImmune</Property_Flags>
+	
+		<Abilities SubObjectList="Yes"> <!-- Command_Tier_03 -->
+			<Combat_Bonus_Ability Name="Command_Tier_03_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
+				<Damage_Bonus_Percentage>0.09</Damage_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.09</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.09</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+			<Battlefield_Modifier_Ability Name="Command_Tier_03_FOW_Increase">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<FOW_Reveal_Range_Multiplier>1.09</FOW_Reveal_Range_Multiplier>
+				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
+				<Stacking_Category>0</Stacking_Category>
+			</Battlefield_Modifier_Ability>
+		</Abilities>
+	</UniqueUnit>
+
+	<UniqueUnit Name="Commander_IV_Voracious_Carrier">
+		<Variant_Of_Existing_Type>Voracious_Carrier</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_COMMANDER_FLEET</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_04_SPACE
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_COMMANDER_FLEET
+		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
+		TEXT_UNIT_VORACIOUS
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_VORACIOUS_HULL
+		TEXT_TOOLTIP_VORACIOUS_SHIELD
+		TEXT_TOOLTIP_VORACIOUS_MOVE 
+		TEXT_TOOLTIP_VORACIOUS_SQUADRON
+		TEXT_TOOLTIP_VORACIOUS_WEAP1
+		TEXT_TOOLTIP_VORACIOUS_WEAP2 
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK 
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
+		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_FLEET_OFFICER</Encyclopedia_Unit_Class>
+		<Icon_Name>I_BUTTON_VORACIOUS_CARRIER_COMMANDER.tga</Icon_Name>
+		
+		<Show_Hero_Head>Yes</Show_Hero_Head>
+		<Is_Generic_Hero>Yes</Is_Generic_Hero>
+		<Is_Sellable>Sellable_Never</Is_Sellable>
+
+		<Tech_Level>99</Tech_Level>
+		<Build_Cost_Credits>1</Build_Cost_Credits>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
+		<Property_Flags>GTSImmune</Property_Flags>
+	
+		<Abilities SubObjectList="Yes"> <!-- Command_Tier_04 -->
+			<Combat_Bonus_Ability Name="Command_Tier_04_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
+				<Damage_Bonus_Percentage>0.12</Damage_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.12</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.12</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+			<Battlefield_Modifier_Ability Name="Command_Tier_04_FOW_Increase">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<FOW_Reveal_Range_Multiplier>1.12</FOW_Reveal_Range_Multiplier>
+				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
+				<Stacking_Category>0</Stacking_Category>
+			</Battlefield_Modifier_Ability>
+		</Abilities>
+	</UniqueUnit>
+
+	<UniqueUnit Name="Commander_IV_Vontor_Destroyer">
+		<Variant_Of_Existing_Type>Vontor_Destroyer</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_COMMANDER_FLEET</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_04_SPACE
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_COMMANDER_FLEET
+		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
+		TEXT_UNIT_VONTOR
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_VONTOR_HULL
+		TEXT_TOOLTIP_VONTOR_SHIELD
+		TEXT_TOOLTIP_VONTOR_MOVE 
+		TEXT_TOOLTIP_VONTOR_SQUADRON
+		TEXT_TOOLTIP_VONTOR_WEAP1
+		TEXT_TOOLTIP_VONTOR_WEAP2 
+		TEXT_TOOLTIP_VONTOR_WEAP3
+		TEXT_TOOLTIP_VONTOR_WEAP4
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK 
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
+		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_FLEET_OFFICER</Encyclopedia_Unit_Class>
+		<Icon_Name>I_BUTTON_VONTOR_DESTROYER_COMMANDER.tga</Icon_Name>
+		
+		<Show_Hero_Head>Yes</Show_Hero_Head>
+		<Is_Generic_Hero>Yes</Is_Generic_Hero>
+		<Is_Sellable>Sellable_Never</Is_Sellable>
+
+		<Tech_Level>99</Tech_Level>
+		<Build_Cost_Credits>1</Build_Cost_Credits>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
+		<Property_Flags>GTSImmune</Property_Flags>
+	
+		<Abilities SubObjectList="Yes"> <!-- Command_Tier_04 -->
+			<Combat_Bonus_Ability Name="Command_Tier_04_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
+				<Damage_Bonus_Percentage>0.12</Damage_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.12</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.12</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+			<Battlefield_Modifier_Ability Name="Command_Tier_04_FOW_Increase">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<FOW_Reveal_Range_Multiplier>1.12</FOW_Reveal_Range_Multiplier>
+				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
+				<Stacking_Category>0</Stacking_Category>
+			</Battlefield_Modifier_Ability>
+		</Abilities>
+	</UniqueUnit>
+	
+	<!-- Ground --> 
+	
+	<HeroUnit Name="Commander_I_Hutt_Guard">
+		<Variant_Of_Existing_Type> Hero_Commando_Template </Variant_Of_Existing_Type>
+		<Is_Named_Hero>No</Is_Named_Hero>
+		<Is_Generic_Hero>Yes</Is_Generic_Hero>
+		<Text_ID>TEXT_UNIT_COMMANDER_HUTT_CARTEL</Text_ID>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK 
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_01_LAND
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_COMMANDER
+		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
+		TEXT_TOOLTIP_ESCORT_HUTT_GUARD
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_COMMANDER_INFANTRY_HEALTH
+		TEXT_TOOLTIP_HUTT_GUARD_MOVE
+		TEXT_TOOLTIP_HUTT_GUARD_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIELD_COMMANDER </Encyclopedia_Unit_Class>
+		<Icon_Name>I_BUTTON_HUTT_GUARD_COMMANDER.tga</Icon_Name>
+		
+		<Land_Model_Name>Hutt_HuttGuard_Vodran_NoHelmet.ALO</Land_Model_Name>
+		<Land_Model_Anim_Override_Name> Regularinfantry.alo </Land_Model_Anim_Override_Name>
+
+		<Tactical_Health>150</Tactical_Health>
+		
+		<Affiliation>Hutt_Cartels</Affiliation>
+		<Property_Flags>DoKite | GTSImmune</Property_Flags>
+
+		<HardPoints>HP_Hero_9118_Carbine_Hand</HardPoints>
+		
+		<Highlight_Blob_Material_Name>Highlight_Hutt_Hero</Highlight_Blob_Material_Name>
+		
+		<Starting_Spawned_Units_Tech_0>Hutt_Guard_Company, 1</Starting_Spawned_Units_Tech_0>
+		
+		<SFXEvent_Select>Unit_Select_Hutt_Guard</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Hutt_Guard</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Hutt_Guard</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Hutt_Guard</SFXEvent_Attack>
+		<SFXEvent_Assist_Move> Unit_Assist_Move_Hutt_Guard </SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Hutt_Guard </SFXEvent_Assist_Attack>
+		<SFXEvent_Guard>Unit_Guard_Hutt_Guard</SFXEvent_Guard>
+		<Death_SFXEvent_Start_Die>Unit_Death_Hutt_Guard</Death_SFXEvent_Start_Die>
+
+		<CategoryMask> Organic | InfantryHero | AntiInfantry </CategoryMask>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>SPREAD_OUT</Type>
+				<Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
+				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.75f</Mod_Multiplier>
+				<SFXEvent_GUI_Unit_Ability_Activated> Unit_Take_Cover_Hutt_Guard </SFXEvent_GUI_Unit_Ability_Activated>
+			</Unit_Ability>
+
+			<Unit_Ability>
+				<Type>FOW_REVEAL_PING</Type>
+				<Recharge_Seconds> 30.0 </Recharge_Seconds>
+				<Spawned_Object_Type> Proj_Special_Land_FOW_Reveal_Ping_Blast </Spawned_Object_Type>
+				<Effective_Radius> 0.0 </Effective_Radius>
+				<Area_Effect_Decal_Distance> 250.0 </Area_Effect_Decal_Distance>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+		<Abilities SubObjectList="Yes"> <!-- Command_Tier_01 -->
+			<Combat_Bonus_Ability Name="Command_Tier_01_Combat_Bonus">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
+				<Damage_Bonus_Percentage>0.03</Damage_Bonus_Percentage>
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.03</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.03</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+			<Battlefield_Modifier_Ability Name="Command_Tier_01_FOW_Increase">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<FOW_Reveal_Range_Multiplier>1.03</FOW_Reveal_Range_Multiplier>
+				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
+				<Stacking_Category>0</Stacking_Category>
+			</Battlefield_Modifier_Ability>
+		</Abilities>
+	</HeroUnit>
+
+	<HeroCompany Name="Commander_I_Hutt_Guard_Company">
+		<Variant_Of_Existing_Type>Template_Hero_Team</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_COMMANDER_HUTT_CARTEL</Text_ID>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK 
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_01_LAND
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_COMMANDER
+		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
+		TEXT_TOOLTIP_ESCORT_HUTT_GUARD
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_COMMANDER_INFANTRY_HEALTH
+		TEXT_TOOLTIP_HUTT_GUARD_MOVE
+		TEXT_TOOLTIP_HUTT_GUARD_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIELD_COMMANDER </Encyclopedia_Unit_Class>
+		<Icon_Name>I_BUTTON_HUTT_GUARD_COMMANDER.tga</Icon_Name>
+
+		<Company_Transport_Unit>RZ52_Infantry_Shuttle_Troops</Company_Transport_Unit>
+		<Company_Units> Commander_I_Hutt_Guard </Company_Units>
+
+		<Affiliation>Hutt_Cartels</Affiliation>
+		<Is_Named_Hero>No</Is_Named_Hero>
+
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Hutt_Guard</SFXEvent_Fleet_Move>
+	</HeroCompany>
+
+	<HeroUnit Name="Commander_I_Gamorrean_Guard">
+		<Variant_Of_Existing_Type> Hero_Commando_Template </Variant_Of_Existing_Type>
+		<Is_Named_Hero>No</Is_Named_Hero>
+		<Is_Generic_Hero>Yes</Is_Generic_Hero>
+		<Text_ID>TEXT_UNIT_COMMANDER_HUTT_CARTEL</Text_ID>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK 
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_01_LAND
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_COMMANDER
+		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
+		TEXT_TOOLTIP_ESCORT_GAMORREAN_GUARD
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_COMMANDER_GAMORREAN_GUARD_COMPANY
+		TEXT_TOOLTIP_COMMANDER_INFANTRY_HEALTH
+		TEXT_TOOLTIP_GAMORREAN_GUARD_MOVE
+		TEXT_TOOLTIP_GAMORREAN_GUARD_WEAP1
+		TEXT_TOOLTIP_GAMORREAN_GUARD_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_MELEE_BLOCK
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIELD_COMMANDER </Encyclopedia_Unit_Class>
+		<Icon_Name>I_BUTTON_GAMORREAN_GUARD_COMMANDER.tga</Icon_Name>
+		
+		<Land_Model_Name>Hutt_Gamorrean.ALO</Land_Model_Name>
+
+		<Tactical_Health>150</Tactical_Health>
+		
+		<Affiliation>Hutt_Cartels</Affiliation>
+		<Property_Flags>DoKite | GTSImmune</Property_Flags>
+
+		<HardPoints>HP_Hero_DL44_Pistol, HP_Gamorrean_LongAxe</HardPoints>
+
+		<Highlight_Blob_Material_Name>Highlight_Hutt_Hero</Highlight_Blob_Material_Name>
+
+		<Starting_Spawned_Units_Tech_0>Gamorrean_Guard_Squad, 4</Starting_Spawned_Units_Tech_0>
+		
+		<SFXEvent_Select>Unit_Select_Gamorrean</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Gamorrean</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Gamorrean</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Gamorrean</SFXEvent_Attack>
+		<SFXEvent_Assist_Move> Unit_Assist_Move_Gamorrean </SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Gamorrean </SFXEvent_Assist_Attack>
+		<SFXEvent_Guard>Unit_Guard_Gamorrean</SFXEvent_Guard>
+		<Death_SFXEvent_Start_Die>Unit_Death_Gamorrean</Death_SFXEvent_Start_Die>
+		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_MASS_DRIVER, Null</SFXEvent_Hardpoint_Destroyed>
+
+		<CategoryMask> Organic | InfantryHero | AntiInfantry </CategoryMask>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>SPRINT</Type>
+				<Expiration_Seconds> 8.0 </Expiration_Seconds>
+				<Recharge_Seconds> 45.0 </Recharge_Seconds>
+				<Mod_Multiplier>SPEED_MULTIPLIER,	 2.0f</Mod_Multiplier>
+				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.75f</Mod_Multiplier>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Sprint_Gamorrean</SFXEvent_GUI_Unit_Ability_Activated>
+			</Unit_Ability>
+
+			<Unit_Ability>
+				<Type>FOW_REVEAL_PING</Type>
+				<Recharge_Seconds> 30.0 </Recharge_Seconds>
+				<Spawned_Object_Type> Proj_Special_Land_FOW_Reveal_Ping_Blast </Spawned_Object_Type>
+				<Effective_Radius> 0.0 </Effective_Radius>
+				<Area_Effect_Decal_Distance> 250.0 </Area_Effect_Decal_Distance>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+		<Abilities SubObjectList="Yes"> <!-- Command_Tier_01 -->
+			<Combat_Bonus_Ability Name="Command_Tier_01_Combat_Bonus">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
+				<Damage_Bonus_Percentage>0.03</Damage_Bonus_Percentage>
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.03</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.03</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+			<Battlefield_Modifier_Ability Name="Command_Tier_01_FOW_Increase">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<FOW_Reveal_Range_Multiplier>1.03</FOW_Reveal_Range_Multiplier>
+				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
+				<Stacking_Category>0</Stacking_Category>
+			</Battlefield_Modifier_Ability>
+			
+			<Redirect_Blaster_Ability Name="Gamorrean_Redirect_Blaster">
+				<Activation_Style>Take_Damage</Activation_Style>
+				<!-- Redirection chance is rolled first. If failed, we roll block chance. If failed, we take the damage. -->
+				<Redirect_Chance>0.00</Redirect_Chance>
+				<Block_Chance>0.50</Block_Chance>
+				<Reaction_Arc_In_Degrees>360.0</Reaction_Arc_In_Degrees>
+				<Max_Projectile_Redirection_Angle_In_Degrees> 135.0 </Max_Projectile_Redirection_Angle_In_Degrees>
+				<Turn_To_Face_Unblockable_Shots>No</Turn_To_Face_Unblockable_Shots>
+				<!-- We can block/redirect shots from the following units types: -->
+				<Applicable_Unit_Categories> Infantry | InfantryHero</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<SFXEvent_Activate>Unit_Lightsaber_Projectile_Block</SFXEvent_Activate>
+			</Redirect_Blaster_Ability>
+		</Abilities>
+	</HeroUnit>
+
+	<HeroCompany Name="Commander_I_Gamorrean_Guard_Company">
+		<Variant_Of_Existing_Type>Template_Hero_Team</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_COMMANDER_HUTT_CARTEL</Text_ID>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK 
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_01_LAND
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_COMMANDER
+		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
+		TEXT_TOOLTIP_ESCORT_GAMORREAN_GUARD
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_COMMANDER_GAMORREAN_GUARD_COMPANY
+		TEXT_TOOLTIP_COMMANDER_INFANTRY_HEALTH
+		TEXT_TOOLTIP_GAMORREAN_GUARD_MOVE
+		TEXT_TOOLTIP_GAMORREAN_GUARD_WEAP1
+		TEXT_TOOLTIP_GAMORREAN_GUARD_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_MELEE_BLOCK
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIELD_COMMANDER </Encyclopedia_Unit_Class>
+		<Icon_Name>I_BUTTON_GAMORREAN_GUARD_COMMANDER.tga</Icon_Name>
+
+		<Company_Transport_Unit>RZ52_Infantry_Shuttle_Troops</Company_Transport_Unit>
+		<Company_Units> Commander_I_Gamorrean_Guard </Company_Units>
+
+		<Affiliation>Hutt_Cartels</Affiliation>
+		<Is_Named_Hero>No</Is_Named_Hero>
+
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Gamorrean</SFXEvent_Fleet_Move>
+	</HeroCompany>
+
+	<HeroUnit Name="Commander_II_Armored_Hutt">
+		<Variant_Of_Existing_Type> Hero_Commando_Template </Variant_Of_Existing_Type>
+		<Is_Named_Hero>No</Is_Named_Hero>
+		<Is_Generic_Hero>Yes</Is_Generic_Hero>
+		<Text_ID>TEXT_UNIT_COMMANDER_HUTT_CARTEL</Text_ID>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK 
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_02_LAND
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_COMMANDER
+		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
+		TEXT_TOOLTIP_ESCORT_ARMORED_HUTT
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_COMMANDER_ARMORED_HUTT_HEALTH
+		TEXT_TOOLTIP_ARMORED_HUTT_MOVE
+		TEXT_TOOLTIP_ARMORED_HUTT_WEAP1
+		TEXT_TOOLTIP_ARMORED_HUTT_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_INFANTRY_SELF_HEAL
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIELD_COMMANDER </Encyclopedia_Unit_Class>
+		<Icon_Name>I_BUTTON_ARMORED_HUTT_COMMANDER.tga</Icon_Name>
+		
+		<Land_Model_Name>Hutt_Armored_Hutt.ALO</Land_Model_Name>
+		<Land_Model_Anim_Override_Name> Hutt_Armored_Hutt.alo </Land_Model_Anim_Override_Name>
+		<Scale_Factor>1.40</Scale_Factor> <!-- Base unit is 1.32 rather than 1.2. Bump up for some implied extra age and experience -->
+
+		<Tactical_Health>150</Tactical_Health>
+		
+		<Max_Speed>0.9</Max_Speed>
+		<OverrideAcceleration> 0.9 </OverrideAcceleration>
+		<OverrideDeceleration> 0.9 </OverrideDeceleration>
+		
+		<Affiliation>Hutt_Cartels</Affiliation>
+		<Property_Flags>DoKite | GTSImmune</Property_Flags>
+
+		<HardPoints>HP_Hero_Armored_Hutt_Wrist, HP_Hero_Armored_Hutt_Rifle</HardPoints>
+
+		<Highlight_Blob_Material_Name>Highlight_Hutt_Hero</Highlight_Blob_Material_Name>
+
+		<Starting_Spawned_Units_Tech_0>Armored_Hutt_Squad, 4</Starting_Spawned_Units_Tech_0>
+		
+		<SFXEvent_Select>Unit_Select_Armored_Hutt</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Armored_Hutt</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Armored_Hutt</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Armored_Hutt</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Armored_Hutt</SFXEvent_Guard>
+		<SFXEvent_Assist_Move>Unit_Assist_Move_Armored_Hutt</SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack>Unit_Assist_Attack_Armored_Hutt</SFXEvent_Assist_Attack>
+		<Death_SFXEvent_Start_Die>Unit_Hutt_Death</Death_SFXEvent_Start_Die>
+
+		<CategoryMask> Organic | InfantryHero | AntiInfantry </CategoryMask>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>STIM_PACK</Type>
+				<Expiration_Seconds> 15.0 </Expiration_Seconds>
+				<Recharge_Seconds> 45.0 </Recharge_Seconds>
+				<Mod_Multiplier>SPEED_MULTIPLIER, 2.0f</Mod_Multiplier>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER, 0.5f</Mod_Multiplier>
+				<Damage_Percent_When_Activated>.25</Damage_Percent_When_Activated>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Stim_Armored_Hutt</SFXEvent_GUI_Unit_Ability_Activated>
+			</Unit_Ability>
+
+			<Unit_Ability>
+				<Type>FOW_REVEAL_PING</Type>
+				<Recharge_Seconds> 30.0 </Recharge_Seconds>
+				<Spawned_Object_Type> Proj_Special_Land_FOW_Reveal_Ping_Blast </Spawned_Object_Type>
+				<Effective_Radius> 0.0 </Effective_Radius>
+				<Area_Effect_Decal_Distance> 250.0 </Area_Effect_Decal_Distance>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+		<Abilities SubObjectList="Yes"> <!-- Command_Tier_02 -->
+			<Combat_Bonus_Ability Name="Command_Tier_02_Combat_Bonus">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
+				<Damage_Bonus_Percentage>0.06</Damage_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.06</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.06</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+			<Battlefield_Modifier_Ability Name="Command_Tier_02_FOW_Increase">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<FOW_Reveal_Range_Multiplier>1.06</FOW_Reveal_Range_Multiplier>
+				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
+				<Stacking_Category>0</Stacking_Category>
+			</Battlefield_Modifier_Ability>
+
+			<Force_Healing_Ability Name="Hutt_Self_Heal">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Heal_Range>5.0</Heal_Range>
+				<Heal_Amount> 0.0 </Heal_Amount>
+				<Heal_Percent> 0.05 </Heal_Percent>
+				<Heal_Interval_In_Secs>5.0</Heal_Interval_In_Secs>
+				<Single_Target_Heal>Yes</Single_Target_Heal>
+				
+				<Applicable_Unit_Types>Commander_II_Armored_Hutt</Applicable_Unit_Types>
+
+				<SFXEvent_Target_Affected>Unit_Force_Healing_Pulse</SFXEvent_Target_Affected>
+				<Target_Particle_Bone_Name>Head</Target_Particle_Bone_Name>
+				<Target_Light_Effect_Type>Color_Flash</Target_Light_Effect_Type>
+				<Target_Light_Effect_Color>1.2, 2.0, 1.2</Target_Light_Effect_Color>
+				<Target_Light_Effect_Color2 />
+				<Target_Light_Effect_Duration>0.6</Target_Light_Effect_Duration>
+				<Target_Light_Effect_Pulse_Count>1</Target_Light_Effect_Pulse_Count>
+				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
+				<Owner_Light_Effect_Color>1.2, 2.0, 1.2</Owner_Light_Effect_Color>
+				<Owner_Light_Effect_Color2 />
+				<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
+				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
+			</Force_Healing_Ability>
+		</Abilities>
+	</HeroUnit>
+
+	<HeroCompany Name="Commander_II_Armored_Hutt_Company">
+		<Variant_Of_Existing_Type>Template_Hero_Team</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_COMMANDER_HUTT_CARTEL</Text_ID>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK 
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_02_LAND
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_COMMANDER
+		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
+		TEXT_TOOLTIP_ESCORT_ARMORED_HUTT
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_COMMANDER_ARMORED_HUTT_HEALTH
+		TEXT_TOOLTIP_ARMORED_HUTT_MOVE
+		TEXT_TOOLTIP_ARMORED_HUTT_WEAP1
+		TEXT_TOOLTIP_ARMORED_HUTT_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_INFANTRY_SELF_HEAL
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIELD_COMMANDER </Encyclopedia_Unit_Class>
+		<Icon_Name>I_BUTTON_ARMORED_HUTT_COMMANDER.tga</Icon_Name>
+
+		<Company_Transport_Unit>RZ52_Infantry_Shuttle_Troops</Company_Transport_Unit>
+		<Company_Units> Commander_II_Armored_Hutt </Company_Units>
+		
+		<Affiliation>Hutt_Cartels</Affiliation>
+		<Is_Named_Hero>No</Is_Named_Hero>
+		
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Armored_Hutt</SFXEvent_Fleet_Move>
+	</HeroCompany>
+	
+	<HeroUnit Name="Commander_II_Minor_Shell_Hutt">
+		<Variant_Of_Existing_Type> Hero_Commando_Template </Variant_Of_Existing_Type>
+		<Is_Named_Hero>No</Is_Named_Hero>
+		<Is_Generic_Hero>Yes</Is_Generic_Hero>
+		<Text_ID>TEXT_UNIT_COMMANDER_HUTT_CARTEL</Text_ID>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK 
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_02_LAND
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_COMMANDER
+		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
+		TEXT_TOOLTIP_ESCORT_MINOR_SHELL_HUTT
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_COMMANDER_MINOR_SHELL_HUTT
+		TEXT_TOOLTIP_MINOR_SHELL_HUTT_MOVE
+		TEXT_TOOLTIP_MINOR_SHELL_HUTT_WEAP1
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_INFANTRY_SELF_HEAL
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_BONUS_INFANTRY_REPULSOR
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIELD_COMMANDER </Encyclopedia_Unit_Class>
+		<Icon_Name>I_BUTTON_MINOR_SHELL_HUTT_COMMANDER.tga</Icon_Name>
+		
+		<Land_Model_Name>Hutt_MinorShellHutt.ALO</Land_Model_Name>
+
+		<Tactical_Health>150</Tactical_Health>
+		
+		<Max_Speed>1.4</Max_Speed>
+		<OverrideAcceleration> 1.4 </OverrideAcceleration>
+		<OverrideDeceleration> 1.4 </OverrideDeceleration>
+		
+		<MovementClass> LightHover </MovementClass>
+		<SurfaceFX_Name>Hover</SurfaceFX_Name>
+		
+		<Affiliation>Hutt_Cartels</Affiliation>
+		<Property_Flags>DoKite | GTSImmune</Property_Flags>
+
+		<HardPoints>HP_Hero_Minor_Shell_Hutt_Shoulder</HardPoints>
+
+		<Highlight_Blob_Material_Name>Highlight_Hutt_Hero</Highlight_Blob_Material_Name>
+
+		<Starting_Spawned_Units_Tech_0>Minor_Shell_Hutt_Squad, 2</Starting_Spawned_Units_Tech_0>
+		
+		<SFXEvent_Select>Unit_Select_Armored_Hutt</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Armored_Hutt</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Armored_Hutt</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Armored_Hutt</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Armored_Hutt</SFXEvent_Guard>
+		<SFXEvent_Assist_Move>Unit_Assist_Move_Armored_Hutt</SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack>Unit_Assist_Attack_Armored_Hutt</SFXEvent_Assist_Attack>
+		<Death_SFXEvent_Start_Die>Unit_Hutt_Death</Death_SFXEvent_Start_Die>
+
+		<CategoryMask> Organic | InfantryHero | AntiInfantry </CategoryMask>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>PROXIMITY_MINES</Type>
+				<Recharge_Seconds>90.0</Recharge_Seconds>
+				<GUI_Activated_Ability_Name>Proximity_Mines_AV</GUI_Activated_Ability_Name>
+				<SFXEvent_Target_Ability/>
+				<Area_Effect_Decal_Distance>50.0</Area_Effect_Decal_Distance>
+				<Effective_Radius> 100.0 </Effective_Radius>
+
+				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_PROXIMITY_MINES_AV_NAME</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_PROXIMITY_MINES_AV_DESCRIPTION</Alternate_Description_Text>
+				<Alternate_Icon_Name>I_SA_ANTITANK_MINES.tga</Alternate_Icon_Name>
+				<SFXEvent_Target_Ability> Unit_Attack_Armored_Hutt </SFXEvent_Target_Ability>
+			</Unit_Ability>
+
+			<Unit_Ability>
+				<Type>FOW_REVEAL_PING</Type>
+				<Recharge_Seconds> 30.0 </Recharge_Seconds>
+				<Spawned_Object_Type> Proj_Special_Land_FOW_Reveal_Ping_Blast </Spawned_Object_Type>
+				<Effective_Radius> 0.0 </Effective_Radius>
+				<Area_Effect_Decal_Distance> 250.0 </Area_Effect_Decal_Distance>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+		<Abilities SubObjectList="Yes"> <!-- Command_Tier_02 -->
+			<Combat_Bonus_Ability Name="Command_Tier_02_Combat_Bonus">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
+				<Damage_Bonus_Percentage>0.06</Damage_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.06</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.06</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+			<Battlefield_Modifier_Ability Name="Command_Tier_02_FOW_Increase">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<FOW_Reveal_Range_Multiplier>1.06</FOW_Reveal_Range_Multiplier>
+				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
+				<Stacking_Category>0</Stacking_Category>
+			</Battlefield_Modifier_Ability>
+			
+			<Proximity_Mines_Ability Name="Proximity_Mines_AV">
+				<Activation_Style>User_Input</Activation_Style>
+				<Activation_Min_Range>0.0</Activation_Min_Range>
+				<Activation_Max_Range>25.0</Activation_Max_Range>
+				<Mine_Type>Mine_Land_Prox_Antivehicle</Mine_Type>
+				<Trigger_Radius>5</Trigger_Radius>
+				<Number_Of_Mines>18</Number_Of_Mines> 
+				<Activation_Time_In_Seconds>0.5</Activation_Time_In_Seconds>
+				<Activate_SFX>Unit_Mine_Arm</Activate_SFX>
+			</Proximity_Mines_Ability>
+
+			<Force_Healing_Ability Name="Hutt_Self_Heal">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Heal_Range>5.0</Heal_Range>
+				<Heal_Amount> 0.0 </Heal_Amount>
+				<Heal_Percent> 0.05 </Heal_Percent>
+				<Heal_Interval_In_Secs>5.0</Heal_Interval_In_Secs>
+				<Single_Target_Heal>Yes</Single_Target_Heal>
+				
+				<Applicable_Unit_Types>Commander_II_Minor_Shell_Hutt</Applicable_Unit_Types>
+
+				<SFXEvent_Target_Affected>Unit_Force_Healing_Pulse</SFXEvent_Target_Affected>
+				<Target_Particle_Bone_Name>Head</Target_Particle_Bone_Name>
+				<Target_Light_Effect_Type>Color_Flash</Target_Light_Effect_Type>
+				<Target_Light_Effect_Color>1.2, 2.0, 1.2</Target_Light_Effect_Color>
+				<Target_Light_Effect_Color2 />
+				<Target_Light_Effect_Duration>0.6</Target_Light_Effect_Duration>
+				<Target_Light_Effect_Pulse_Count>1</Target_Light_Effect_Pulse_Count>
+				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
+				<Owner_Light_Effect_Color>1.2, 2.0, 1.2</Owner_Light_Effect_Color>
+				<Owner_Light_Effect_Color2 />
+				<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
+				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
+			</Force_Healing_Ability>
+		</Abilities>
+	</HeroUnit>
+
+	<HeroCompany Name="Commander_II_Minor_Shell_Hutt_Company">
+		<Variant_Of_Existing_Type>Template_Hero_Team</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_COMMANDER_HUTT_CARTEL</Text_ID>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK 
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_02_LAND
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_COMMANDER
+		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
+		TEXT_TOOLTIP_ESCORT_MINOR_SHELL_HUTT
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_COMMANDER_MINOR_SHELL_HUTT
+		TEXT_TOOLTIP_MINOR_SHELL_HUTT_MOVE
+		TEXT_TOOLTIP_MINOR_SHELL_HUTT_WEAP1
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_INFANTRY_SELF_HEAL
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_BONUS_INFANTRY_REPULSOR
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIELD_COMMANDER </Encyclopedia_Unit_Class>
+		<Icon_Name>I_BUTTON_MINOR_SHELL_HUTT_COMMANDER.tga</Icon_Name>
+
+		<Company_Transport_Unit>RZ52_Infantry_Shuttle_Troops</Company_Transport_Unit>
+		<Company_Units> Commander_II_Minor_Shell_Hutt </Company_Units>
+		
+		<Affiliation>Hutt_Cartels</Affiliation>
+		<Is_Named_Hero>No</Is_Named_Hero>
+		
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Armored_Hutt</SFXEvent_Fleet_Move>
+	</HeroCompany>
+	
+	<HeroUnit Name="Commander_III_Hutt_Bantha_II_Skiff">
+		<Variant_Of_Existing_Type> Hutt_Bantha_II_Skiff </Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_COMMANDER_HUTT_CARTEL</Text_ID>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK 
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_03_LAND
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_COMMANDER
+		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
+		TEXT_UNIT_BANTHA_II_SKIFF_HUTT
+		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
+		TEXT_TOOLTIP_ESCORT_HUTT_GUARD
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_COMMANDER_SPEEDER_HEALTH
+		TEXT_TOOLTIP_BANTHA_II_SKIFF_MOVE
+		TEXT_TOOLTIP_BANTHA_II_SKIFF_HUTT_WEAP1
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_ENHANCED_SENSORS
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_HERO_MINOR </Encyclopedia_Unit_Class>
+		<Icon_Name>I_BUTTON_HUTT_BANTHA2_SKIFF_COMMANDER.tga</Icon_Name>
+
+		<Tactical_Health>175</Tactical_Health>
+		
+		<Affiliation>Hutt_Cartels</Affiliation>
+		<CategoryMask> VehicleHero | AntiInfantry </CategoryMask>
+		<Property_Flags>DoKite | GTSImmune</Property_Flags>
+
+		<LandBehavior>ABILITY_COUNTDOWN, AFFECTED_BY_SHIELD, HUNT, WALK_LOCOMOTOR, IDLE, TARGETING, WEAPON, TURRET, POWERED, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, STUNNABLE, WIND_DISTURBANCE, SURFACE_FX, DAMAGE_TRACKING, SPAWN_SQUADRON</LandBehavior>
+		
+		<Highlight_Blob_Material_Name>Highlight_Hutt_Hero</Highlight_Blob_Material_Name>
+		
+		<Is_Generic_Hero>Yes</Is_Generic_Hero>
+		<Is_Sellable>Sellable_Never</Is_Sellable>
+		<Is_Squashable>False</Is_Squashable>
+		
+		<Starting_Spawned_Units_Tech_0>Hutt_Guard_Company, 1</Starting_Spawned_Units_Tech_0>
+        <Spawned_Squadron_Delay_Seconds>0.0</Spawned_Squadron_Delay_Seconds>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>PROXIMITY_MINES</Type>
+				<Recharge_Seconds>90.0</Recharge_Seconds>
+				<GUI_Activated_Ability_Name>BanthaII_Proximity_Mines_Frag</GUI_Activated_Ability_Name>
+				<Effective_Radius> 100.0 </Effective_Radius>
+				<SFXEvent_Target_Ability/>
+				<Area_Effect_Decal_Distance>50.0</Area_Effect_Decal_Distance>
+
+				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_PROXIMITY_MINES_FRAG_NAME</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_PROXIMITY_MINES_FRAG_DESCRIPTION</Alternate_Description_Text>
+				<Alternate_Icon_Name>I_SA_CLUSTER_BOMB.tga</Alternate_Icon_Name>
+			</Unit_Ability>
+
+			<Unit_Ability>
+				<Type>FOW_REVEAL_PING</Type>
+				<Recharge_Seconds> 30.0 </Recharge_Seconds>
+				<Spawned_Object_Type> Proj_Special_Land_FOW_Reveal_Ping_Blast </Spawned_Object_Type>
+				<Effective_Radius> 0.0 </Effective_Radius>
+				<Area_Effect_Decal_Distance> 250.0 </Area_Effect_Decal_Distance>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+		<Abilities SubObjectList="Yes"> <!-- Command_Tier_03 -->
+			<Combat_Bonus_Ability Name="Command_Tier_03_Combat_Bonus">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
+				<Damage_Bonus_Percentage>0.09</Damage_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.09</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.09</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+			<Battlefield_Modifier_Ability Name="Command_Tier_03_FOW_Increase">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<FOW_Reveal_Range_Multiplier>1.09</FOW_Reveal_Range_Multiplier>
+				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
+				<Stacking_Category>0</Stacking_Category>
+			</Battlefield_Modifier_Ability>
+
+			<Proximity_Mines_Ability Name="BanthaII_Proximity_Mines_Frag">
+				<Activation_Style>User_Input</Activation_Style>
+				<Activation_Min_Range>0.0</Activation_Min_Range>
+				<Activation_Max_Range>25.0</Activation_Max_Range>
+				<Mine_Type>Mine_Land_Prox_Fragmentation</Mine_Type>
+				<Trigger_Radius>10</Trigger_Radius>
+				<Number_Of_Mines>8</Number_Of_Mines>
+				<Activation_Time_In_Seconds>0.5</Activation_Time_In_Seconds>
+				<Activate_SFX>Unit_Mine_Arm</Activate_SFX>
+			</Proximity_Mines_Ability>
+		</Abilities>
+	</HeroUnit>
+	
+	<HeroCompany Name="Commander_III_Hutt_Bantha_II_Skiff_Company">
+		<Variant_Of_Existing_Type>Template_Hero_Team</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_COMMANDER_HUTT_CARTEL</Text_ID>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK 
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_03_LAND
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_COMMANDER
+		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
+		TEXT_UNIT_BANTHA_II_SKIFF_HUTT
+		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
+		TEXT_TOOLTIP_ESCORT_HUTT_GUARD
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_COMMANDER_SPEEDER_HEALTH
+		TEXT_TOOLTIP_BANTHA_II_SKIFF_MOVE
+		TEXT_TOOLTIP_BANTHA_II_SKIFF_HUTT_WEAP1
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_ENHANCED_SENSORS
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_HERO_MINOR </Encyclopedia_Unit_Class>
+		<Icon_Name>I_BUTTON_HUTT_BANTHA2_SKIFF_COMMANDER.tga</Icon_Name>
+		
+		<Company_Transport_Unit>Gallofree_Transport</Company_Transport_Unit>
+		<Company_Units> Commander_III_Hutt_Bantha_II_Skiff </Company_Units>
+		
+		<Affiliation>Hutt_Cartels</Affiliation>
+		<Is_Named_Hero>No</Is_Named_Hero>
+
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Pirate_Skiff</SFXEvent_Fleet_Move>
+	</HeroCompany>
+	
+	<HeroUnit Name="Commander_III_SuperHaul_II_Skiff">
+		<Variant_Of_Existing_Type> SuperHaul_II_Skiff </Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_COMMANDER_HUTT_CARTEL</Text_ID>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK 
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_03_LAND
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_COMMANDER
+		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
+		TEXT_UNIT_SUPERHAUL_II_SKIFF
+		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
+		TEXT_TOOLTIP_ESCORT_HUTT_GUARD
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_SUPERHAUL_II_SKIFF_HEALTH
+		TEXT_TOOLTIP_SUPERHAUL_II_SKIFF_MOVE
+		TEXT_TOOLTIP_SUPERHAUL_II_SKIFF_WEAP1
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_HERO_MINOR </Encyclopedia_Unit_Class>
+		<Icon_Name>I_BUTTON_SUPERHAUL_II_COMMANDER.tga</Icon_Name>
+
+		<Affiliation>Hutt_Cartels</Affiliation>
+		<CategoryMask> VehicleHero | AntiVehicle </CategoryMask>
+		<Property_Flags>DoKite | GTSImmune</Property_Flags>
+
+		<LandBehavior>ABILITY_COUNTDOWN, AFFECTED_BY_SHIELD, HUNT, WALK_LOCOMOTOR, IDLE, TARGETING, WEAPON, TURRET, POWERED, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, STUNNABLE, WIND_DISTURBANCE, SURFACE_FX, DAMAGE_TRACKING, SPAWN_SQUADRON</LandBehavior>
+
+		<Highlight_Blob_Material_Name>Highlight_Hutt_Hero</Highlight_Blob_Material_Name>
+
+		<Is_Generic_Hero>Yes</Is_Generic_Hero>
+		<Is_Sellable>Sellable_Never</Is_Sellable>
+		<Is_Squashable>False</Is_Squashable>
+
+		<Starting_Spawned_Units_Tech_0>Hutt_Guard_Company, 1</Starting_Spawned_Units_Tech_0>
+        <Spawned_Squadron_Delay_Seconds>0.0</Spawned_Squadron_Delay_Seconds>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>FOW_REVEAL_PING</Type>
+				<Recharge_Seconds> 30.0 </Recharge_Seconds>
+				<Spawned_Object_Type> Proj_Special_Land_FOW_Reveal_Ping_Blast </Spawned_Object_Type>
+				<Effective_Radius> 0.0 </Effective_Radius>
+				<Area_Effect_Decal_Distance> 250.0 </Area_Effect_Decal_Distance>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+		<Abilities SubObjectList="Yes"> <!-- Command_Tier_03 -->
+			<Combat_Bonus_Ability Name="Command_Tier_03_Combat_Bonus">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
+				<Damage_Bonus_Percentage>0.09</Damage_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.09</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.09</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+			<Battlefield_Modifier_Ability Name="Command_Tier_03_FOW_Increase">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<FOW_Reveal_Range_Multiplier>1.09</FOW_Reveal_Range_Multiplier>
+				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
+				<Stacking_Category>0</Stacking_Category>
+			</Battlefield_Modifier_Ability>
+		</Abilities>
+	</HeroUnit>
+
+	<HeroCompany Name="Commander_III_SuperHaul_II_Skiff_Company">
+		<Variant_Of_Existing_Type>Template_Hero_Team</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_COMMANDER_HUTT_CARTEL</Text_ID>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK 
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_03_LAND
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_COMMANDER
+		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
+		TEXT_UNIT_SUPERHAUL_II_SKIFF
+		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
+		TEXT_TOOLTIP_ESCORT_HUTT_GUARD
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_SUPERHAUL_II_SKIFF_HEALTH
+		TEXT_TOOLTIP_SUPERHAUL_II_SKIFF_MOVE
+		TEXT_TOOLTIP_SUPERHAUL_II_SKIFF_WEAP1
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_HERO_MINOR </Encyclopedia_Unit_Class>
+		<Icon_Name>I_BUTTON_SUPERHAUL_II_COMMANDER.tga</Icon_Name>
+		
+		<Company_Transport_Unit>Gallofree_Transport</Company_Transport_Unit>
+		<Company_Units> Commander_III_SuperHaul_II_Skiff </Company_Units>
+		
+		<Affiliation>Hutt_Cartels</Affiliation>
+		<Is_Named_Hero>No</Is_Named_Hero>
+
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Pirate_Skiff</SFXEvent_Fleet_Move>
+	</HeroCompany>
+	
+	<HeroUnit Name="Commander_IV_WLO5_Tank">
+		<Variant_Of_Existing_Type> WLO5_Tank </Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_COMMANDER_HUTT_CARTEL</Text_ID>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK 
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_04_LAND
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_COMMANDER
+		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
+		TEXT_UNIT_WLO5_TANK
+		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
+		TEXT_TOOLTIP_ESCORT_HUTT_GUARD
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_WLO5_TANK_HEALTH
+		TEXT_TOOLTIP_WLO5_TANK_MOVE
+		TEXT_TOOLTIP_WLO5_TANK_WEAP1
+		TEXT_TOOLTIP_WLO5_TANK_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_TRANSPORT
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_HERO_MINOR </Encyclopedia_Unit_Class>
+		<Icon_Name>I_BUTTON_WLO5_COMMANDER.tga</Icon_Name>
+
+		<Affiliation>Hutt_Cartels</Affiliation>
+		<CategoryMask> VehicleHero | AntiVehicle </CategoryMask>
+		<Property_Flags>DoKite | CanContainGarrison | GTSImmune</Property_Flags>
+
+		<LandBehavior>ABILITY_COUNTDOWN, AFFECTED_BY_SHIELD, HUNT, WALK_LOCOMOTOR, IDLE, TARGETING, WEAPON, TURRET, POWERED, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, STUNNABLE, WIND_DISTURBANCE, SURFACE_FX,DAMAGE_TRACKING, GARRISON_VEHICLE, SPAWN_SQUADRON</LandBehavior>
+
+		<Highlight_Blob_Material_Name>Highlight_Hutt_Hero</Highlight_Blob_Material_Name>
+
+		<Is_Generic_Hero>Yes</Is_Generic_Hero>
+		<Is_Sellable>Sellable_Never</Is_Sellable>
+		<Is_Squashable>False</Is_Squashable>
+		
+		<Starting_Spawned_Units_Tech_0>Hutt_Guard_Company, 1</Starting_Spawned_Units_Tech_0>
+        <Spawned_Squadron_Delay_Seconds>0.0</Spawned_Squadron_Delay_Seconds>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>POWER_TO_WEAPONS</Type>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	1.0</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,		1.0</Mod_Multiplier>
+				<Mod_Multiplier>CAUSE_DAMAGE_MULTIPLIER ,	1.0</Mod_Multiplier>
+				<Recharge_Seconds>50</Recharge_Seconds>
+				<Expiration_Seconds>10</Expiration_Seconds>
+				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_TANKOVERCHARGE</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_TANKOVERCHARGE_DESCRIPTION</Alternate_Description_Text>
+				<Alternate_Icon_Name>i_sa_assault.tga</Alternate_Icon_Name>
+			</Unit_Ability>
+			<Unit_Ability>
+				<Type>FOW_REVEAL_PING</Type>
+				<Recharge_Seconds> 30.0 </Recharge_Seconds>
+				<Spawned_Object_Type> Proj_Special_Land_FOW_Reveal_Ping_Blast </Spawned_Object_Type>
+				<Effective_Radius> 0.0 </Effective_Radius>
+				<Area_Effect_Decal_Distance> 250.0 </Area_Effect_Decal_Distance>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+		<Abilities SubObjectList="Yes"> <!-- Command_Tier_04 -->
+			<Combat_Bonus_Ability Name="Command_Tier_04_Combat_Bonus">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
+				<Damage_Bonus_Percentage>0.12</Damage_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.12</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.12</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+			<Battlefield_Modifier_Ability Name="Command_Tier_04_FOW_Increase">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<FOW_Reveal_Range_Multiplier>1.12</FOW_Reveal_Range_Multiplier>
+				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
+				<Stacking_Category>0</Stacking_Category>
+			</Battlefield_Modifier_Ability>
+		</Abilities>
+	</HeroUnit>
+
+	<HeroCompany Name="Commander_IV_WLO5_Tank_Company">
+		<Variant_Of_Existing_Type>Template_Hero_Team</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_COMMANDER_HUTT_CARTEL</Text_ID>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK 
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_04_LAND
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_COMMANDER
+		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
+		TEXT_UNIT_WLO5_TANK
+		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK
+		TEXT_TOOLTIP_ESCORT_HUTT_GUARD
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_WLO5_TANK_HEALTH
+		TEXT_TOOLTIP_WLO5_TANK_MOVE
+		TEXT_TOOLTIP_WLO5_TANK_WEAP1
+		TEXT_TOOLTIP_WLO5_TANK_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_TRANSPORT
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_HERO_MINOR </Encyclopedia_Unit_Class>
+		<Icon_Name>I_BUTTON_WLO5_COMMANDER.tga</Icon_Name>
+		
+		<Company_Transport_Unit>Gallofree_Transport</Company_Transport_Unit>
+		<Company_Units> Commander_IV_WLO5_Tank </Company_Units>
+		
+		<Affiliation>Hutt_Cartels</Affiliation>
+		<Is_Named_Hero>No</Is_Named_Hero>
+
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_2M_Tank</SFXEvent_Fleet_Move>
+	</HeroCompany>
+	
+	<HeroUnit Name="Commander_IV_Luxury_Barge">
+		<Variant_Of_Existing_Type> Luxury_Barge </Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_COMMANDER_HUTT_CARTEL</Text_ID>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK 
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_04_LAND
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_COMMANDER
+		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
+		TEXT_UNIT_LUXURY_BARGE
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_LUXURY_BARGE_HEALTH
+		TEXT_TOOLTIP_LUXURY_BARGE_MOVE
+		TEXT_TOOLTIP_LUXURY_BARGE_WEAP1
+		TEXT_TOOLTIP_LUXURY_BARGE_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_SUPER_TRANSPORT
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_HERO_MINOR </Encyclopedia_Unit_Class>
+		<Icon_Name>I_BUTTON_LUXURY_BARGE_COMMANDER.tga</Icon_Name>
+
+		<Affiliation>Hutt_Cartels</Affiliation>
+		<CategoryMask> VehicleHero | AntiInfantry | AntiVehicle </CategoryMask>
+		<Property_Flags>DoKite | CanContainGarrison | GTSImmune</Property_Flags>
+
+		<Highlight_Blob_Material_Name>Highlight_Hutt_Hero</Highlight_Blob_Material_Name>
+		
+		<Is_Generic_Hero>Yes</Is_Generic_Hero>
+		<Is_Sellable>Sellable_Never</Is_Sellable>
+		<Is_Squashable>False</Is_Squashable>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>FOW_REVEAL_PING</Type>
+				<Recharge_Seconds> 30.0 </Recharge_Seconds>
+				<Spawned_Object_Type> Proj_Special_Land_FOW_Reveal_Ping_Blast </Spawned_Object_Type>
+				<Effective_Radius> 0.0 </Effective_Radius>
+				<Area_Effect_Decal_Distance> 250.0 </Area_Effect_Decal_Distance>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+		<Abilities SubObjectList="Yes"> <!-- Command_Tier_04 -->
+			<Combat_Bonus_Ability Name="Command_Tier_04_Combat_Bonus">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
+				<Damage_Bonus_Percentage>0.12</Damage_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.12</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.12</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+			<Battlefield_Modifier_Ability Name="Command_Tier_04_FOW_Increase">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<FOW_Reveal_Range_Multiplier>1.12</FOW_Reveal_Range_Multiplier>
+				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
+				<Stacking_Category>0</Stacking_Category>
+			</Battlefield_Modifier_Ability>
+		</Abilities>
+	</HeroUnit>
+
+	<HeroCompany Name="Commander_IV_Luxury_Barge_Company">
+		<Variant_Of_Existing_Type>Template_Hero_Team</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_COMMANDER_HUTT_CARTEL</Text_ID>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK 
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_04_LAND
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_COMMANDER
+		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
+		TEXT_UNIT_LUXURY_BARGE
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_LUXURY_BARGE_HEALTH
+		TEXT_TOOLTIP_LUXURY_BARGE_MOVE
+		TEXT_TOOLTIP_LUXURY_BARGE_WEAP1
+		TEXT_TOOLTIP_LUXURY_BARGE_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_SUPER_TRANSPORT
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_HERO_MINOR </Encyclopedia_Unit_Class>
+		<Icon_Name>I_BUTTON_LUXURY_BARGE_COMMANDER.tga</Icon_Name>
+
+		<Company_Transport_Unit>Gallofree_Transport</Company_Transport_Unit>
+		<Company_Units> Commander_IV_Luxury_Barge </Company_Units>
+		
+		<Affiliation>Hutt_Cartels</Affiliation>
+		<Is_Named_Hero>No</Is_Named_Hero>
+
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Luxury_Barge</SFXEvent_Fleet_Move>
+	</HeroCompany>
+	
+</Generic_Commander_CoreSaga>
