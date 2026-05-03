@@ -1,7 +1,8 @@
 <?xml version="1.0" ?>
 <Greater_Maldrood_Heroes>
+<!-- TR_Enhanced ; Infantry CM Reworked -->
 	
-	<!-- Space Heroes -->
+<!-- Space Heroes -->
 	<UniqueUnit Name="Treuten_13X">
 		<Variant_Of_Existing_Type>Crimson_Victory_II_Star_Destroyer</Variant_Of_Existing_Type>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
@@ -929,7 +930,7 @@
 		</Abilities>
 	</UniqueUnit>
 
-	<!-- Land Heroes -->
+<!-- Land Heroes -->
 
 	<UniqueUnit Name="Tanniel_APC">
 		<Variant_Of_Existing_Type> Imperial_APC </Variant_Of_Existing_Type>
@@ -1479,7 +1480,7 @@
 		<Tactical_Build_Prerequisites/>
 	</HeroCompany>
 	
-	<!-- Non-combat Heroes -->
+<!-- Non-combat Heroes -->
 	
 	<HeroUnit Name="Corwyth">
 		<Variant_Of_Existing_Type>Non_Combat_Hero_Template</Variant_Of_Existing_Type>

@@ -1,6 +1,8 @@
 <?xml version="1.0"?>
 <Hutt_Heroes>
-	<!-- Space -->
+<!-- TR_Enhanced ; Infantry CM Reworked -->
+
+<!-- Space -->
 	<UniqueUnit Name="Popara_Imru_Ootmian">
 		<Variant_Of_Existing_Type>Template_Light_Minstrel_Yacht</Variant_Of_Existing_Type>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
@@ -980,7 +982,7 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 	</UniqueUnit>
 	
-	<!-- Land -->
+<!-- Land -->
 	<HeroUnit Name="Parella">
 		<Variant_Of_Existing_Type>Hero_Commando_Template</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_HERO_PARELLA</Text_ID>
@@ -1648,7 +1650,7 @@
 		<Tactical_Build_Prerequisites>Ground_Level_Three_Tech_Upgrade</Tactical_Build_Prerequisites>
 	</HeroCompany>
 
-	<!-- Admin -->
+<!-- Admin -->
 	<HeroUnit Name="Smebba_Dunk">
 		<Variant_Of_Existing_Type>Non_Combat_Hero_Template</Variant_Of_Existing_Type>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
