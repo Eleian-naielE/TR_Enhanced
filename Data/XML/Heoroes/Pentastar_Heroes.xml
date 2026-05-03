@@ -1,7 +1,8 @@
 <?xml version="1.0" ?>
 <Pentastar_Heroes>
+<!-- TR_Enhanced ; Infantry CM Reworked -->
 	
-	<!-- Ardus Kaine -->
+<!-- Ardus Kaine -->
 	<HeroUnit Name="Ardus_Kaine">
 		<Variant_Of_Existing_Type>Non_Combat_Hero_Template</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_HERO_KAINE</Text_ID>
@@ -223,7 +224,7 @@
 		</Abilities>
 	</UniqueUnit>
 	
-	<!-- Space Heroes -->
+<!-- Space Heroes -->
 	<UniqueUnit Name="Sysco_Vengeance">
 		<Variant_Of_Existing_Type>Template_Vengeance_Star_Dreadnought</Variant_Of_Existing_Type>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
@@ -859,7 +860,7 @@
 		</Abilities>
 	</UniqueUnit>
 	
-	<!-- Ground Heroes -->
+<!-- Ground Heroes -->
 	
 	<HeroUnit Name="Jerec">
 		<Variant_Of_Existing_Type>Template_Lightsaber_Hero</Variant_Of_Existing_Type>
@@ -1856,7 +1857,7 @@
 		<Tactical_Build_Prerequisites/>
 	</HeroCompany>
 	
-	<!-- Non-combat Heroes -->
+<!-- Non-combat Heroes -->
 	<HeroUnit Name="Gregor_Raquoran">
 		<Variant_Of_Existing_Type>Non_Combat_Hero_Template</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_HERO_GREGOR_RAQUORAN</Text_ID>

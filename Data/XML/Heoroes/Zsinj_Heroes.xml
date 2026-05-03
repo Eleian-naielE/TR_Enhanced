@@ -1,5 +1,8 @@
 <?xml version="1.0" ?>
 <Zsinj_Heroes>
+<!-- TR_Enhanced ; Infantry CM Reworked -->
+
+<!-- Zsinj -->
 	<UniqueUnit Name="Zsinj_Iron_Fist_VSD">
 		<Variant_Of_Existing_Type>Victory_I_Star_Destroyer</Variant_Of_Existing_Type>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
@@ -566,7 +569,7 @@
 		<Spawned_Squadron_Delay_Seconds>1</Spawned_Squadron_Delay_Seconds>
 	</UniqueUnit>
 	
-	<!-- Space Heroes -->
+<!-- Space Heroes -->
 	<UniqueUnit Name="Raslan_Razors_Kiss">
 		<Variant_Of_Existing_Type>Executor_Star_Dreadnought</Variant_Of_Existing_Type>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
@@ -1254,7 +1257,7 @@
 		</Abilities>
 	</UniqueUnit>
 
-	<!-- Ground Heroes -->
+<!-- Ground Heroes -->
 	
 	<UniqueUnit Name="Melvar_Juggernaut">
 		<Variant_Of_Existing_Type>B5_Juggernaut</Variant_Of_Existing_Type>
@@ -2157,7 +2160,7 @@
 		</Abilities>
 	</UniqueUnit>
 	
-	<!-- Non-combat Heroes -->
+<!-- Non-combat Heroes -->
 	
 	<HeroUnit Name="Teubbo">
 		<Variant_Of_Existing_Type>Non_Combat_Hero_Template</Variant_Of_Existing_Type>

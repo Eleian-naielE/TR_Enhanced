@@ -1,7 +1,8 @@
 <?xml version="1.0"?>
 <Hapes_Heroes>
+<!-- TR_Enhanced ; Infantry CM Reworked -->
 
-	<!-- Space -->
+<!-- Space -->
 	<UniqueUnit Name="Taa_Chume_Star_Home">
 		<Variant_Of_Existing_Type> Star_Home </Variant_Of_Existing_Type>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
@@ -839,7 +840,7 @@
 		</Abilities>
 	</UniqueUnit>
 
-	<!-- Ground -->
+<!-- Ground -->
 	
 	<HeroUnit Name="Teneniel_Djo">
 		<Variant_Of_Existing_Type>Template_Melee_Hero</Variant_Of_Existing_Type>
@@ -1255,7 +1256,7 @@
 		<Tactical_Build_Prerequisites>Ground_Level_Two_Tech_Upgrade</Tactical_Build_Prerequisites>
 	</HeroCompany>
 
-	<!-- Admin Heroes -->
+<!-- Admin Heroes -->
 	<HeroUnit Name="Beed_Thane">
 		<Variant_Of_Existing_Type>Non_Combat_Hero_Template</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_HERO_BEED_THANE</Text_ID>

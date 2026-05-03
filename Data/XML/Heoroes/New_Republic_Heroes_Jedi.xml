@@ -1,5 +1,6 @@
 <?xml version="1.0" ?>
 <New_Republic_Heroes>
+<!-- TR_Enhanced ; Infantry CM Reworked -->
 
 	<HeroUnit Name="Luke_Skywalker_Jedi">
 		<Variant_Of_Existing_Type>Template_Lightsaber_Hero</Variant_Of_Existing_Type>
