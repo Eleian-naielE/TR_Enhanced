@@ -118,6 +118,8 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_06 -->
 			<Combat_Bonus_Ability Name="Command_Tier_06_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -261,6 +263,8 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 		
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_01 + Intel -->
 			<Combat_Bonus_Ability Name="Command_Tier_01_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -392,6 +396,8 @@
 				<SFXEvent_Target_Ability>Unit_Attack_light_walkers</SFXEvent_Target_Ability>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_01 + Intel -->
 			<Combat_Bonus_Ability Name="Command_Tier_01_Combat_Bonus">
@@ -692,6 +698,8 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_08 + Fortification_Specialist -->
 			<Combat_Bonus_Ability Name="Command_Tier_08_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -857,6 +865,8 @@
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, null </SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_DUMMY_ART, null </SFXEvent_Hardpoint_Destroyed>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_10 -->
 			<Combat_Bonus_Ability Name="Command_Tier_10_Combat_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
@@ -930,6 +940,8 @@
 		<SFXEvent_Death> Unit_Death_Brashin </SFXEvent_Death>
 
 		<Play_SFXEvent_On_Sighting>True</Play_SFXEvent_On_Sighting>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_10 -->
 			<Combat_Bonus_Ability Name="Command_Tier_10_Combat_Bonus">
@@ -1056,6 +1068,8 @@
 		
 		<Tech_Level>99</Tech_Level>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_07 -->
 			<Combat_Bonus_Ability Name="Command_Tier_07_Combat_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
@@ -1131,6 +1145,8 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data> 
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_05 + Offensive -->
 			<Combat_Bonus_Ability Name="Command_Tier_05_Combat_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
@@ -1187,6 +1203,8 @@
 		<Ranking_In_Category>6</Ranking_In_Category>
 		
 		<Tech_Level>99</Tech_Level>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_05 -->
 			<Combat_Bonus_Ability Name="Command_Tier_05_Combat_Bonus">
@@ -1319,6 +1337,8 @@
 				<SFXEvent_GUI_Unit_Ability_Activated></SFXEvent_GUI_Unit_Ability_Activated>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_07 + Fortification_Specialist -->
 			<Combat_Bonus_Ability Name="Command_Tier_07_Combat_Bonus">
@@ -1537,6 +1557,8 @@
 		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
 		<Tech_Level>99</Tech_Level>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_07 -->
 			<Combat_Bonus_Ability Name="Command_Tier_07_Combat_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
@@ -1665,6 +1687,8 @@
 
 		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_04 -->
 			<Combat_Bonus_Ability Name="Command_Tier_04_Combat_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
@@ -1763,6 +1787,8 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_04 + Offensive -->
 			<Combat_Bonus_Ability Name="Command_Tier_04_Combat_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
@@ -1821,6 +1847,8 @@
 		<Tech_Level>99</Tech_Level>
 		
 		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_09 -->
 			<Combat_Bonus_Ability Name="Command_Tier_09_Combat_Bonus">
@@ -1918,6 +1946,8 @@
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Barrage_Hissa</SFXEvent_GUI_Unit_Ability_Activated>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_09 -->
 			<Combat_Bonus_Ability Name="Command_Tier_09_Combat_Bonus">
@@ -2638,6 +2668,8 @@
 
 		<Death_Clone>Damage_Normal, Victory_II_Hazard_Destroyer_Death_Clone</Death_Clone>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_04 -->
 			<Combat_Bonus_Ability Name="Command_Tier_04_Combat_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
@@ -2761,6 +2793,8 @@
 
 		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_10 + Agent_Tier_Agent_02 -->
 			<Combat_Bonus_Ability Name="Command_Tier_10_Combat_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
@@ -2826,6 +2860,8 @@
 		<Tech_Level>99</Tech_Level>
 
 		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_10 -->
 			<Combat_Bonus_Ability Name="Command_Tier_10_Combat_Bonus">
@@ -2989,6 +3025,8 @@
 				<Supports_Autofire>False</Supports_Autofire>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_11 + Intel -->
 			<Combat_Bonus_Ability Name="Command_Tier_11_Combat_Bonus">
@@ -3192,6 +3230,8 @@
 				<SFXEvent_GUI_Unit_Ability_Activated/>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_08 + Walker Specialist -->
 			<Combat_Bonus_Ability Name="Command_Tier_08_Combat_Bonus">
@@ -3885,6 +3925,8 @@
 
 		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_01 -->
 			<Combat_Bonus_Ability Name="Command_Tier_01_Combat_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
@@ -3964,6 +4006,8 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 		
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_03 -->
 			<Combat_Bonus_Ability Name="Command_Tier_03_Combat_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
@@ -4021,6 +4065,8 @@
 		<Ranking_In_Category>8</Ranking_In_Category>
 
 		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_04 -->
 			<Combat_Bonus_Ability Name="Command_Tier_04_Combat_Bonus">
@@ -4084,6 +4130,8 @@
 		<Tech_Level>99</Tech_Level>
 		
 		<Ranking_In_Category>8</Ranking_In_Category>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_04 -->
 			<Combat_Bonus_Ability Name="Command_Tier_04_Combat_Bonus">
@@ -4209,6 +4257,8 @@
 			HP_Star_Destroyer_2_Main_Battery_5, HP_Star_Destroyer_2_Main_Battery_6, HP_Star_Destroyer_2_Main_Battery_7, HP_Star_Destroyer_2_Main_Battery_8
 		</HardPoints>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_06 + Offensive -->
 			<Combat_Bonus_Ability Name="Command_Tier_06_Combat_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
@@ -4278,6 +4328,8 @@
 			HP_Star_Destroyer_2_Main_Battery_5, HP_Star_Destroyer_2_Main_Battery_6, HP_Star_Destroyer_2_Main_Battery_7, HP_Star_Destroyer_2_Main_Battery_8
 		</HardPoints>
 		
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_03 -->
 			<Combat_Bonus_Ability Name="Command_Tier_03_Combat_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
@@ -4340,6 +4392,8 @@
 			HP_DSD_01, HP_DSD_02, HP_DSD_03_Cyan, HP_DSD_04_Cyan, HP_DSD_05_Cyan, HP_DSD_06_Cyan, HP_DSD_07_Cyan, HP_DSD_08_Cyan, HP_Interdictor_Star_Destroyer_Main_Battery_1, HP_Interdictor_Star_Destroyer_Main_Battery_2, HP_Interdictor_Star_Destroyer_Main_Battery_3, HP_Interdictor_Star_Destroyer_Main_Battery_4, HP_DSD_Engines, HP_DSD_Gravity_Well, HP_DSD_Hangar
 		</HardPoints>
 		
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_03 -->
 			<Combat_Bonus_Ability Name="Command_Tier_03_Combat_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
@@ -4454,6 +4508,8 @@
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Attack_Rogriss</SFXEvent_GUI_Unit_Ability_Activated>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_07 + Fortification_Specialist -->
 			<Combat_Bonus_Ability Name="Command_Tier_07_Combat_Bonus">
@@ -4596,6 +4652,8 @@
 		
 		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
 		
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_03 -->
 			<Combat_Bonus_Ability Name="Command_Tier_03_Combat_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
@@ -5088,6 +5146,8 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_07 -->
 			<Combat_Bonus_Ability Name="Command_Tier_07_Combat_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
@@ -5162,6 +5222,8 @@
 				<SFXEvent_GUI_Unit_Ability_Activated></SFXEvent_GUI_Unit_Ability_Activated>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_07 -->
 			<Combat_Bonus_Ability Name="Command_Tier_07_Combat_Bonus">
@@ -5239,6 +5301,8 @@
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Attack_Dreadnaught</SFXEvent_GUI_Unit_Ability_Activated>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_07 + Starfighter Specialist -->
 			<Combat_Bonus_Ability Name="Command_Tier_07_Combat_Bonus">
@@ -5486,6 +5550,8 @@
 		<Reserve_Spawned_Units_Tech_1>TIE_Bomber_Squadron_Half, 1</Reserve_Spawned_Units_Tech_1>
 		<Reserve_Spawned_Units_Tech_1>Skipray_Squadron_Half, 1</Reserve_Spawned_Units_Tech_1>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_03 -->
 			<Combat_Bonus_Ability Name="Command_Tier_03_Combat_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
@@ -5568,6 +5634,8 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_03 -->
 			<Combat_Bonus_Ability Name="Command_Tier_03_Combat_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
@@ -5642,6 +5710,8 @@
 		<Reserve_Spawned_Units_Tech_3>Super_TIE_Squadron, 2</Reserve_Spawned_Units_Tech_3>
 		<Reserve_Spawned_Units_Tech_3>TIE_Bomber_Squadron_Half, 1</Reserve_Spawned_Units_Tech_3>
 		<Reserve_Spawned_Units_Tech_3>TIE_Interceptor_Squadron, 2</Reserve_Spawned_Units_Tech_3>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_08 + Small Ship Specialist -->
 			<Combat_Bonus_Ability Name="Command_Tier_08_Combat_Bonus">
@@ -5721,6 +5791,8 @@
 
 		<Starting_Spawned_Units_Tech_0>EVO_Trooper_Squad, 2</Starting_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds>0.0</Spawned_Squadron_Delay_Seconds>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_06 -->
 			<Combat_Bonus_Ability Name="Command_Tier_06_Combat_Bonus">
@@ -5919,6 +5991,8 @@
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, null </SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_DUMMY_ART, null </SFXEvent_Hardpoint_Destroyed>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_11 -->
 			<Combat_Bonus_Ability Name="Command_Tier_11_Combat_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
@@ -5987,6 +6061,8 @@
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Deploy_Veers</SFXEvent_GUI_Unit_Ability_Activated>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_06 + Agent_Tier_Slaver -->
 			<Combat_Bonus_Ability Name="Command_Tier_06_Combat_Bonus">
@@ -6098,6 +6174,8 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_04 -->
 			<Combat_Bonus_Ability Name="Command_Tier_04_Combat_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
@@ -6168,6 +6246,8 @@
 		<Reserve_Spawned_Units_Tech_1>TIE_Phantom_Squadron_Double, 2</Reserve_Spawned_Units_Tech_1>
 		<Reserve_Spawned_Units_Tech_1>TIE_Heavy_Bomber_Squadron_Half, 1</Reserve_Spawned_Units_Tech_1>
 		<Reserve_Spawned_Units_Tech_1>Advanced_Skipray_Squadron_Half, 1</Reserve_Spawned_Units_Tech_1>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_03 + Starfighter_Specialist -->
 			<Combat_Bonus_Ability Name="Command_Tier_03_Combat_Bonus">
@@ -6246,6 +6326,8 @@
 		
 		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_06 + Intel Focus -->
 			<Combat_Bonus_Ability Name="Command_Tier_06_Combat_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
@@ -6280,7 +6362,6 @@
 		TEXT_TOOLTIP_HARRSK
 		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
 		TEXT_TOOLTIP_COMMAND_SHOCKWAVE
-		
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
 		TEXT_TOOLTIP_ALLEGIANCE_HULL
 		TEXT_TOOLTIP_ALLEGIANCE_SHIELD
@@ -6379,6 +6460,8 @@
 		
 		<Affiliation>Empire, Imperial_Proteus</Affiliation>
 	
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes"> <!-- Admin_Tier_Admin_01 -->
 			<Reduce_Production_Price_Ability Name="Admin_Tier_Admin_01_Reduce_Production_Price">
 				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
@@ -6472,6 +6555,8 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_06 -->
 			<Combat_Bonus_Ability Name="Command_Tier_06_Combat_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
@@ -6527,6 +6612,8 @@
 		<Ranking_In_Category>6</Ranking_In_Category>
 
 		<Highlight_Blob_Material_Name>Highlight_Empire_Hero</Highlight_Blob_Material_Name>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_06 -->
 			<Combat_Bonus_Ability Name="Command_Tier_06_Combat_Bonus">
@@ -7145,6 +7232,8 @@
 		
 		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_03 -->
 			<Combat_Bonus_Ability Name="Command_Tier_03_Combat_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
@@ -7262,6 +7351,8 @@
 		
 		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_03 -->
 			<Combat_Bonus_Ability Name="Command_Tier_03_Combat_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
@@ -7375,6 +7466,8 @@
 		
 		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_06 -->
 			<Combat_Bonus_Ability Name="Command_Tier_06_Combat_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
@@ -7471,6 +7564,8 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_09 + Agent_Tier_Slaver -->
 			<Combat_Bonus_Ability Name="Command_Tier_09_Combat_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
@@ -7554,6 +7649,8 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 		
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_04 -->
 			<Combat_Bonus_Ability Name="Command_Tier_04_Combat_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
@@ -7679,6 +7776,8 @@
 
 		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_08 -->
 			<Combat_Bonus_Ability Name="Command_Tier_08_Combat_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
@@ -7759,6 +7858,8 @@
 
 		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
 		<Tech_Level>99</Tech_Level>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_03 -->
 			<Combat_Bonus_Ability Name="Command_Tier_03_Combat_Bonus">
@@ -7893,6 +7994,8 @@
 
 		<Highlight_Blob_Material_Name>Highlight_Empire_Hero</Highlight_Blob_Material_Name>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_06 -->
 			<Combat_Bonus_Ability Name="Command_Tier_06_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -7981,6 +8084,8 @@
 		<Tech_Level>99</Tech_Level>
 		
 		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_06 -->
 			<Combat_Bonus_Ability Name="Command_Tier_06_Combat_Bonus">
@@ -8246,6 +8351,8 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_03 -->
 			<Combat_Bonus_Ability Name="Command_Tier_03_Combat_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
@@ -8320,6 +8427,8 @@
 				 <Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
 			 </Unit_Ability>
 		</Unit_Abilities_Data>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_03 -->
 			<Combat_Bonus_Ability Name="Command_Tier_03_Combat_Bonus">
