@@ -7880,7 +7880,7 @@
 		<Icon_Name>I_BUTTON_KURAS.TGA</Icon_Name>
 		
 		<CategoryMask> VehicleHero | AntiVehicle </CategoryMask>
-		<Property_Flags>CanContainGarrison | DoKite | HealsInfantry | GTSImmune</Property_Flags>
+		<Property_Flags>CanContainGarrison | DoKite | HealsOrganics | GTSImmune</Property_Flags>
 		
 		<Ranking_In_Category>6</Ranking_In_Category>
 		
