@@ -30,26 +30,4 @@
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 	</DummyStructure>
 
-	<DummyStructure Name="Option_Canon_Units_Zsinj">
-		<Variant_Of_Existing_Type>Template_Research_Dummy</Variant_Of_Existing_Type>
-
-		<Text_ID>TEXT_OPTION_CANON_UNITS_ZSINJ_ON</Text_ID>
-		<Encyclopedia_Text>TEXT_OPTION_CANON_UNITS_ZSINJ_DESCRIPTION</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OPTIONS </Encyclopedia_Unit_Class>
-		
-		<Icon_Name>i_button_canon_units_zsinj.tga</Icon_Name>
-		
-		<Affiliation>Empire, Rebel, Hutt_Cartels, Underworld, EmpireoftheHand, Pentastar, Greater_Maldrood, Zsinj_Empire, Hapes_Consortium, Eriadu_Authority, Corporate_Sector, SsiRuuvi_Imperium</Affiliation>
-
-		<Build_Initially_Locked>No</Build_Initially_Locked>
-		<Tech_Level>0</Tech_Level>
-		<Required_Special_Structures>Options_Category_Dummy</Required_Special_Structures>
-		<Build_Cost_Credits>1</Build_Cost_Credits>
-		<Build_Time_Seconds>3</Build_Time_Seconds>
-		<Lua_Script>DelayedSelfDelete</Lua_Script>
-
-		
-		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
-		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
-	</DummyStructure>
 </Options>
