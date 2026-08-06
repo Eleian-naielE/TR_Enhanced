@@ -1,0 +1,3 @@
+﻿TEXT_NOTE,Put text changes for submods here
+
+TEXT_TOOLTIP_ABILITY_AMMOSWAP_DESCRIPTION_SCORPENEK,Reconfigure the Scorpenek's weapons to an anti-infantry setting or back to the default anti-vehicle arrangement.
